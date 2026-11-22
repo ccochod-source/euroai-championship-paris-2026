@@ -1,27 +1,27 @@
-# Watermark — session Orehn/simulateur (22/11, 10h46–10h56)
+# Watermark — Orehn/simulator session (22 Nov, 10:46–10:56)
 
-## Résultat : out/sub_orehn_a3.pt — mIoU hors échantillon (train, masques réels) 0.7619
-Fichier : /p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/orehn/out/sub_orehn_a3.pt (1020 masques 128x128 bool, format vérifié). Rapport : out/sub_orehn_a3.json.
-**Non soumis : je n ai pas de clé de soumission (pas de ~/.hack_api_key chez ansellem1). À soumettre par Bruno ou Orehn :**
+## Result: out/sub_orehn_a3.pt — out-of-sample mIoU (train, real masks) 0.7619
+File: /p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/orehn/out/sub_orehn_a3.pt (1020 masks 128x128 bool, format checked). Report: out/sub_orehn_a3.json.
+**Not submitted: I have no submission key (no ~/.hack_api_key for ansellem1). To be submitted by Bruno or Orehn:**
   /p/scratch/training2666/dasilvalopes3/wm/submit.sh /p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/orehn/out/sub_orehn_a3.pt
 
-## Ce qui a été fait (lecture seule des fichiers de Bruno)
-1. Réassemblage avec les réseaux finis cette nuit (probabilités hors échantillon de wm/out) : pixelseal ftP6P (0.6419, seuil 0.35),
-   trustmark ftT6P (0.7344, seuil 0.75), stegastamp moyenne ftP + ftS5P (0.8830, seuil 0.45). Global 0.7531. (assemble2.py)
-2. Post-traitements morphologiques, seuils par régime, composantes, boîtes englobantes : gain nul en validation croisée, non appliqués. (assemble3.py)
-3. Fusion avec la recherche de rectangles de Bruno (réseau OU rectangle quand acc >= 0.8, images non pleines) : (assemble4.py)
-   trustmark 0.7344 -> 0.7546 (validation croisée 2 moitiés ; 83 images avec rectangle : 0.764 -> 0.806) : appliquée
-   pixelseal 0.6419 -> 0.6472 (20 images avec rectangle : 0.819 -> 0.873) : appliquée
-   stegastamp 0.8830 -> 0.8858 : sous le seuil de 0.004, non appliquée
-   Global attendu 0.7619 (+0.009).
+## What was done (read-only on Bruno's files)
+1. Re-assembly with the networks finished last night (out-of-sample probabilities from wm/out): pixelseal ftP6P (0.6419, threshold 0.35),
+   trustmark ftT6P (0.7344, threshold 0.75), stegastamp mean of ftP + ftS5P (0.8830, threshold 0.45). Overall 0.7531. (assemble2.py)
+2. Morphological post-processing, per-regime thresholds, components, bounding boxes: no gain in cross-validation, not applied. (assemble3.py)
+3. Fusion with Bruno's rectangle search (network OR rectangle when acc >= 0.8, non-full images): (assemble4.py)
+   trustmark 0.7344 -> 0.7546 (2-half cross-validation; 83 images with a rectangle: 0.764 -> 0.806): applied
+   pixelseal 0.6419 -> 0.6472 (20 images with a rectangle: 0.819 -> 0.873): applied
+   stegastamp 0.8830 -> 0.8858: below the 0.004 threshold, not applied
+   Expected overall 0.7619 (+0.009).
 
-## Facteur limitant
-PixelSeal (0.64 ; images pleines avec trous 0.60, partielles 0.68), puis TrustMark images pleines (0.70). StegaStamp est à 0.88.
+## Limiting factor
+PixelSeal (0.64; full images with holes 0.60, partial 0.68), then TrustMark full images (0.70). StegaStamp is at 0.88.
 
-## Réserve
-Je ne sais pas quelle soumission donne le 0.75 public actuel ni son score local : si elle inclut déjà ces réseaux ET la fusion rectangles, le gain sera nul.
+## Caveat
+I do not know which submission gives the current public 0.75 nor its local score: if it already includes these networks AND the rectangle fusion, the gain will be zero.
 
-## Résultat public (11h00) : sub_orehn_a3.pt -> 0.7448, SOUS le meilleur de Bruno (0.7589, conservé)
-- L estimation locale (0.7619 hors échantillon sur train) ne s est pas transférée. Écart avec le fichier de Bruno d hier 20h50 (sub_s3_v8.pt) : accord de 0.816 seulement entre les deux jeux de masques, donc deux solutions réellement différentes.
-- Recherche d un ajout partant du fichier de Bruno (11h00–11h05) : le script qui a construit sub_s3_v8.pt n est pas sur le cluster (aucune référence à sub_s3 dans wm/s3 ; assemblage fait en local chez Bruno) et il n existe pas de masques TRAIN correspondants. Je ne peux donc valider localement aucune modification de son fichier (fusion avec mes réseaux, rectangles, vote). Sans validation, pas de 2e soumission : on s arrête là, la soumission retenue reste celle de Bruno.
-- Leçons : (1) mon score hors échantillon venait de réseaux dont les seuils et les ensembles étaient choisis sur les mêmes 510 images, sans jeu de contrôle ; (2) la partie publique (~300 images) a un bruit d environ 0.01, l écart mesuré (−0.014) est faible mais va dans le mauvais sens ; (3) pour comparer deux solutions il aurait fallu les masques train du pipeline de Bruno.
+## Public result (11:00): sub_orehn_a3.pt -> 0.7448, BELOW Bruno's best (0.7589, kept)
+- The local estimate (0.7619 out-of-sample on train) did not transfer. Difference with Bruno's file from yesterday 20:50 (sub_s3_v8.pt): only 0.816 agreement between the two sets of masks, so two genuinely different solutions.
+- Search for an addition starting from Bruno's file (11:00–11:05): the script that built sub_s3_v8.pt is not on the cluster (no reference to sub_s3 in wm/s3; assembled locally by Bruno) and there are no matching TRAIN masks. So I cannot validate locally any modification of his file (fusion with my networks, rectangles, vote). Without validation, no 2nd submission: we stop here, the retained submission stays Bruno's.
+- Lessons: (1) my out-of-sample score came from networks whose thresholds and ensembles were chosen on the same 510 images, with no control set; (2) the public split (~300 images) has a noise of about 0.01, the measured gap (−0.014) is small but goes the wrong way; (3) to compare two solutions we would have needed the train masks of Bruno's pipeline.

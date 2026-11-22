@@ -1,38 +1,38 @@
-# Plan de nuit Unlearning — Clément (session Devin) -> agent d'Orehn
-Version 3, 22/11 ~01h50. Remplace les versions 1 et 2. Clément indique qu'Orehn a demandé à son agent de suivre ce plan. PROTOCOLE.md prime en cas de conflit. Ma session n'a plus accès à JURECA jusqu'au réveil de Clément : je ne lance, ne lis et ne soumets rien.
+# Unlearning night plan — Clément (Devin session) -> Orehn's agent
+Version 3, 22 Nov ~01:50. Replaces versions 1 and 2. Clément says Orehn asked his agent to follow this plan. PROTOCOLE.md prevails in case of conflict. My session has no access to JURECA until Clément wakes up: I launch, read and submit nothing.
 
-## Constat (scores officiels, public split)
-| checkpoint | réglage | std clean / crop | retain_est | score |
+## Findings (official scores, public split)
+| checkpoint | setting | std clean / crop | retain_est | score |
 |---|---|---|---|---|
-| clem_A03r2_g4 | train all, rpow 2 | 2,59 | 0,757 | 0,1631 |
-| clem_A03r3_g4 | train all, rpow 3 | 3,26 | 0,750 | 0,2019 |
-| clem_A03r4_g4 | train all, rpow 4 | 3,66 / 3,11 | 0,750 | 0,2091 |
-| ft6_A03r5_g4_last6_t1 | last6, rpow 5, t1 1.0 | 3,76 / 3,34 | 0,752 | **0,2101** (record) |
-(tous : A=0,3, alpha 4, gamma 4, lr 1e-4, 3000 pas)
-La famille « formule make_targets + rpow » PLAFONNE vers 0,21 : +0,007 puis +0,001, que l'on entraîne tout ou last6, avec ou sans t1, et même quand la std crop monte. Ne plus dépenser de GPU ni d'envoi sur rpow, k de last<k>, t1, gamma ou lr dans cette famille.
-Déjà écarté (non soumis) : lr > 1e-4 (retain_est < 0,70) ; A=0,15 rpow 2 (0,741) ; gamma 6/8 + t1 (0,740/0,736).
+| clem_A03r2_g4 | train all, rpow 2 | 2.59 | 0.757 | 0.1631 |
+| clem_A03r3_g4 | train all, rpow 3 | 3.26 | 0.750 | 0.2019 |
+| clem_A03r4_g4 | train all, rpow 4 | 3.66 / 3.11 | 0.750 | 0.2091 |
+| ft6_A03r5_g4_last6_t1 | last6, rpow 5, t1 1.0 | 3.76 / 3.34 | 0.752 | **0.2101** (best) |
+(all: A=0.3, alpha 4, gamma 4, lr 1e-4, 3000 steps)
+The "make_targets formula + rpow" family PLATEAUS around 0.21: +0.007 then +0.001, whether we train everything or last6, with or without t1, and even when the crop std goes up. Do not spend any more GPU time or submissions on rpow, k of last<k>, t1, gamma or lr within this family.
+Already discarded (not submitted): lr > 1e-4 (retain_est < 0.70); A=0.15 rpow 2 (0.741); gamma 6/8 + t1 (0.740/0.736).
 
-## Étape 1 — cibles par image out-of-fold (PRIORITÉ ABSOLUE, passe devant tout dans gpu3)
-Finir l'extraction + les 15 professeurs OOF (Codex), produire le fichier de cibles par image.
-Premier essai = UN SEUL changement par rapport à un point noté : réglage de clem_A03r4_g4 (train all, gamma 4, lr 1e-4, 3000 pas) avec --targets <fichier OOF>. Pas last3, pas d'autre perte en même temps, sinon on ne saura pas ce qui a joué.
-Contrôle avant d'entraîner : sur les cibles elles-mêmes, noter l'accuracy vs étiquette, la CE moyenne et sa std (les comparer à 0,31 / 4,10 / 3,66 du record). Écrire ces trois chiffres dans BOARD.md.
+## Step 1 — per-image out-of-fold targets (TOP PRIORITY, goes ahead of everything in gpu3)
+Finish the extraction + the 15 OOF teachers (Codex), produce the per-image target file.
+First run = ONE SINGLE change from a scored point: the setting of clem_A03r4_g4 (train all, gamma 4, lr 1e-4, 3000 steps) with --targets <OOF file>. No last3, no other loss at the same time, otherwise we will not know what made the difference.
+Check before training: on the targets themselves, record the accuracy vs label, the mean CE and its std (compare with 0.31 / 4.10 / 3.66 of the best model). Write these three numbers in BOARD.md.
 
-## Étape 2 — dichotomie sur la force des cibles OOF
-Trois forces (les 1 / 0,7 / 1,4 prévues par Codex). Garder celles à retain_est >= 0,75, soumettre la meilleure, puis couper en deux l'intervalle entre les deux meilleures notes. Une seule variable.
+## Step 2 — bisection on the strength of the OOF targets
+Three strengths (the 1 / 0.7 / 1.4 planned by Codex). Keep those with retain_est >= 0.75, submit the best one, then halve the interval between the two best scores. One variable only.
 
-## Étape 3 — contrôle de forme (déjà en file, gpu0)
-c3_clement_A045r4_g4 (A 0,45, rpow 4, train all) : même dispersion visée mais plus d'images bien classées. Lecture locale seulement ; ne le soumettre que s'il reste un envoi et que l'étape 1 n'a rien donné. S'il était noté >= 0,21, c'est la forme et non la force de l'oubli qui compte : viser alors des cibles OOF plus douces à l'étape 2.
+## Step 3 — shape control (already queued, gpu0)
+c3_clement_A045r4_g4 (A 0.45, rpow 4, train all): same target spread but more images correctly classified. Local reading only; submit it only if a submission is left and step 1 gave nothing. If it scored >= 0.21, it is the shape and not the strength of forgetting that matters: then aim for softer OOF targets in step 2.
 
-## Conditions obligatoires pour tout envoi
-- retain_est >= 0,75 ;
-- std tr/crop et tr/noise.2 >= 85 % de la std clean ;
-- validation contre model.pt (clés, formes, float32, fini, < 450 Mo) ;
-- SUBMIT_LOCK, 10 min d'intervalle, ligne dans SUBMISSIONS.md et RESULTS.csv ;
-- AU PLUS 3 envois cette nuit, chacun décidé par Orehn / son agent. Un candidat de la famille rpow ne vaut plus un envoi.
+## Mandatory conditions for any submission
+- retain_est >= 0.75;
+- std of tr/crop and tr/noise.2 >= 85% of the clean std;
+- validation against model.pt (keys, shapes, float32, finite, < 450 MB);
+- SUBMIT_LOCK, 10 min interval, a line in SUBMISSIONS.md and RESULTS.csv;
+- AT MOST 3 submissions tonight, each decided by Orehn / his agent. A candidate from the rpow family is no longer worth a submission.
 
-## Robustesse
-- Limite du NOMBRE de fichiers du scratch atteinte (annonce organisateurs 01h33) : une écriture peut échouer. Si un essai plante à la sauvegarde : relancer une fois, puis passer au suivant. Ne pas créer de nouveaux venv ni de caches en milliers de petits fichiers ; préférer un seul .pt / .npz.
-- Ne pas supprimer : orehn/ckpt/ft6_A03r5_g4_last6_t1.pt (record), clem_A03r4_g4.pt (repli train all). Copies des deux sur le Mac de Clément et dans ma VM. Supprimables pour le quota : clem_A03r2_g4.pt, clem_A03r3_g4.pt, clem_A005_g2.pt, clem_A03r4_g4_last6.pt, et les checkpoints de mes essais c2 / e2 une fois lus.
+## Robustness
+- The limit on the NUMBER of files on scratch has been reached (organisers' announcement 01:33): a write may fail. If a run crashes when saving: relaunch once, then move on. Do not create new venvs or caches made of thousands of small files; prefer a single .pt / .npz.
+- Do not delete: orehn/ckpt/ft6_A03r5_g4_last6_t1.pt (best), clem_A03r4_g4.pt (train-all fallback). Copies of both on Clément's Mac and in my VM. Can be deleted for the quota: clem_A03r2_g4.pt, clem_A03r3_g4.pt, clem_A005_g2.pt, clem_A03r4_g4_last6.pt, and the checkpoints of my runs c2 / e2 once read.
 
-## Ma file
-Retiré : e2_clement_A03r6_g4_last6 (famille plafonnée). En cours sur gpu0 : c2 (rpow 5 train all, lecture seule), puis c3. Supprimez-les si Model Equality réclame le GPU 0.
+## My queue
+Removed: e2_clement_A03r6_g4_last6 (plateaued family). Running on gpu0: c2 (rpow 5 train all, read only), then c3. Delete them if Model Equality needs GPU 0.

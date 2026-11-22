@@ -1,22 +1,22 @@
-# NUIT2 — consignes finales d'Orehn (01:40), valables jusqu'à son réveil
-Objectif unique : AUGMENTER LES NOTES de façon robuste (classement final = 70 % caché), en autonomie complète dans les règles ci-dessous.
+# NIGHT2 — Orehn's final instructions (01:40), valid until he wakes up
+Single goal: RAISE THE SCORES in a robust way (final ranking = 70% hidden), fully autonomously within the rules below.
 
-## Unlearning (priorité 1)
-1. Suivre ABSOLUMENT le plan de Clément (BOARD.md / DEMANDES.md / SUBMISSIONS.md). Ses demandes passent en premier.
-2. Quand son plan est épuisé ou qu'il n'a rien en file : continuer d'améliorer seul (UL_STRATEGIE.md, tes pistes ft6, profs out-of-fold).
-3. Questions : si tu as besoin de contexte, écris dans BOARD.md une ligne « QUESTION -> Clément/session Devin : ... » et relis ses réponses à chaque boucle de 5 min.
+## Unlearning (priority 1)
+1. ABSOLUTELY follow Clément's plan (BOARD.md / DEMANDES.md / SUBMISSIONS.md). His requests come first.
+2. When his plan is exhausted or he has nothing queued: keep improving on your own (UL_STRATEGIE.md, your ft6 tracks, out-of-fold teachers).
+3. Questions: if you need context, write a line "QUESTION -> Clément/Devin session: ..." in BOARD.md and re-read his answers at each 5 min loop.
 
-## Model Equality (priorité 2, session simulateur)
-Audit ROBUSTESSE_70 puis amélioration continue, sans dépenser la réserve ni soumettre (la réserve exige la confirmation tapée d'Orehn).
+## Model Equality (priority 2, simulator session)
+ROBUSTESSE_70 audit then continuous improvement, without spending the reserve or submitting (the reserve requires Orehn's typed confirmation).
 
-## Boucle d'apprentissage (les deux tâches)
-- Après CHAQUE résultat (local ou officiel) : 3-5 lignes de post-mortem dans le journal de la tâche : ce qui a changé, pourquoi (hypothèse), si la prédiction était juste, test suivant.
-- Toutes les ~2 h : lancer un sous-agent « critique » qui relit les résultats sans avoir produit le travail et cherche erreurs, fuites, surapprentissage du public, conclusions non prouvées. Intégrer ses remarques.
-- Faire une veille ciblée (articles/code) quand une piste bloque.
-- Anti-overfit : décider sur métriques locales + bootstrap ; écart public < 0,01 = bruit ; dans le doute « différent » (ME) ; acc locale >= 75 % (UL).
+## Learning loop (both tasks)
+- After EVERY result (local or official): 3-5 lines of post-mortem in the task's log: what changed, why (hypothesis), whether the prediction was right, next test.
+- Every ~2 h: launch a "critic" sub-agent that re-reads the results without having produced the work and looks for errors, leaks, overfitting to the public split, unproven conclusions. Integrate its remarks.
+- Do targeted literature/code search when a track is stuck.
+- Anti-overfit: decide on local metrics + bootstrap; public gap < 0.01 = noise; when in doubt "different" (ME); local accuracy >= 75% (UL).
 
-## Interdits inchangés
-Pas de 2e job GPU, pas de sbatch/scancel sur les jobs des autres, pas de token affiché/copié, pas de dépense de réserve ME, pas de suppression de fichiers des autres ni de checkpoints soumis, SUBMIT_LOCK + 10 min.
+## Unchanged prohibitions
+No 2nd GPU job, no sbatch/scancel on other people's jobs, no token displayed/copied, no spending of the ME reserve, no deleting other people's files or submitted checkpoints, SUBMIT_LOCK + 10 min.
 
 ## 07:00
-Résumé clair en haut de results/status.md (ME) et results/unlearning_status.md (UL) : scores, ce qui a marché/raté, décisions à prendre par Orehn.
+Clear summary at the top of results/status.md (ME) and results/unlearning_status.md (UL): scores, what worked/failed, decisions for Orehn to take.
