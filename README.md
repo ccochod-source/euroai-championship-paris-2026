@@ -1,114 +1,139 @@
-# European AI Championship Paris 2026 — équipe Eugenia
+# European AI Championship Paris 2026 — Team Eugenia
 
-Hackathon CISPA / Fraunhofer AISEC à Epitech Paris, 21–22 novembre 2026. Ce dépôt rassemble le travail de l'équipe
-Eugenia sur les trois pistes : code, scripts de lancement, plans, journaux d'essais et notes officielles.
+Hackathon organised by CISPA and Fraunhofer AISEC at Epitech Paris, 21–22 November 2026. This repository contains
+team Eugenia's work on the three tasks: code, launch scripts, plans, experiment logs and official scores.
 
-Dernier classement public relevé (22/11, 10 h 33, avant les derniers envois) :
+Last public leaderboard we read (22 Nov, 10:33, before our last submissions):
 
-| Piste | Note publique | Dossier |
+| Task | Public score | Folder |
 |---|---:|---|
-| Watermark Localisation | 0,76 | [`watermark/`](watermark/) |
-| Model Equality | 1,00 | [`model_equality/`](model_equality/) |
-| Unlearning | 0,26 (record final 0,2642) | [`unlearning/`](unlearning/) |
-| Global | 0,78, rang 10 sur 44 | |
+| Watermark Localisation | 0.76 | [`watermark/`](watermark/) |
+| Model Equality | 1.00 | [`model_equality/`](model_equality/) |
+| Unlearning | 0.26 (final best 0.2642) | [`unlearning/`](unlearning/) |
+| Overall | 0.78, rank 10 of 44 | |
 
-Ces notes portent sur la partie publique des données. Le classement final est calculé sur une partie cachée et n'était
-pas publié au moment de la création du dépôt.
+These scores are computed on the public split. The final ranking uses a held-out split and was not published when
+this repository was created.
 
-## Ce que le dépôt ne contient pas
+## What is not in the repository
 
-- les données du concours (images, archives `train.zip` / `test.zip`, `forget_images.npz`) ;
-- les poids de modèles (`model.pt`, checkpoints de 340 Mo, modèles de watermark) ;
-- les environnements Python et caches ;
-- la clé d'équipe : les scripts de soumission contiennent `YOUR_TEAM_API_KEY`.
+- the competition data (images, `train.zip` / `test.zip`, `forget_images.npz`);
+- model weights (`model.pt`, 340 MB checkpoints, watermark models);
+- Python environments and caches;
+- the team API key: submission scripts contain `YOUR_TEAM_API_KEY`.
 
-Les scripts ne sont donc pas exécutables tels quels sans les fichiers fournis par les organisateurs.
+The scripts therefore do not run as is without the files provided by the organisers.
 
-## Piste 1 — Unlearning (`31-unlearning`)
+## Task 1 — Unlearning (`31-unlearning`)
 
-**Tâche.** Un ViT-B/16 à 100 classes et 3 500 images « à oublier ». Il faut rendre un modèle complet qui se comporte
-sur ces images comme s'il ne les avait jamais vues, en gardant sa précision sur le reste (un modèle trop dégradé,
-vers 70 %, est rejeté). Le serveur compare les images d'origine à des copies altérées cachées.
+### Solution
 
-**Progression des notes officielles.**
+Full-model fine-tuning of the ViT-B/16 towards **per-image out-of-fold targets**, with a retain regulariser.
 
-| Étape | Méthode | Note |
-|---|---|---:|
-| 21/11 soir | Température globale, correction par classe, édition de la tête | 0,005 à 0,010 |
-| 21/11 22 h | Fine-tuning complet vers des cibles « jamais vu » + KL vers le modèle d'origine sur des images de contrôle | 0,057 → 0,110 |
-| 21/11 nuit | Cibles plus dispersées (`rpow` 2, 3, 4) | 0,163 → 0,202 → 0,209 |
-| 22/11 01 h 39 | Idem, 6 derniers blocs seulement | 0,2101 |
-| 22/11 02 h 21 | Cibles **par image hors-pli** (professeurs n'ayant pas vu l'image) | 0,2561 |
-| 22/11 11 h 26 | Protection du reste (`gamma`) 4 → 3 | 0,2599 |
-| 22/11 11 h 57 | Force des cibles 3 → 2,75 | **0,2642** |
-
-**Ce qui a marché.** Remplacer une formule de cibles identique pour toutes les images par des cibles par image,
-prédites par des professeurs entraînés sans cette image (out-of-fold). C'est l'essentiel du gain (0,21 → 0,26).
-
-**Ce qui n'a pas marché.** Éditer seulement la tête ou une température ; pousser la force de l'oubli (force 4 : 0,2255) ;
-plus de protection et un entraînement plus long (0,2514) ; abaisser en plus la vraie classe à `gamma` 3 (0,2471) ;
-mélanger deux familles de professeurs (0,2366). Les mesures locales (perte, dispersion, précision estimée) n'ont pas
-permis de prédire la note officielle : une extrapolation annonçait 0,27 à 0,30 pour un envoi noté 0,2347.
-
-**Réglage du record.**
+1. **Targets.** For each forget image we want the output distribution of a model that never saw it. We train
+   teachers on folds of the forget set (DINOv2-based and a related architecture) and predict each image only with
+   teachers that did not train on it. This gives `q_oof_clean`, one distribution per image. We sharpen it with a
+   power `k` and renormalise per image (`q_oof_k275.pt` is `k = 2.75`).
+2. **Forget loss.** KL divergence between the target and the model output on strongly augmented views of the forget
+   images.
+3. **Retain loss.** KL divergence to the original model on AI-generated control images, weighted by `gamma`.
+4. **Trainable part.** The last 6 transformer blocks (`--train last6`), 3000 steps, learning rate 1e-4.
 
 ```bash
 python -u orehn/src/finetune.py --name clem_oof_k275_g3_last6 \
     --targets orehn/cache/q_oof_k275.pt --gamma 3 --train last6 --lr 1e-4 --steps 3000
 ```
 
-`q_oof_k275.pt` est `q_oof_clean` élevé à la puissance 2,75 puis renormalisé par image.
+Every candidate was checked before submission: retain proxy at least 0.75, loss spread kept on cropped and noisy
+copies, state dict validated against `model.pt` (keys, shapes, float32, finite).
 
-**Où regarder.**
+### Official scores
 
-- `unlearning/orehn/src/` : pipeline principal (`finetune.py`, `teacher.py`, `oof_vit.py`, `common.py`).
-- `unlearning/orehn/logs/` : un JSON de mesures par essai.
-- `unlearning/COORD/` : coordination à trois (`PROTOCOLE.md`, `BOARD.md`), toutes les soumissions avec leur note
-  (`SUBMISSIONS.md`), tous les essais (`RESULTS.csv`), plans de nuit.
-- `unlearning/codex/`, `unlearning/oof/`, `unlearning/eugenia-trials/`, `unlearning/devin-vm/` : pistes explorées
-  avant le pipeline final (têtes, températures, distillation multi-vues, premiers professeurs hors-pli).
+| Step | Method | Score |
+|---|---|---:|
+| 21 Nov evening | Global temperature, per-class correction, head editing | 0.005 to 0.010 |
+| 21 Nov 22:00 | Full fine-tuning towards "never seen" targets + KL to the original model on control images | 0.057 → 0.110 |
+| 21 Nov night | More dispersed targets (`rpow` 2, 3, 4) | 0.163 → 0.202 → 0.209 |
+| 22 Nov 01:39 | Same, last 6 blocks only | 0.2101 |
+| 22 Nov 02:21 | **Per-image out-of-fold targets** | 0.2561 |
+| 22 Nov 11:26 | Retain weight `gamma` 4 → 3 | 0.2599 |
+| 22 Nov 11:57 | Target power 3 → 2.75 | **0.2642** |
 
-## Piste 2 — Watermark Localisation
+### What worked, what did not
 
-**Tâche.** Pour chaque image 512×512 de test, rendre un masque binaire 128×128 des zones qui portent encore un
-watermark invisible (PixelSeal, TrustMark ou StegaStamp, méthode et message connus). Note : mIoU moyen par image.
+- **Worked:** replacing one target formula shared by all images with per-image out-of-fold targets. This is most of
+  the gain (0.21 → 0.26).
+- **Did not work:** editing only the head or a temperature; stronger forgetting (power 4: 0.2255); more retain weight
+  and longer training (0.2514); additionally lowering the true class at `gamma` 3 (0.2471); mixing two teacher
+  families (0.2366).
+- **Lesson:** our local metrics (loss, spread, retain proxy) did not predict the official score. One extrapolation
+  announced 0.27 to 0.30 for a submission that scored 0.2347.
 
-**Approche.** Deux voies, décrites dans `watermark/bruno-wm/s3/README.md` et `watermark/orehn/STATUS.md` :
+Sweep around the best point, one parameter at a time (last 6 blocks, 3000 steps):
 
-- recherche de rectangles sans entraînement (« proposer et vérifier » avec le décodeur officiel) ;
-- réseaux de segmentation ré-entraînés sur les vraies images d'entraînement, par méthode.
+| Target power `k` (gamma 4) | Score | | Retain weight `gamma` (k = 3) | Score |
+|---|---:|---|---|---:|
+| 2.5 | 0.2535 | | 8 (4000 steps) | 0.2514 |
+| 3 | 0.2561 | | 4 | 0.2561 |
+| 4 | 0.2255 | | 3 | 0.2599 |
+| | | | 2.5 | 0.2575 |
 
-Constat important noté par l'équipe : pour TrustMark et PixelSeal, le watermark des images du concours n'est pas
-corrélé pixel à pixel avec celui que produit l'encodeur fourni, donc les réseaux entraînés sur nos propres
-watermarks échouent sur les vraies images.
+### Where to look
 
-Meilleure note publique consignée dans `watermark/orehn/STATUS.md` : 0,7589 (fichier de Bruno). Un assemblage estimé
-à 0,7619 en local a obtenu 0,7448 en public.
+- `unlearning/orehn/src/`: main pipeline (`finetune.py`, `teacher.py`, `oof_vit.py`, `common.py`).
+- `unlearning/orehn/logs/`: one JSON of metrics per run.
+- `unlearning/COORD/`: three-person coordination (`PROTOCOLE.md`, `BOARD.md`), every submission with its score
+  (`SUBMISSIONS.md`), every run (`RESULTS.csv`), night plans.
+- `unlearning/codex/`, `unlearning/oof/`, `unlearning/eugenia-trials/`, `unlearning/devin-vm/`: approaches explored
+  before the final pipeline (heads, temperatures, multi-view distillation, first out-of-fold teachers).
 
-**Où regarder.** `watermark/bruno/` et `watermark/bruno-wm/` (expériences, recherche de rectangles, segmentation),
-`watermark/orehn/` (assemblages), `watermark/wmloc/` et `watermark/README.txt` (kit des organisateurs).
+## Task 2 — Watermark Localisation
 
-## Piste 3 — Model Equality (`33-model-equality`)
+### Solution
 
-**Tâche.** 33 endpoints d'API servent des modèles de langage ; certains servent le même. Avec 100 réponses au plus
-par endpoint, dire pour chaque paire si c'est la même famille et le même modèle (même checkpoint, quantification et
-adaptateur LoRA ; un prompt système ou un décodage différent ne change pas le modèle). Note : MCC sur les paires,
-10 % famille, 90 % modèle.
+Two complementary approaches, described in `watermark/bruno-wm/s3/README.md` and `watermark/orehn/STATUS.md`:
 
-**Approche.** Un simulateur local (`model_equality/sim/`) reproduit le problème avec des modèles ouverts
-(Llama-3.2-1B, Qwen2.5-1.5B/3B, SmolLM2-360M), leurs variantes quantifiées, LoRA et distillées, et des prompts système
-de déguisement, pour concevoir et valider le protocole de requêtes et la règle de décision avant de dépenser le budget
-réel. Note publique : 1,00.
+- **Training-free rectangle search** ("propose and verify"): search for the crop that maximises decoding of the known
+  message with the official decoder.
+- **Segmentation networks** fine-tuned per watermark method (PixelSeal, TrustMark, StegaStamp) on the real training
+  images, with per-method thresholds.
 
-**Où regarder.** `model_equality/sim/` (génération des jeux `make_spec*.py`, vraisemblances `lik*.py`, classifieur
-de paires `pair_clf.py`, validations `validate_*.py`), `model_equality/task_template.py` (énoncé complet).
+Key finding recorded by the team: for TrustMark and PixelSeal, the watermark in the challenge images is not
+pixel-wise correlated with what the provided embedder produces, so networks trained on our own watermarked images
+fail on the real ones. Everything was validated on the real training images.
+
+Best public score recorded in `watermark/orehn/STATUS.md`: 0.7589 (Bruno's file). An ensemble estimated at 0.7619
+locally scored 0.7448 on the public split.
+
+### Where to look
+
+`watermark/bruno/` and `watermark/bruno-wm/` (experiments, rectangle search, segmentation), `watermark/orehn/`
+(ensembles), `watermark/wmloc/` and `watermark/README.txt` (organisers' starter kit).
+
+## Task 3 — Model Equality (`33-model-equality`)
+
+### Solution
+
+A local simulator (`model_equality/sim/`) reproduces the problem with open models (Llama-3.2-1B, Qwen2.5-1.5B/3B,
+SmolLM2-360M), their quantised, LoRA and distilled variants, and disguising system prompts. It was used to design
+and validate the query protocol and the decision rule before spending the real query budget (100 answers per
+endpoint). Public score: 1.00.
+
+### Where to look
+
+`model_equality/sim/` (dataset generation `make_spec*.py`, likelihoods `lik*.py`, pair classifier `pair_clf.py`,
+validation `validate_*.py`), `model_equality/task_template.py` (full task statement).
 
 ## Infrastructure
 
-`infra/` : file d'attente partagée sur un nœud de 4 GPU du supercalculateur JURECA (`gpu_worker.py`,
-`GPU_PARTAGE.md`), avec les scripts lancés et leurs journaux par GPU.
+`infra/`: shared job queue on one 4-GPU node of the JURECA supercomputer (`gpu_worker.py`, `GPU_PARTAGE.md`), with
+the scripts that were run and their logs per GPU.
 
-## Équipe
+## Team
 
-Clément, Orehn, Bruno, avec des agents de code (Devin, Claude, Codex) utilisés pour lancer et suivre les essais.
-Les fichiers de coordination sont conservés tels quels, en français.
+Clément, Orehn and Bruno, with coding agents (Devin, Claude, Codex) used to launch and monitor experiments.
+
+## Language note
+
+This README is in English. The working files written during the hackathon (coordination board, night plans, status
+notes, some code comments) are kept as they were written, mostly in French.
