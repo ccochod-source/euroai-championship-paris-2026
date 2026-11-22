@@ -1,0 +1,4 @@
+== pixelseal: 85 whole-frame train images, features (85, 3, 128, 128); all-ones 0.4486
+   fold 0: t0.3: 0.611 t0.5: 0.586 t0.7: 0.520
+srun: error: jrc0245: task 0: Terminated
+srun: Force Terminated StepId=15902384.78

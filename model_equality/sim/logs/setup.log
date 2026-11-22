@@ -1,0 +1,165 @@
+[18:32:19] uv
+[18:32:22] venv
+Using CPython 3.12.15 interpreter at: /usr/bin/python3.12
+Creating virtual environment at: venv
+Activate with: source venv/bin/activate
+[18:32:23] pip
+Using Python 3.12.15 environment at: venv
+Resolved 71 packages in 604ms
+Downloading scipy (33.7MiB)
+Downloading numpy (15.0MiB)
+Downloading torch (514.2MiB)
+Downloading nvidia-cuda-cupti (11.4MiB)
+Downloading nvidia-cusparse (144.0MiB)
+Downloading nvidia-cudnn-cu13 (495.1MiB)
+Downloading pygments (1.2MiB)
+Downloading tokenizers (3.2MiB)
+Downloading scikit-learn (8.7MiB)
+Downloading nvidia-cuda-nvrtc (44.8MiB)
+Downloading triton (272.4MiB)
+Downloading pydantic-core (2.2MiB)
+Downloading nvidia-nvshmem-cu13 (129.1MiB)
+Downloading nvidia-nccl-cu13 (206.0MiB)
+Downloading nvidia-cusolver (217.4MiB)
+Downloading hf-xet (4.1MiB)
+Downloading sympy (6.0MiB)
+Downloading nvidia-cufft (208.1MiB)
+Downloading networkx (2.0MiB)
+Downloading pandas (11.5MiB)
+Downloading bitsandbytes (41.1MiB)
+Downloading nvidia-cuda-cccl (3.9MiB)
+Downloading sentencepiece (1.6MiB)
+Downloading nvidia-cuda-runtime (2.2MiB)
+Downloading nvidia-cusparselt-cu13 (162.3MiB)
+Downloading nvidia-cufile (1.3MiB)
+Downloading transformers (12.9MiB)
+Downloading nvidia-nvjitlink (44.5MiB)
+Downloading cuda-bindings (8.0MiB)
+Downloading nvidia-cublas (386.1MiB)
+ Downloaded nvidia-cufile
+ Downloaded pygments
+ Downloaded sentencepiece
+ Downloaded pydantic-core
+ Downloaded nvidia-cuda-runtime
+ Downloaded networkx
+ Downloaded tokenizers
+ Downloaded hf-xet
+ Downloaded sympy
+ Downloaded cuda-bindings
+ Downloaded scikit-learn
+ Downloaded nvidia-cuda-cupti
+ Downloaded nvidia-cuda-cccl
+ Downloaded pandas
+ Downloaded numpy
+ Downloaded transformers
+ Downloaded scipy
+ Downloaded bitsandbytes
+ Downloaded nvidia-cuda-nvrtc
+ Downloaded nvidia-nvjitlink
+ Downloaded nvidia-nvshmem-cu13
+ Downloaded nvidia-cusparse
+ Downloaded nvidia-cusparselt-cu13
+ Downloaded nvidia-nccl-cu13
+ Downloaded nvidia-cufft
+ Downloaded nvidia-cusolver
+ Downloaded triton
+ Downloaded nvidia-cublas
+ Downloaded nvidia-cudnn-cu13
+ Downloaded torch
+Prepared 71 packages in 17.42s
+Installed 71 packages in 7.09s
+ + accelerate==1.16.0
+ + annotated-doc==0.0.7
+ + annotated-types==0.8.0
+ + anyio==4.16.0
+ + bitsandbytes==0.50.2
+ + click==8.5.1
+ + cloudpickle==3.1.3
+ + cuda-bindings==13.5.0
+ + cuda-pathfinder==1.9.1
+ + cuda-toolkit==13.2.2
+ + filelock==4.2.12
+ + fsspec==2026.9.0
+ + h11==0.16.0
+ + hf-xet==1.8.0
+ + httpcore2==2.16.2
+ + httpx2==2.16.2
+ + huggingface-hub==2.4.0
+ + idna==3.20
+ + jinja2==3.1.6
+ + joblib==1.6.0
+ + markdown-it-py==4.3.0
+ + markupsafe==3.0.4
+ + mdurl==0.1.2
+ + mpmath==1.3.0
+ + narwhals==2.29.0
+ + networkx==3.7
+ + numpy==2.5.5
+ + nvidia-cublas==13.4.1.3
+ + nvidia-cuda-cccl==13.3.5.0.6
+ + nvidia-cuda-cupti==13.2.86
+ + nvidia-cuda-nvrtc==13.2.86
+ + nvidia-cuda-runtime==13.2.86
+ + nvidia-cudnn-cu13==9.26.0.51
+ + nvidia-cufft==12.2.0.57
+ + nvidia-cufile==1.17.1.22
+ + nvidia-cusolver==12.2.0.11
+ + nvidia-cusparse==12.7.10.12
+ + nvidia-cusparselt-cu13==0.8.1
+ + nvidia-nccl-cu13==2.30.7
+ + nvidia-nvjitlink==13.5.37
+ + nvidia-nvshmem-cu13==3.7.2
+ + nvidia-nvtx==13.2.86
+ + packaging==26.3
+ + pandas==3.1.1
+ + peft==0.22.0
+ + psutil==7.2.2
+ + pydantic==2.14.4
+ + pydantic-core==2.50.5
+ + pygments==2.21.0
+ + python-dateutil==4.0.0
+ + pyyaml==6.0.4
+ + regex==2026.11.19
+ + rich==15.0.0
+ + safetensors==0.8.0
+ + scikit-learn==1.9.1
+ + scipy==1.18.1
+ + sentencepiece==0.2.3
+ + setuptools==84.2.1
+ + shellingham==1.5.4
+ + sympy==1.14.0
+ + threadpoolctl==3.8.0
+ + tokenizers==0.23.3
+ + torch==2.15.0
+ + tqdm==4.70.1
+ + transformers==5.24.0
+ + triton==3.9.0
+ + truststore==0.10.5
+ + typer==0.29.2
+ + typing-extensions==4.16.0
+ + typing-inspection==0.4.5
+ + tzdata==2026.6
+torch 2.15.0+cu132 cuda 13.2 tf 5.24.0 peft 0.22.0
+[18:33:10] SETUP_DONE
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 12 files:   8%|▊         | 1/12 [00:00<00:01,  5.83it/s]Fetching 12 files:  67%|██████▋   | 8/12 [00:00<00:00, 30.17it/s]Fetching 12 files: 100%|██████████| 12/12 [00:01<00:00,  6.32it/s]Fetching 12 files: 100%|██████████| 12/12 [00:01<00:00,  7.43it/s]
+OK HuggingFaceTB/SmolLM2-135M-Instruct 2s /p/scratch/training2666/cochod2/euroai-paris/.cache/hub/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files:   8%|▊         | 1/12 [00:00<00:01,  6.02it/s]Fetching 12 files:  67%|██████▋   | 8/12 [00:00<00:00, 30.25it/s]Fetching 12 files: 100%|██████████| 12/12 [00:02<00:00,  4.96it/s]Fetching 12 files: 100%|██████████| 12/12 [00:02<00:00,  5.94it/s]
+OK HuggingFaceTB/SmolLM2-360M-Instruct 2s /p/scratch/training2666/cochod2/euroai-paris/.cache/hub/models--HuggingFaceTB--SmolLM2-360M-Instruct/snapshots/a10cc1512eabd3dde888204e902eca88bddb4951
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:  14%|█▍        | 1/7 [00:00<00:00,  6.40it/s]Fetching 7 files: 100%|██████████| 7/7 [00:01<00:00,  3.93it/s]Fetching 7 files: 100%|██████████| 7/7 [00:01<00:00,  3.99it/s]
+OK Qwen/Qwen2.5-0.5B-Instruct 2s /p/scratch/training2666/cochod2/euroai-paris/.cache/hub/models--Qwen--Qwen2.5-0.5B-Instruct/snapshots/7ae557604adf67be50417f59c2c2f167def9a775
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:  14%|█▍        | 1/7 [00:00<00:00,  6.32it/s]Fetching 7 files: 100%|██████████| 7/7 [00:03<00:00,  1.76it/s]Fetching 7 files: 100%|██████████| 7/7 [00:03<00:00,  1.81it/s]
+OK Qwen/Qwen2.5-1.5B-Instruct 4s /p/scratch/training2666/cochod2/euroai-paris/.cache/hub/models--Qwen--Qwen2.5-1.5B-Instruct/snapshots/989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:  14%|█▍        | 1/7 [00:00<00:00,  6.22it/s]Fetching 7 files:  86%|████████▌ | 6/7 [00:01<00:00,  5.93it/s]Fetching 7 files: 100%|██████████| 7/7 [00:02<00:00,  2.47it/s]Fetching 7 files: 100%|██████████| 7/7 [00:02<00:00,  2.97it/s]
+OK unsloth/Llama-3.2-1B-Instruct 3s /p/scratch/training2666/cochod2/euroai-paris/.cache/hub/models--unsloth--Llama-3.2-1B-Instruct/snapshots/5a8abab4a5d6f164389b1079fb721cfab8d7126c
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files:  11%|█         | 1/9 [00:00<00:01,  6.38it/s]Fetching 9 files:  78%|███████▊  | 7/9 [00:00<00:00, 25.24it/s]Fetching 9 files: 100%|██████████| 9/9 [00:03<00:00,  2.37it/s]
+OK Qwen/Qwen2.5-3B-Instruct 4s /p/scratch/training2666/cochod2/euroai-paris/.cache/hub/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files:  22%|██▏       | 2/9 [00:00<00:00, 12.83it/s]Fetching 9 files:  89%|████████▉ | 8/9 [00:02<00:00,  3.15it/s]Fetching 9 files: 100%|██████████| 9/9 [00:03<00:00,  2.20it/s]Fetching 9 files: 100%|██████████| 9/9 [00:03<00:00,  2.52it/s]
+OK unsloth/Llama-3.2-3B-Instruct 4s /p/scratch/training2666/cochod2/euroai-paris/.cache/hub/models--unsloth--Llama-3.2-3B-Instruct/snapshots/006f5dcd1393c3add266de40994ba96225e9689d
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files:   8%|▊         | 1/12 [00:00<00:01,  6.27it/s]Fetching 12 files:  67%|██████▋   | 8/12 [00:00<00:00, 30.12it/s]Fetching 12 files: 100%|██████████| 12/12 [00:02<00:00,  3.65it/s]Fetching 12 files: 100%|██████████| 12/12 [00:02<00:00,  4.44it/s]
+OK HuggingFaceTB/SmolLM2-1.7B-Instruct 3s /p/scratch/training2666/cochod2/euroai-paris/.cache/hub/models--HuggingFaceTB--SmolLM2-1.7B-Instruct/snapshots/31b70e2e869a7173562077fd711b654946d38674
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:  14%|█▍        | 1/7 [00:00<00:00,  6.71it/s]Fetching 7 files: 100%|██████████| 7/7 [00:01<00:00,  3.50it/s]Fetching 7 files: 100%|██████████| 7/7 [00:01<00:00,  3.57it/s]
+OK Qwen/Qwen2-0.5B-Instruct 2s /p/scratch/training2666/cochod2/euroai-paris/.cache/hub/models--Qwen--Qwen2-0.5B-Instruct/snapshots/c540970f9e29518b1d8f06ab8b24cba66ad77b6d
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:  14%|█▍        | 1/7 [00:00<00:00,  6.52it/s]Fetching 7 files: 100%|██████████| 7/7 [00:02<00:00,  2.54it/s]Fetching 7 files: 100%|██████████| 7/7 [00:02<00:00,  2.61it/s]
+OK Qwen/Qwen2-1.5B-Instruct 3s /p/scratch/training2666/cochod2/euroai-paris/.cache/hub/models--Qwen--Qwen2-1.5B-Instruct/snapshots/2ebb13f1f55edeb5bd4b108d0ad589397a6ee4ac
+DOWNLOAD_DONE

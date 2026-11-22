@@ -1,0 +1,6 @@
+  0 59738e22b1ba top 21 bottom 10 left 24 right  9 | extra rows 31 cols 33 | slope +0.490 (visible frame -0.020) | 526 frames 17s
+  1 a82d8698a09d top  4 bottom 28 left 21 right 11 | extra rows 32 cols 32 | slope +0.410 (visible frame +0.020) | 538 frames 32s
+  2 a2af11ea5e64 top 56 bottom 22 left 32 right 41 | extra rows 78 cols 73 | slope +0.400 (visible frame -0.023) | 544 frames 47s
+  3 219fe27fda99 top 27 bottom 51 left 39 right 41 | extra rows 78 cols 80 | slope +0.379 (visible frame -0.083) | 538 frames 62s
+== trustmark train n=4: slope > 0.2 on the visible frame 0.00 -> after the frame search 1.00 | mean slope -0.027 -> 0.420
+   extra rows quantiles [31 31 55 78 78] extra cols [32 32 53 74 80] | corr(rows, cols) 0.99 | mean |rows - cols| 2.2

@@ -1,0 +1,38 @@
+[gpu_worker] début 01:58:21 sur jrc0347 GPU 2
+{"step": 1, "forget": 7.282731056213379, "retain": -6.945239050537566e-09, "seconds": 0.5688967704772949}
+{"step": 100, "forget": 5.501528739929199, "retain": 0.03777070343494415, "seconds": 6.4966840744018555}
+{"step": 200, "forget": 1.608017921447754, "retain": 0.14765097200870514, "seconds": 12.460875034332275}
+{"step": 300, "forget": 1.6482882499694824, "retain": 0.21403095126152039, "seconds": 18.442025423049927}
+{"step": 400, "forget": 1.9522192478179932, "retain": 0.16716136038303375, "seconds": 24.45938467979431}
+{"step": 500, "forget": 1.854201316833496, "retain": 0.1059064120054245, "seconds": 30.434738159179688}
+{"step": 600, "forget": 1.5234239101409912, "retain": 0.06622125953435898, "seconds": 36.41226291656494}
+{"step": 700, "forget": 1.5315558910369873, "retain": 0.06537546962499619, "seconds": 42.40613579750061}
+{"step": 800, "forget": 1.8073359727859497, "retain": 0.1613941341638565, "seconds": 48.39128232002258}
+{"step": 900, "forget": 1.28263521194458, "retain": 0.06846228986978531, "seconds": 54.39686822891235}
+{"step": 1000, "forget": 1.262030839920044, "retain": 0.08644010871648788, "seconds": 60.37513017654419}
+{"step": 1100, "forget": 1.428924798965454, "retain": 0.06699805706739426, "seconds": 66.3818781375885}
+Traceback (most recent call last):
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/oof_train.py", line 148, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/oof_train.py", line 121, in main
+    result=evaluate_views(model,data,images,proxy,zp,a.name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/.venv/lib64/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/oof_train.py", line 46, in evaluate_views
+    atomic_save(zs,OUT/'logs'/f'{name}_oof_logits.pt')
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/common.py", line 36, in atomic_save
+    torch.save(value, str(path) + '.tmp')
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/.venv/lib64/python3.12/site-packages/torch/serialization.py", line 1003, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/.venv/lib64/python3.12/site-packages/torch/serialization.py", line 865, in _open_zipfile_writer
+    return container(name_or_buffer)  # type: ignore[arg-type]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/.venv/lib64/python3.12/site-packages/torch/serialization.py", line 829, in __init__
+    torch._C.PyTorchFileWriter(
+RuntimeError: [enforce fail at inline_container.cc:746] . open file failed with strerror: Disk quota exceeded
+
+[gpu_worker] fin 01:59:57 exit=1 durée=95s

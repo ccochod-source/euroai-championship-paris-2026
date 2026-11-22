@@ -1,0 +1,36 @@
+{
+  "jobs": [
+    {
+      "name": "oof_calibrated_s1",
+      "gpu": 2,
+      "queue": "90_codex_oof_calibrated_s1.sh",
+      "time": "2026-11-22T01:52:05.277176+01:00",
+      "status": "done"
+    },
+    {
+      "name": "oof_calibrated_s07",
+      "gpu": 2,
+      "queue": "90_codex_oof_calibrated_s07.sh",
+      "time": "2026-11-22T01:54:20.389771+01:00",
+      "status": "done"
+    },
+    {
+      "name": "oof_calibrated_s14",
+      "gpu": 2,
+      "queue": "90_codex_oof_calibrated_s14.sh",
+      "time": "2026-11-22T01:56:20.466934+01:00",
+      "status": "done"
+    },
+    {
+      "name": "oof_adaptive_s1",
+      "gpu": 2,
+      "queue": "90_codex_oof_adaptive_s1.sh",
+      "time": "2026-11-22T01:58:20.554905+01:00",
+      "status": "failed"
+    }
+  ],
+  "updated": "2026-11-22T07:35:07.238805+01:00",
+  "phase": "Fin de surveillance07h35 ; consulter les resultats ci-dessus",
+  "cpu_fit_pid": 4000739,
+  "adaptive_pid": 4007082
+}

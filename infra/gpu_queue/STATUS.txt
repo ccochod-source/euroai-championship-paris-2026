@@ -1,0 +1,5 @@
+gpu_worker sur jrc0347 — mis à jour 11:57:19  [STOP : plus de nouveaux lancements]
+GPU 0 (Model Equality) : libre ; 0 en attente
+GPU 1 (Model Equality) : libre ; 0 en attente
+GPU 2 (Watermark) : libre ; 0 en attente
+GPU 3 (Unlearning) : libre ; 0 en attente

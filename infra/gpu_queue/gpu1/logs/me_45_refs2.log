@@ -1,0 +1,43 @@
+[gpu_worker] début 22:31:34 sur jrc0347 GPU 1
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8551.92it/s]
+  200/1231 7s
+  400/1231 14s
+  600/1231 20s
+  800/1231 27s
+  1000/1231 34s
+  1200/1231 41s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct bf16 refs n=1231 45s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8884.74it/s]
+  200/1231 7s
+  400/1231 13s
+  600/1231 20s
+  800/1231 26s
+  1000/1231 33s
+  1200/1231 40s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct fp8w refs n=1231 42s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8582.03it/s]
+  200/1231 7s
+  400/1231 13s
+  600/1231 20s
+  800/1231 27s
+  1000/1231 34s
+  1200/1231 40s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct int8w refs n=1231 42s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8484.28it/s]
+  200/1231 7s
+  400/1231 13s
+  600/1231 20s
+  800/1231 27s
+  1000/1231 34s
+  1200/1231 40s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct lora:out/lora/s360_alpaca:0.5 refs n=1231 46s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8564.99it/s]
+  200/1231 7s
+  400/1231 13s
+  600/1231 20s
+  800/1231 27s
+  1000/1231 34s
+  1200/1231 40s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct lora:out/lora/s360_alpaca:0.3 refs n=1231 43s
+
+[gpu_worker] fin 22:35:25 exit=0 durée=230s

@@ -1,0 +1,79 @@
+Traceback (most recent call last):
+  File "/p/scratch/training2666/dasilvalopes3/wm/s3/gap/sqsearch.py", line 41, in <module>
+    k, s, s0, n = search(x, bits)
+                  ^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/s3/gap/sqsearch.py", line 23, in search
+    run([sq(e, t, l) for e in range(0, EM + 1, CS) for t in range(0, e + 1, CS) for l in range(0, e + 1, CS)])
+  File "/p/scratch/training2666/dasilvalopes3/wm/s3/gap/sqsearch.py", line 21, in run
+    for c, s in zip(cands, vs.scores4(x, xb, bits, cands)): best[c] = s
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/s3/gap/vsearch_lib.py", line 86, in scores4
+    res = native_residual(cv, bits) - native_residual(cv, 1 - bits)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/s3/gap/vsearch_lib.py", line 37, in native_residual
+    return mdl.embedder(inp, msgs).float() * 255 * mdl.blender.scaling_w
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/models/videoseal/videoseal/models/embedder.py", line 164, in forward
+    imgs_w = self.unet(imgs, msgs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/models/videoseal/videoseal/modules/unet.py", line 231, in forward
+    x = ublock(x)  # b d h w
+        ^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/models/videoseal/videoseal/modules/unet.py", line 67, in forward
+    x = self.up(x)
+        ^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/models/videoseal/videoseal/modules/common.py", line 88, in forward
+    return self.upsample_block(x)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/modules/padding.py", line 368, in forward
+    return F.pad(input, self.padding, "reflect")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/nn/functional.py", line 5096, in pad
+    return torch._C._nn.pad(input, pad, mode, value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1.53 GiB. GPU 0 has a total capacity of 39.52 GiB of which 322.12 MiB is free. Process 278329 has 15.89 GiB memory in use. Process 290861 has 3.62 GiB memory in use. Process 290860 has 15.67 GiB memory in use. Including non-PyTorch memory, this process has 3.99 GiB memory in use. Of the allocated memory 2.82 GiB is allocated by PyTorch, and 690.56 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

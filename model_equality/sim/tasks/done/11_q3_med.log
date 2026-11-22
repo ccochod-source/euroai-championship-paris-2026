@@ -1,0 +1,10 @@
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   5%|▌         | 22/434 [00:00<00:02, 204.42it/s]Loading weights:  10%|▉         | 43/434 [00:00<00:02, 161.43it/s]Loading weights:  15%|█▍        | 64/434 [00:00<00:02, 172.50it/s]Loading weights:  21%|██        | 89/434 [00:00<00:01, 198.77it/s]Loading weights:  25%|██▌       | 110/434 [00:00<00:01, 173.32it/s]Loading weights:  30%|██▉       | 129/434 [00:00<00:02, 152.34it/s]Loading weights:  35%|███▌      | 152/434 [00:00<00:01, 170.18it/s]Loading weights:  39%|███▉      | 170/434 [00:01<00:01, 166.09it/s]Loading weights:  43%|████▎     | 188/434 [00:01<00:01, 143.78it/s]Loading weights:  50%|█████     | 217/434 [00:01<00:01, 179.36it/s]Loading weights:  56%|█████▌    | 242/434 [00:01<00:01, 186.11it/s]Loading weights:  62%|██████▏   | 267/434 [00:01<00:00, 184.57it/s]Loading weights:  69%|██████▊   | 298/434 [00:01<00:00, 214.11it/s]Loading weights:  76%|███████▌  | 330/434 [00:01<00:00, 221.20it/s]Loading weights:  81%|████████▏ | 353/434 [00:01<00:00, 216.49it/s]Loading weights:  87%|████████▋ | 379/434 [00:01<00:00, 226.51it/s]Loading weights:  93%|█████████▎| 403/434 [00:02<00:00, 213.29it/s]Loading weights:  98%|█████████▊| 425/434 [00:02<00:00, 197.97it/s]Loading weights: 100%|██████████| 434/434 [00:02<00:00, 193.07it/s]
+step 0 loss 1.357 2s
+step 50 loss 0.621 50s
+step 100 loss 0.444 97s
+step 150 loss 0.646 145s
+step 199 loss 0.541 192s
+/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/utils/save_and_load.py:364: UserWarning: Could not find a config file in Qwen/Qwen2.5-3B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+SAVED out/lora/q3_med
+exit=0

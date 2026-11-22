@@ -1,0 +1,6 @@
+clean: (3500, 768)
+flip: (3500, 768)
+crop: (3500, 768)
+offset_left: (3500, 768)
+offset_right: (3500, 768)
+mixed: (3500, 768)

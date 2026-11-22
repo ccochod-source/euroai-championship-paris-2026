@@ -1,0 +1,8 @@
+  0 8d350a3ade55 top  29 bottom   7 left   2 right  33 | extra rows  36 cols  35 | slope +0.236 (visible frame +0.136) | 711 frames 23s
+  1 63ab2489dca0 top  30 bottom  47 left  14 right  62 | extra rows  77 cols  76 | slope +0.162 (visible frame +0.050) | 707 frames 45s
+  2 d854e128465a top 131 bottom 116 left 246 right   3 | extra rows 247 cols 249 | slope +0.154 (visible frame +0.058) | 644 frames 74s
+  3 3dee07a2c91d top   0 bottom  19 left   0 right  21 | extra rows  19 cols  21 | slope +0.065 (visible frame -0.046) | 561 frames 100s
+srun: forcing job termination
+srun: got SIGCONT
+srun: Job step aborted: Waiting up to 6 seconds for job step to finish.
+srun: error: jrc0245: task 0: Killed

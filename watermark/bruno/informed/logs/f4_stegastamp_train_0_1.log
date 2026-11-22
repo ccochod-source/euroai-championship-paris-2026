@@ -1,0 +1,11 @@
+3ae884409dc3 frame above/below/left/right (14, 10, 0, 23)  prob wm 0.01 -> 0.99 | holes 0.01 | mIoU 0.075 -> 0.958 (all-ones 0.430)  evals 1047  73s
+a476ade3e703 frame above/below/left/right (4, 16, 3, 15)  prob wm 0.00 -> 0.42 | holes 0.00 | mIoU 0.187 -> 0.464 (all-ones 0.313)  evals 1045  140s
+5cb646b1c82f frame above/below/left/right (4, 20, 14, 10)  prob wm 0.00 -> 0.27 | holes 0.00 | mIoU 0.022 -> 0.164 (all-ones 0.478)  evals 1015  201s
+857f0e93299e frame above/below/left/right (32, 8, 24, 8)  prob wm 0.00 -> 0.11 | holes 0.20 | mIoU 0.014 -> 0.061 (all-ones 0.486)  evals 987  242s
+abcb8914c859 frame above/below/left/right (5, 17, 0, 21)  prob wm 0.00 -> 0.78 | holes 0.10 | mIoU 0.008 -> 0.423 (all-ones 0.492)  evals 1057  282s
+eb0b50f8d422 frame above/below/left/right (3, 0, 4, 3)  prob wm 0.14 -> 0.65 | holes 0.01 | mIoU 0.164 -> 0.516 (all-ones 0.415)  evals 1087  322s
+981a42f57af9 frame above/below/left/right (10, 4, 6, 8)  prob wm 0.00 -> 0.56 | holes 0.04 | mIoU 0.050 -> 0.379 (all-ones 0.450)  evals 1115  362s
+fb670b6f1e9a frame above/below/left/right (18, 2, 2, 18)  prob wm 0.01 -> 0.96 | holes 0.02 | mIoU 0.129 -> 0.953 (all-ones 0.373)  evals 1115  403s
+5666e86296f2 frame above/below/left/right (7, 10, 14, 2)  prob wm 0.02 -> 0.74 | holes 0.00 | mIoU 0.014 -> 0.390 (all-ones 0.493)  evals 1089  443s
+srun: Job step aborted: Waiting up to 6 seconds for job step to finish.
+srun: error: jrc0283: task 0: Terminated

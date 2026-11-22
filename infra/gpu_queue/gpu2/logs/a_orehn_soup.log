@@ -1,0 +1,5 @@
+[gpu_worker] début 11:43:57 sur jrc0347 GPU 2
+{"clean": [0.1529, 5.228, 3.354], "crop": [0.1851, 4.265, 3.039], "noise.2": [0.156, 4.827, 3.278], "proxy": {"KL": 0.082, "agree": 0.839, "retain_est": 0.7754}}
+saved /p/scratch/training2666/cochod2/euroai-paris/unlearning/orehn/ckpt/soup_k3g3_k3d4g4.pt 343630887
+
+[gpu_worker] fin 11:44:22 exit=0 durée=25s

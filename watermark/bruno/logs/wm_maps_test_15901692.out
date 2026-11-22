@@ -1,0 +1,70 @@
+[WARN]: `ffmpeg-python` not available, `SimpleVideoDataset` class will not be usable. Install it by `pip install ffmpeg-python`.
+/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/bruno/exp1_maps.py:87: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  img = torch.from_numpy(it["image"]).permute(2, 0, 1)[None].float().div(255).to(dev)
+Model loaded successfully from /p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/models/pixelseal/checkpoint.pth with message: <All keys matched successfully>
+pixelseal 0 340 1s
+pixelseal 20 340 5s
+pixelseal 40 340 10s
+pixelseal 60 340 14s
+pixelseal 80 340 19s
+pixelseal 100 340 23s
+pixelseal 120 340 27s
+pixelseal 140 340 32s
+pixelseal 160 340 36s
+pixelseal 180 340 40s
+pixelseal 200 340 44s
+pixelseal 220 340 49s
+pixelseal 240 340 53s
+pixelseal 260 340 57s
+pixelseal 280 340 61s
+pixelseal 300 340 66s
+pixelseal 320 340 70s
+/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/trustmark/trustmark.py:176: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weight_path, map_location=torch.device('cpu'))
+trustmark 0 340 0s
+trustmark 20 340 2s
+trustmark 40 340 4s
+trustmark 60 340 6s
+trustmark 80 340 8s
+trustmark 100 340 11s
+trustmark 120 340 13s
+trustmark 140 340 15s
+trustmark 160 340 17s
+trustmark 180 340 19s
+trustmark 200 340 21s
+trustmark 220 340 23s
+trustmark 240 340 25s
+trustmark 260 340 27s
+trustmark 280 340 29s
+trustmark 300 340 31s
+trustmark 320 340 33s
+stegastamp 0 340 2s
+stegastamp 20 340 25s
+stegastamp 40 340 49s
+stegastamp 60 340 72s
+stegastamp 80 340 96s
+stegastamp 100 340 120s
+stegastamp 120 340 143s
+stegastamp 140 340 167s
+stegastamp 160 340 190s
+stegastamp 180 340 214s
+stegastamp 200 340 237s
+stegastamp 220 340 261s
+stegastamp 240 340 285s
+stegastamp 260 340 308s
+stegastamp 280 340 332s
+stegastamp 300 340 356s
+stegastamp 320 340 379s
+saved bruno/maps_test.npz ['names', 'method', 'gt', 'full_acc', 'map_win128', 'map_win192', 'map_win256', 'map_pp', 'map_grad']
+0 340
+40 340
+80 340
+120 340
+160 340
+200 340
+240 340
+280 340
+320 340
+saved bruno/maps_test2.npz

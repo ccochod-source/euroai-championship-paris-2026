@@ -1,0 +1,200 @@
+stegastamp_v1 params 43.2M
+stegastamp_v1 step 100/18000 bce 0.6964 iouloss 0.7180 lr 2.76e-05 17s
+stegastamp_v1 step 200/18000 bce 0.6803 iouloss 0.7115 lr 6.10e-05 27s
+stegastamp_v1 step 300/18000 bce 0.6728 iouloss 0.7048 lr 1.12e-04 38s
+stegastamp_v1 step 400/18000 bce 0.6764 iouloss 0.7038 lr 1.75e-04 48s
+stegastamp_v1 step 500/18000 bce 0.6692 iouloss 0.7021 lr 2.42e-04 58s
+stegastamp_v1 step 600/18000 bce 0.6679 iouloss 0.7033 lr 3.04e-04 68s
+stegastamp_v1 step 700/18000 bce 0.6384 iouloss 0.6864 lr 3.55e-04 79s
+stegastamp_v1 step 800/18000 bce 0.6021 iouloss 0.6683 lr 3.89e-04 89s
+stegastamp_v1 step 900/18000 bce 0.5139 iouloss 0.6256 lr 4.00e-04 99s
+stegastamp_v1 step 1000/18000 bce 0.4125 iouloss 0.5793 lr 4.00e-04 109s
+stegastamp_v1 EVAL step 1000 real-train mIoU 0.2592 (full 0.0512 / notfull 0.4673) best 0.2592
+stegastamp_v1 step 1100/18000 bce 0.3750 iouloss 0.5651 lr 4.00e-04 125s
+stegastamp_v1 step 1200/18000 bce 0.3394 iouloss 0.5369 lr 4.00e-04 135s
+stegastamp_v1 step 1300/18000 bce 0.2260 iouloss 0.4628 lr 3.99e-04 146s
+stegastamp_v1 step 1400/18000 bce 0.1646 iouloss 0.3978 lr 3.99e-04 156s
+stegastamp_v1 step 1500/18000 bce 0.1405 iouloss 0.3463 lr 3.99e-04 166s
+stegastamp_v1 step 1600/18000 bce 0.1339 iouloss 0.3320 lr 3.98e-04 176s
+stegastamp_v1 step 1700/18000 bce 0.1251 iouloss 0.3130 lr 3.98e-04 187s
+stegastamp_v1 step 1800/18000 bce 0.1159 iouloss 0.2914 lr 3.97e-04 197s
+stegastamp_v1 step 1900/18000 bce 0.1065 iouloss 0.2813 lr 3.97e-04 207s
+stegastamp_v1 step 2000/18000 bce 0.0989 iouloss 0.2618 lr 3.96e-04 217s
+stegastamp_v1 EVAL step 2000 real-train mIoU 0.2663 (full 0.0632 / notfull 0.4693) best 0.2663
+stegastamp_v1 step 2100/18000 bce 0.1036 iouloss 0.2599 lr 3.95e-04 229s
+stegastamp_v1 step 2200/18000 bce 0.0866 iouloss 0.2414 lr 3.94e-04 240s
+stegastamp_v1 step 2300/18000 bce 0.0906 iouloss 0.2332 lr 3.93e-04 250s
+stegastamp_v1 step 2400/18000 bce 0.0966 iouloss 0.2461 lr 3.92e-04 260s
+stegastamp_v1 step 2500/18000 bce 0.0891 iouloss 0.2258 lr 3.91e-04 270s
+stegastamp_v1 step 2600/18000 bce 0.0797 iouloss 0.2252 lr 3.90e-04 281s
+stegastamp_v1 step 2700/18000 bce 0.0880 iouloss 0.2317 lr 3.89e-04 291s
+stegastamp_v1 step 2800/18000 bce 0.0793 iouloss 0.2117 lr 3.88e-04 301s
+stegastamp_v1 step 2900/18000 bce 0.0788 iouloss 0.2153 lr 3.87e-04 311s
+stegastamp_v1 step 3000/18000 bce 0.0759 iouloss 0.2126 lr 3.85e-04 321s
+stegastamp_v1 EVAL step 3000 real-train mIoU 0.2593 (full 0.0545 / notfull 0.4640) best 0.2663
+stegastamp_v1 step 3100/18000 bce 0.0682 iouloss 0.2048 lr 3.84e-04 333s
+stegastamp_v1 step 3200/18000 bce 0.0710 iouloss 0.1970 lr 3.82e-04 343s
+stegastamp_v1 step 3300/18000 bce 0.0701 iouloss 0.1951 lr 3.81e-04 353s
+stegastamp_v1 step 3400/18000 bce 0.0652 iouloss 0.1926 lr 3.79e-04 363s
+stegastamp_v1 step 3500/18000 bce 0.0652 iouloss 0.1872 lr 3.78e-04 374s
+stegastamp_v1 step 3600/18000 bce 0.0689 iouloss 0.1922 lr 3.76e-04 384s
+stegastamp_v1 step 3700/18000 bce 0.0706 iouloss 0.1955 lr 3.74e-04 394s
+stegastamp_v1 step 3800/18000 bce 0.0587 iouloss 0.1784 lr 3.72e-04 404s
+stegastamp_v1 step 3900/18000 bce 0.0539 iouloss 0.1725 lr 3.70e-04 414s
+stegastamp_v1 step 4000/18000 bce 0.0539 iouloss 0.1698 lr 3.68e-04 424s
+stegastamp_v1 EVAL step 4000 real-train mIoU 0.2618 (full 0.0555 / notfull 0.4682) best 0.2663
+stegastamp_v1 step 4100/18000 bce 0.0588 iouloss 0.1792 lr 3.66e-04 436s
+stegastamp_v1 step 4200/18000 bce 0.0559 iouloss 0.1750 lr 3.64e-04 446s
+stegastamp_v1 step 4300/18000 bce 0.0519 iouloss 0.1630 lr 3.62e-04 456s
+stegastamp_v1 step 4400/18000 bce 0.0543 iouloss 0.1702 lr 3.60e-04 466s
+stegastamp_v1 step 4500/18000 bce 0.0532 iouloss 0.1675 lr 3.58e-04 476s
+stegastamp_v1 step 4600/18000 bce 0.0467 iouloss 0.1577 lr 3.56e-04 487s
+stegastamp_v1 step 4700/18000 bce 0.0521 iouloss 0.1625 lr 3.53e-04 497s
+stegastamp_v1 step 4800/18000 bce 0.0491 iouloss 0.1524 lr 3.51e-04 507s
+stegastamp_v1 step 4900/18000 bce 0.0488 iouloss 0.1587 lr 3.48e-04 517s
+stegastamp_v1 step 5000/18000 bce 0.0454 iouloss 0.1498 lr 3.46e-04 527s
+stegastamp_v1 EVAL step 5000 real-train mIoU 0.2731 (full 0.0566 / notfull 0.4895) best 0.2731
+stegastamp_v1 step 5100/18000 bce 0.0438 iouloss 0.1518 lr 3.43e-04 539s
+stegastamp_v1 step 5200/18000 bce 0.0541 iouloss 0.1618 lr 3.41e-04 549s
+stegastamp_v1 step 5300/18000 bce 0.0462 iouloss 0.1467 lr 3.38e-04 560s
+stegastamp_v1 step 5400/18000 bce 0.0461 iouloss 0.1488 lr 3.35e-04 570s
+stegastamp_v1 step 5500/18000 bce 0.0463 iouloss 0.1512 lr 3.33e-04 580s
+stegastamp_v1 step 5600/18000 bce 0.0427 iouloss 0.1349 lr 3.30e-04 590s
+stegastamp_v1 step 5700/18000 bce 0.0431 iouloss 0.1425 lr 3.27e-04 600s
+stegastamp_v1 step 5800/18000 bce 0.0433 iouloss 0.1386 lr 3.24e-04 610s
+stegastamp_v1 step 5900/18000 bce 0.0399 iouloss 0.1353 lr 3.21e-04 621s
+stegastamp_v1 step 6000/18000 bce 0.0419 iouloss 0.1423 lr 3.18e-04 631s
+stegastamp_v1 EVAL step 6000 real-train mIoU 0.2840 (full 0.0608 / notfull 0.5071) best 0.2840
+stegastamp_v1 step 6100/18000 bce 0.0393 iouloss 0.1339 lr 3.15e-04 643s
+stegastamp_v1 step 6200/18000 bce 0.0433 iouloss 0.1302 lr 3.12e-04 653s
+stegastamp_v1 step 6300/18000 bce 0.0422 iouloss 0.1361 lr 3.09e-04 663s
+stegastamp_v1 step 6400/18000 bce 0.0397 iouloss 0.1381 lr 3.06e-04 673s
+stegastamp_v1 step 6500/18000 bce 0.0424 iouloss 0.1368 lr 3.03e-04 684s
+stegastamp_v1 step 6600/18000 bce 0.0391 iouloss 0.1327 lr 3.00e-04 694s
+stegastamp_v1 step 6700/18000 bce 0.0408 iouloss 0.1334 lr 2.97e-04 704s
+stegastamp_v1 step 6800/18000 bce 0.0341 iouloss 0.1237 lr 2.94e-04 714s
+stegastamp_v1 step 6900/18000 bce 0.0372 iouloss 0.1294 lr 2.90e-04 725s
+stegastamp_v1 step 7000/18000 bce 0.0345 iouloss 0.1192 lr 2.87e-04 735s
+stegastamp_v1 EVAL step 7000 real-train mIoU 0.2914 (full 0.0585 / notfull 0.5242) best 0.2914
+stegastamp_v1 step 7100/18000 bce 0.0349 iouloss 0.1180 lr 2.84e-04 747s
+stegastamp_v1 step 7200/18000 bce 0.0341 iouloss 0.1223 lr 2.80e-04 757s
+stegastamp_v1 step 7300/18000 bce 0.0363 iouloss 0.1254 lr 2.77e-04 767s
+stegastamp_v1 step 7400/18000 bce 0.0365 iouloss 0.1275 lr 2.74e-04 777s
+stegastamp_v1 step 7500/18000 bce 0.0395 iouloss 0.1291 lr 2.70e-04 788s
+stegastamp_v1 step 7600/18000 bce 0.0352 iouloss 0.1206 lr 2.67e-04 798s
+stegastamp_v1 step 7700/18000 bce 0.0344 iouloss 0.1208 lr 2.63e-04 808s
+stegastamp_v1 step 7800/18000 bce 0.0359 iouloss 0.1146 lr 2.60e-04 818s
+stegastamp_v1 step 7900/18000 bce 0.0348 iouloss 0.1188 lr 2.56e-04 829s
+stegastamp_v1 step 8000/18000 bce 0.0346 iouloss 0.1166 lr 2.53e-04 839s
+stegastamp_v1 EVAL step 8000 real-train mIoU 0.2835 (full 0.0579 / notfull 0.5091) best 0.2914
+stegastamp_v1 step 8100/18000 bce 0.0359 iouloss 0.1255 lr 2.49e-04 850s
+stegastamp_v1 step 8200/18000 bce 0.0317 iouloss 0.1063 lr 2.45e-04 860s
+stegastamp_v1 step 8300/18000 bce 0.0326 iouloss 0.1168 lr 2.42e-04 870s
+stegastamp_v1 step 8400/18000 bce 0.0307 iouloss 0.1131 lr 2.38e-04 881s
+stegastamp_v1 step 8500/18000 bce 0.0304 iouloss 0.1071 lr 2.35e-04 891s
+stegastamp_v1 step 8600/18000 bce 0.0308 iouloss 0.1178 lr 2.31e-04 901s
+stegastamp_v1 step 8700/18000 bce 0.0321 iouloss 0.1155 lr 2.27e-04 911s
+stegastamp_v1 step 8800/18000 bce 0.0317 iouloss 0.1096 lr 2.24e-04 921s
+stegastamp_v1 step 8900/18000 bce 0.0302 iouloss 0.1126 lr 2.20e-04 932s
+stegastamp_v1 step 9000/18000 bce 0.0299 iouloss 0.1056 lr 2.16e-04 942s
+stegastamp_v1 EVAL step 9000 real-train mIoU 0.3014 (full 0.0643 / notfull 0.5385) best 0.3014
+stegastamp_v1 step 9100/18000 bce 0.0281 iouloss 0.1052 lr 2.13e-04 954s
+stegastamp_v1 step 9200/18000 bce 0.0291 iouloss 0.1096 lr 2.09e-04 964s
+stegastamp_v1 step 9300/18000 bce 0.0292 iouloss 0.1048 lr 2.05e-04 974s
+stegastamp_v1 step 9400/18000 bce 0.0285 iouloss 0.1060 lr 2.02e-04 985s
+stegastamp_v1 step 9500/18000 bce 0.0307 iouloss 0.1084 lr 1.98e-04 995s
+stegastamp_v1 step 9600/18000 bce 0.0289 iouloss 0.1044 lr 1.94e-04 1005s
+stegastamp_v1 step 9700/18000 bce 0.0259 iouloss 0.1007 lr 1.91e-04 1015s
+stegastamp_v1 step 9800/18000 bce 0.0291 iouloss 0.1004 lr 1.87e-04 1025s
+stegastamp_v1 step 9900/18000 bce 0.0279 iouloss 0.1020 lr 1.83e-04 1036s
+stegastamp_v1 step 10000/18000 bce 0.0282 iouloss 0.1004 lr 1.80e-04 1046s
+stegastamp_v1 EVAL step 10000 real-train mIoU 0.3160 (full 0.0659 / notfull 0.5660) best 0.3160
+stegastamp_v1 step 10100/18000 bce 0.0288 iouloss 0.1083 lr 1.76e-04 1058s
+stegastamp_v1 step 10200/18000 bce 0.0279 iouloss 0.1046 lr 1.72e-04 1068s
+stegastamp_v1 step 10300/18000 bce 0.0281 iouloss 0.1007 lr 1.69e-04 1078s
+stegastamp_v1 step 10400/18000 bce 0.0253 iouloss 0.0982 lr 1.65e-04 1088s
+stegastamp_v1 step 10500/18000 bce 0.0266 iouloss 0.0990 lr 1.62e-04 1099s
+stegastamp_v1 step 10600/18000 bce 0.0274 iouloss 0.1006 lr 1.58e-04 1109s
+stegastamp_v1 step 10700/18000 bce 0.0273 iouloss 0.0956 lr 1.54e-04 1119s
+stegastamp_v1 step 10800/18000 bce 0.0272 iouloss 0.0987 lr 1.51e-04 1129s
+stegastamp_v1 step 10900/18000 bce 0.0260 iouloss 0.0943 lr 1.47e-04 1139s
+stegastamp_v1 step 11000/18000 bce 0.0279 iouloss 0.0965 lr 1.44e-04 1149s
+stegastamp_v1 EVAL step 11000 real-train mIoU 0.3382 (full 0.0703 / notfull 0.6060) best 0.3382
+stegastamp_v1 step 11100/18000 bce 0.0246 iouloss 0.0920 lr 1.40e-04 1161s
+stegastamp_v1 step 11200/18000 bce 0.0253 iouloss 0.0978 lr 1.37e-04 1172s
+stegastamp_v1 step 11300/18000 bce 0.0223 iouloss 0.0866 lr 1.33e-04 1182s
+stegastamp_v1 step 11400/18000 bce 0.0248 iouloss 0.0957 lr 1.30e-04 1192s
+stegastamp_v1 step 11500/18000 bce 0.0245 iouloss 0.0929 lr 1.26e-04 1202s
+stegastamp_v1 step 11600/18000 bce 0.0234 iouloss 0.0868 lr 1.23e-04 1212s
+stegastamp_v1 step 11700/18000 bce 0.0231 iouloss 0.0912 lr 1.20e-04 1223s
+stegastamp_v1 step 11800/18000 bce 0.0232 iouloss 0.0873 lr 1.16e-04 1233s
+stegastamp_v1 step 11900/18000 bce 0.0229 iouloss 0.0864 lr 1.13e-04 1243s
+stegastamp_v1 step 12000/18000 bce 0.0240 iouloss 0.0898 lr 1.10e-04 1253s
+stegastamp_v1 EVAL step 12000 real-train mIoU 0.3451 (full 0.0807 / notfull 0.6096) best 0.3451
+stegastamp_v1 step 12100/18000 bce 0.0247 iouloss 0.0893 lr 1.06e-04 1265s
+stegastamp_v1 step 12200/18000 bce 0.0220 iouloss 0.0900 lr 1.03e-04 1275s
+stegastamp_v1 step 12300/18000 bce 0.0242 iouloss 0.0929 lr 1.00e-04 1286s
+stegastamp_v1 step 12400/18000 bce 0.0225 iouloss 0.0899 lr 9.68e-05 1296s
+stegastamp_v1 step 12500/18000 bce 0.0214 iouloss 0.0837 lr 9.37e-05 1306s
+stegastamp_v1 step 12600/18000 bce 0.0211 iouloss 0.0860 lr 9.06e-05 1316s
+stegastamp_v1 step 12700/18000 bce 0.0222 iouloss 0.0778 lr 8.75e-05 1326s
+stegastamp_v1 step 12800/18000 bce 0.0207 iouloss 0.0842 lr 8.45e-05 1337s
+stegastamp_v1 step 12900/18000 bce 0.0204 iouloss 0.0882 lr 8.15e-05 1347s
+stegastamp_v1 step 13000/18000 bce 0.0215 iouloss 0.0866 lr 7.86e-05 1357s
+stegastamp_v1 EVAL step 13000 real-train mIoU 0.3633 (full 0.0818 / notfull 0.6448) best 0.3633
+stegastamp_v1 step 13100/18000 bce 0.0189 iouloss 0.0782 lr 7.57e-05 1369s
+stegastamp_v1 step 13200/18000 bce 0.0203 iouloss 0.0766 lr 7.28e-05 1379s
+stegastamp_v1 step 13300/18000 bce 0.0212 iouloss 0.0832 lr 7.00e-05 1390s
+stegastamp_v1 step 13400/18000 bce 0.0203 iouloss 0.0827 lr 6.72e-05 1400s
+stegastamp_v1 step 13500/18000 bce 0.0212 iouloss 0.0812 lr 6.45e-05 1410s
+stegastamp_v1 step 13600/18000 bce 0.0212 iouloss 0.0785 lr 6.18e-05 1420s
+stegastamp_v1 step 13700/18000 bce 0.0202 iouloss 0.0772 lr 5.92e-05 1430s
+stegastamp_v1 step 13800/18000 bce 0.0203 iouloss 0.0816 lr 5.66e-05 1441s
+stegastamp_v1 step 13900/18000 bce 0.0191 iouloss 0.0786 lr 5.41e-05 1451s
+stegastamp_v1 step 14000/18000 bce 0.0208 iouloss 0.0763 lr 5.16e-05 1461s
+stegastamp_v1 EVAL step 14000 real-train mIoU 0.3567 (full 0.0738 / notfull 0.6397) best 0.3633
+stegastamp_v1 step 14100/18000 bce 0.0197 iouloss 0.0798 lr 4.92e-05 1472s
+stegastamp_v1 step 14200/18000 bce 0.0191 iouloss 0.0821 lr 4.68e-05 1483s
+stegastamp_v1 step 14300/18000 bce 0.0176 iouloss 0.0730 lr 4.44e-05 1493s
+stegastamp_v1 step 14400/18000 bce 0.0205 iouloss 0.0761 lr 4.22e-05 1503s
+stegastamp_v1 step 14500/18000 bce 0.0201 iouloss 0.0772 lr 3.99e-05 1513s
+stegastamp_v1 step 14600/18000 bce 0.0207 iouloss 0.0831 lr 3.77e-05 1523s
+stegastamp_v1 step 14700/18000 bce 0.0187 iouloss 0.0802 lr 3.56e-05 1534s
+stegastamp_v1 step 14800/18000 bce 0.0189 iouloss 0.0758 lr 3.36e-05 1544s
+stegastamp_v1 step 14900/18000 bce 0.0202 iouloss 0.0759 lr 3.16e-05 1554s
+stegastamp_v1 step 15000/18000 bce 0.0186 iouloss 0.0784 lr 2.96e-05 1564s
+stegastamp_v1 EVAL step 15000 real-train mIoU 0.3737 (full 0.0894 / notfull 0.6580) best 0.3737
+stegastamp_v1 step 15100/18000 bce 0.0207 iouloss 0.0814 lr 2.77e-05 1576s
+stegastamp_v1 step 15200/18000 bce 0.0188 iouloss 0.0724 lr 2.59e-05 1586s
+stegastamp_v1 step 15300/18000 bce 0.0172 iouloss 0.0744 lr 2.41e-05 1596s
+stegastamp_v1 step 15400/18000 bce 0.0201 iouloss 0.0776 lr 2.24e-05 1607s
+stegastamp_v1 step 15500/18000 bce 0.0186 iouloss 0.0753 lr 2.07e-05 1617s
+stegastamp_v1 step 15600/18000 bce 0.0190 iouloss 0.0748 lr 1.91e-05 1627s
+stegastamp_v1 step 15700/18000 bce 0.0179 iouloss 0.0716 lr 1.76e-05 1638s
+stegastamp_v1 step 15800/18000 bce 0.0182 iouloss 0.0749 lr 1.61e-05 1648s
+stegastamp_v1 step 15900/18000 bce 0.0173 iouloss 0.0724 lr 1.47e-05 1658s
+stegastamp_v1 step 16000/18000 bce 0.0207 iouloss 0.0730 lr 1.33e-05 1668s
+stegastamp_v1 EVAL step 16000 real-train mIoU 0.3608 (full 0.0782 / notfull 0.6434) best 0.3737
+stegastamp_v1 step 16100/18000 bce 0.0172 iouloss 0.0712 lr 1.21e-05 1680s
+stegastamp_v1 step 16200/18000 bce 0.0179 iouloss 0.0734 lr 1.08e-05 1690s
+stegastamp_v1 step 16300/18000 bce 0.0180 iouloss 0.0729 lr 9.67e-06 1700s
+stegastamp_v1 step 16400/18000 bce 0.0190 iouloss 0.0770 lr 8.57e-06 1710s
+stegastamp_v1 step 16500/18000 bce 0.0186 iouloss 0.0724 lr 7.54e-06 1721s
+stegastamp_v1 step 16600/18000 bce 0.0175 iouloss 0.0747 lr 6.57e-06 1731s
+stegastamp_v1 step 16700/18000 bce 0.0161 iouloss 0.0723 lr 5.67e-06 1741s
+stegastamp_v1 step 16800/18000 bce 0.0183 iouloss 0.0739 lr 4.83e-06 1751s
+stegastamp_v1 step 16900/18000 bce 0.0179 iouloss 0.0756 lr 4.06e-06 1762s
+stegastamp_v1 step 17000/18000 bce 0.0175 iouloss 0.0680 lr 3.36e-06 1772s
+stegastamp_v1 EVAL step 17000 real-train mIoU 0.3602 (full 0.0826 / notfull 0.6378) best 0.3737
+stegastamp_v1 step 17100/18000 bce 0.0196 iouloss 0.0791 lr 2.72e-06 1783s
+stegastamp_v1 step 17200/18000 bce 0.0185 iouloss 0.0742 lr 2.15e-06 1793s
+stegastamp_v1 step 17300/18000 bce 0.0188 iouloss 0.0736 lr 1.65e-06 1804s
+stegastamp_v1 step 17400/18000 bce 0.0182 iouloss 0.0717 lr 1.21e-06 1814s
+stegastamp_v1 step 17500/18000 bce 0.0171 iouloss 0.0716 lr 8.41e-07 1824s
+stegastamp_v1 step 17600/18000 bce 0.0185 iouloss 0.0722 lr 5.39e-07 1834s
+stegastamp_v1 step 17700/18000 bce 0.0181 iouloss 0.0783 lr 3.03e-07 1844s
+stegastamp_v1 step 17800/18000 bce 0.0174 iouloss 0.0679 lr 1.35e-07 1855s
+stegastamp_v1 step 17900/18000 bce 0.0172 iouloss 0.0709 lr 3.47e-08 1865s
+stegastamp_v1 step 18000/18000 bce 0.0183 iouloss 0.0732 lr 1.60e-09 1875s
+stegastamp_v1 EVAL step 18000 real-train mIoU 0.3610 (full 0.0846 / notfull 0.6374) best 0.3737
+TRAIN_DONE stegastamp_v1 best 0.3736830939850053

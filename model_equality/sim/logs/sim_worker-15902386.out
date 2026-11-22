@@ -1,0 +1,14 @@
+worker start 19:13:40 on jrc0441
+19:13:40 gpu0 start 10_q3_alpaca
+19:13:40 gpu1 start 11_q3_med
+19:13:40 gpu2 start 12_q15_fix
+19:13:40 gpu3 start 13_ll1_check
+19:14:50 gpu3 start 05a_likr
+19:18:00 gpu1 start 05b_likr
+19:21:01 gpu2 start 06_lora_proxy
+19:21:21 gpu3 start 14_distill_refs
+19:24:21 gpu2 start 20_design_ll1
+19:25:01 gpu1 start 20_design_q15
+19:25:21 gpu2 start 20_design_q3
+19:25:21 gpu3 start 20_design_s360
+19:26:31 gpu1 start 00_gpu_worker

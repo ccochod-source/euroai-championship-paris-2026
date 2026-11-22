@@ -1,0 +1,17 @@
+trustmark before fine-tuning: 0.6295881970931888
+trustmark fold 0 step 500 oof mIoU 0.6697
+trustmark fold 0 step 1000 oof mIoU 0.6720
+trustmark fold 0 step 1500 oof mIoU 0.6733
+trustmark fold 1 step 500 oof mIoU 0.6739
+trustmark fold 1 step 1000 oof mIoU 0.6656
+trustmark fold 1 step 1500 oof mIoU 0.6705
+trustmark fold 2 step 500 oof mIoU 0.6883
+trustmark fold 2 step 1000 oof mIoU 0.6860
+trustmark fold 2 step 1500 oof mIoU 0.6907
+trustmark fold 3 step 500 oof mIoU 0.6740
+trustmark fold 3 step 1000 oof mIoU 0.6700
+trustmark fold 3 step 1500 oof mIoU 0.6654
+trustmark fold 4 step 500 oof mIoU 0.6886
+trustmark fold 4 step 1000 oof mIoU 0.6875
+trustmark fold 4 step 1500 oof mIoU 0.6910
+FT_DONE trustmark OOF mIoU 0.6782 (full 0.6281 / notfull 0.7282)

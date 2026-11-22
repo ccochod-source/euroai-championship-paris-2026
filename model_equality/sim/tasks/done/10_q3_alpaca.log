@@ -1,0 +1,30 @@
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   4%|▍         | 19/434 [00:00<00:05, 81.28it/s]Loading weights:   8%|▊         | 33/434 [00:00<00:04, 93.03it/s]Loading weights:  17%|█▋        | 72/434 [00:00<00:01, 185.26it/s]Loading weights:  22%|██▏       | 94/434 [00:00<00:02, 154.06it/s]Loading weights:  28%|██▊       | 122/434 [00:00<00:01, 162.90it/s]Loading weights:  34%|███▍      | 147/434 [00:00<00:01, 179.22it/s]Loading weights:  38%|███▊      | 167/434 [00:01<00:01, 137.88it/s]Loading weights:  47%|████▋     | 204/434 [00:01<00:01, 186.71it/s]Loading weights:  52%|█████▏    | 227/434 [00:01<00:01, 192.23it/s]Loading weights:  57%|█████▋    | 249/434 [00:01<00:00, 197.66it/s]Loading weights:  62%|██████▏   | 271/434 [00:01<00:00, 186.10it/s]Loading weights:  71%|███████   | 309/434 [00:01<00:00, 228.15it/s]Loading weights:  77%|███████▋  | 335/434 [00:01<00:00, 223.91it/s]Loading weights:  83%|████████▎ | 359/434 [00:02<00:00, 186.19it/s]Loading weights:  88%|████████▊ | 380/434 [00:02<00:00, 190.10it/s]Loading weights:  94%|█████████▍| 407/434 [00:02<00:00, 208.69it/s]Loading weights: 100%|██████████| 434/434 [00:02<00:00, 186.97it/s]
+step 0 loss 1.109 2s
+step 50 loss 0.594 51s
+step 100 loss 1.304 100s
+step 150 loss 1.486 149s
+step 200 loss 1.005 198s
+step 250 loss 1.150 247s
+step 299 loss 0.683 295s
+/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/utils/save_and_load.py:364: UserWarning: Could not find a config file in Qwen/Qwen2.5-3B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+SAVED out/lora/q3_alpaca
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 9302.05it/s]
+DONE ep-03 QA3_S bf16 55s
+DONE ep-11 QA3_S bf16 102s
+DONE ep-18 QA3_S bf16 169s
+DONE ep-19 QA3_S bf16 211s
+DONE ep-22 QA3_S bf16 258s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 8939.96it/s]
+DONE ep-13 QA3_M10 lora:out/lora/q3_med:1.0 57s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 8923.70it/s]
+DONE ep-21 QA3_L03 lora:out/lora/q3_alpaca:0.3 55s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   0%|          | 1/434 [00:00<02:28,  2.91it/s]Loading weights:   3%|▎         | 11/434 [00:00<00:13, 31.27it/s]Loading weights:   4%|▍         | 18/434 [00:00<00:09, 42.66it/s]Loading weights:   7%|▋         | 29/434 [00:00<00:06, 60.63it/s]Loading weights:   9%|▉         | 41/434 [00:00<00:05, 75.31it/s]Loading weights:  12%|█▏        | 53/434 [00:00<00:04, 85.41it/s]Loading weights:  15%|█▍        | 65/434 [00:00<00:03, 92.27it/s]Loading weights:  18%|█▊        | 77/434 [00:01<00:03, 97.22it/s]Loading weights:  21%|██        | 89/434 [00:01<00:03, 100.52it/s]Loading weights:  23%|██▎       | 101/434 [00:01<00:03, 102.66it/s]Loading weights:  26%|██▌       | 113/434 [00:01<00:03, 104.35it/s]Loading weights:  29%|██▉       | 125/434 [00:01<00:02, 105.36it/s]Loading weights:  32%|███▏      | 137/434 [00:01<00:02, 106.15it/s]Loading weights:  34%|███▍      | 149/434 [00:01<00:02, 106.56it/s]Loading weights:  37%|███▋      | 161/434 [00:01<00:02, 107.02it/s]Loading weights:  40%|███▉      | 173/434 [00:01<00:02, 107.15it/s]Loading weights:  43%|████▎     | 185/434 [00:02<00:02, 107.37it/s]Loading weights:  45%|████▌     | 197/434 [00:02<00:02, 107.41it/s]Loading weights:  48%|████▊     | 209/434 [00:02<00:02, 107.55it/s]Loading weights:  51%|█████     | 221/434 [00:02<00:01, 107.36it/s]Loading weights:  54%|█████▎    | 233/434 [00:02<00:01, 107.57it/s]Loading weights:  56%|█████▋    | 245/434 [00:02<00:01, 107.64it/s]Loading weights:  59%|█████▉    | 257/434 [00:02<00:01, 109.46it/s]Loading weights:  63%|██████▎   | 273/434 [00:02<00:01, 123.36it/s]Loading weights:  66%|██████▌   | 287/434 [00:02<00:01, 127.83it/s]Loading weights:  70%|██████▉   | 303/434 [00:03<00:01, 128.12it/s]Loading weights:  73%|███████▎  | 316/434 [00:03<00:00, 120.36it/s]Loading weights:  76%|███████▌  | 329/434 [00:03<00:00, 110.51it/s]Loading weights:  79%|███████▊  | 341/434 [00:03<00:00, 110.40it/s]Loading weights:  81%|████████▏ | 353/434 [00:03<00:00, 110.00it/s]Loading weights:  84%|████████▍ | 365/434 [00:03<00:00, 109.85it/s]Loading weights:  87%|████████▋ | 377/434 [00:03<00:00, 108.31it/s]Loading weights:  90%|████████▉ | 389/434 [00:03<00:00, 108.84it/s]Loading weights:  92%|█████████▏| 401/434 [00:04<00:00, 108.18it/s]Loading weights:  95%|█████████▌| 413/434 [00:04<00:00, 108.19it/s]Loading weights:  98%|█████████▊| 425/434 [00:04<00:00, 107.13it/s]Loading weights: 100%|██████████| 434/434 [00:04<00:00, 101.80it/s]
+DONE ep-23 QA3_nf4 nf4 73s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 8885.41it/s]
+DONE ep-25 QA3_L07 lora:out/lora/q3_alpaca:0.7 53s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 17558.02it/s]
+DONE ep-31 QA3_fp8 fp8wa 101s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 8995.85it/s]
+DONE ep-32 QA3_L15 lora:out/lora/q3_alpaca:1.5 55s
+exit=0

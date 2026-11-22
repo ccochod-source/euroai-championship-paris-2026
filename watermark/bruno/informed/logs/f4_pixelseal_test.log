@@ -1,0 +1,14 @@
+[WARN]: `ffmpeg-python` not available, `SimpleVideoDataset` class will not be usable. Install it by `pip install ffmpeg-python`.
+Model loaded successfully from /p/scratch/training2666/dasilvalopes3/wm/kit/models/pixelseal/checkpoint.pth with message: <All keys matched successfully>
+8d350a3ade55 frame above/below/left/right (88, 43, 70, 59)  prob wm 0.27 -> 0.74 | holes 0.31 | mIoU 0.310 -> 0.589 (all-ones 0.303)  evals 904  40s
+63ab2489dca0 frame above/below/left/right (4, 80, 30, 46)  prob wm 0.88 -> 1.00 | holes 1.00 | mIoU 0.430 -> 0.480 (all-ones 0.480)  evals 790  82s
+d854e128465a frame above/below/left/right (48, 52, 58, 42)  prob wm 0.00 -> 0.24 | holes 0.00 | mIoU 0.015 -> 0.149 (all-ones 0.485)  evals 928  131s
+3dee07a2c91d frame above/below/left/right (44, 32, 74, 2)  prob wm 0.33 -> 0.85 | holes 0.98 | mIoU 0.147 -> 0.421 (all-ones 0.481)  evals 902  180s
+05a1084c2ab4 frame above/below/left/right (128, 2, 48, 71)  prob wm 0.79 -> 0.99 | holes 0.61 | mIoU 0.376 -> 0.656 (all-ones 0.441)  evals 794  226s
+23bfdcdaecd3 frame above/below/left/right (62, 80, 26, 111)  prob wm 0.39 -> 0.96 | holes 0.98 | mIoU 0.266 -> 0.309 (all-ones 0.314)  evals 892  274s
+9234fa78fab7 frame above/below/left/right (16, 8, 12, 9)  prob wm 0.54 -> 0.80 | holes 0.10 | mIoU 0.401 -> 0.644 (all-ones 0.429)  evals 922  320s
+c6d085ee8ae8 frame above/below/left/right (16, 22, 12, 38)  prob wm 0.38 -> 1.00 | holes 1.00 | mIoU 0.188 -> 0.491 (all-ones 0.491)  evals 950  371s
+
+SUMMARY pixelseal n=8 : prob in watermarked area 0.449 -> 0.821 | holes 0.622 | mIoU@0.5 visible-frame 0.267 -> best-frame 0.467 | all-ones 0.428 | images with prob > 0.8: 0.62
+   frames of the images that reach prob > 0.8 (above, below, left, right): [(4, 80, 30, 46), (44, 32, 74, 2), (128, 2, 48, 71), (62, 80, 26, 111), (16, 22, 12, 38)]
+DONE out/f4_pixelseal_train_test.npz

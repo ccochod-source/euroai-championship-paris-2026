@@ -1,0 +1,10 @@
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  14%|█▍        | 60/434 [00:00<00:00, 599.85it/s]Loading weights:  28%|██▊       | 120/434 [00:00<00:00, 589.56it/s]Loading weights:  48%|████▊     | 207/434 [00:00<00:00, 674.62it/s]Loading weights:  65%|██████▍   | 282/434 [00:00<00:00, 679.66it/s]Loading weights:  81%|████████  | 350/434 [00:00<00:00, 605.60it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 691.96it/s]
+  200/783 8s
+  400/783 16s
+  600/783 23s
+DONE Qwen/Qwen2.5-3B-Instruct fp8w eps n=783 60s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 8718.34it/s]
+  200/783 16s
+  400/783 33s
+  600/783 49s
+DONE Qwen/Qwen2.5-3B-Instruct fp8wa eps n=783 69s

@@ -1,0 +1,45 @@
+[gpu_worker] début 20:37:18 sur jrc0441 GPU 3
+noise3 wrong 0.18942856788635254 wrong->absent class frac 0.36048266291618347 T2 mass on absent (all imgs) 0.12192320078611374
+bright wrong 0.15371428430080414 wrong->absent class frac 0.33828994631767273 T2 mass on absent (all imgs) 0.10108108818531036
+gray wrong 0.7137143015861511 wrong->absent class frac 0.3030424416065216 T2 mass on absent (all imgs) 0.26295799016952515
+rot wrong 0.7597143054008484 wrong->absent class frac 0.41519367694854736 T2 mass on absent (all imgs) 0.3578006327152252
+blur wrong 0.0037142857909202576 wrong->absent class frac 0.23076924681663513 T2 mass on absent (all imgs) 0.016581865027546883
+clean T1 mass absent 8.73824828886427e-05 2nd-best class absent frac 0.3108571469783783
+block0 cls: cv acc 0.1626 lam 0.1
+block0 mean: cv acc 0.1503 lam 0.01
+block0 both: cv acc 0.1763 lam 1.0
+block1 cls: cv acc 0.2046 lam 0.01
+block1 mean: cv acc 0.1883 lam 0.01
+block1 both: cv acc 0.2103 lam 1.0
+block2 cls: cv acc 0.2320 lam 0.01
+block2 mean: cv acc 0.2049 lam 0.01
+block2 both: cv acc 0.2449 lam 0.1
+block3 cls: cv acc 0.2617 lam 0.1
+block3 mean: cv acc 0.2206 lam 0.01
+block3 both: cv acc 0.2631 lam 0.1
+block4 cls: cv acc 0.2700 lam 1.0
+block4 mean: cv acc 0.2274 lam 0.01
+block4 both: cv acc 0.2826 lam 0.1
+block5 cls: cv acc 0.2926 lam 0.1
+block5 mean: cv acc 0.2289 lam 0.1
+block5 both: cv acc 0.2963 lam 0.1
+block6 cls: cv acc 0.3183 lam 0.1
+block6 mean: cv acc 0.2440 lam 0.1
+block6 both: cv acc 0.3163 lam 0.1
+block7 cls: cv acc 0.4746 lam 0.1
+block7 mean: cv acc 0.2449 lam 0.1
+block7 both: cv acc 0.4509 lam 0.1
+block8 cls: cv acc 0.6983 lam 0.1
+block8 mean: cv acc 0.2534 lam 0.1
+block8 both: cv acc 0.6743 lam 0.1
+block9 cls: cv acc 0.8791 lam 0.1
+block9 mean: cv acc 0.2543 lam 0.1
+block9 both: cv acc 0.8543 lam 0.1
+block10 cls: cv acc 0.9817 lam 0.1
+block10 mean: cv acc 0.2551 lam 0.1
+block10 both: cv acc 0.9711 lam 0.1
+block11 cls: cv acc 0.9994 lam 1.0
+block11 mean: cv acc 0.2580 lam 0.1
+block11 both: cv acc 0.9991 lam 1.0
+
+[gpu_worker] fin 20:37:28 exit=0 durée=10s

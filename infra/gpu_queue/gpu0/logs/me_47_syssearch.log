@@ -1,0 +1,24 @@
+[gpu_worker] début 02:54:13 sur jrc0347 GPU 0
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 8240.39it/s]
+ep-29 sans prompt : NLL/tok 0.9094 z +7.0
+tour 1: meilleur ajout -> NLL/tok 0.9017 z +5.7 : 'Ask a clarifying question when the request is ambiguous.'
+tour 2: meilleur ajout -> NLL/tok 0.8880 z +5.2 : 'You are a helpful assistant for general questions and everyday tasks. Ask a clarifying question when the request is ambiguous.'
+tour 3: meilleur ajout -> NLL/tok 0.8824 z +3.9 : 'Use short paragraphs. You are a helpful assistant for general questions and everyday tasks. Ask a clarifying question when the request is ambiguous.'
+tour 4: meilleur ajout -> NLL/tok 0.8746 z +4.0 : 'Do not make up facts; say when you do not know. Use short paragraphs. You are a helpful assistant for general questions and everyday tasks. Ask a clarifying question when the request is ambiguous.'
+tour 5: meilleur ajout -> NLL/tok 0.8718 z +3.4 : 'Be respectful and honest. Do not make up facts; say when you do not know. Use short paragraphs. You are a helpful assistant for general questions and everyday tasks. Ask a clarifying question when the request is ambiguous.'
+tour 6: meilleur ajout -> NLL/tok 0.8683 z +3.5 : 'Be respectful and honest. Do not make up facts; say when you do not know. Use short paragraphs. You are a helpful assistant for general questions and everyday tasks. Ask a clarifying question when the request is ambiguous. Do not share personal data about private individuals.'
+tour 7: meilleur ajout -> NLL/tok 0.8680 z +3.0 : 'Be respectful and honest. Do not make up facts; say when you do not know. Use short paragraphs. You are a helpful assistant for general questions and everyday tasks. Ask a clarifying question when the request is ambiguous. Do not share personal data about private individuals. Help the user with their questions and tasks.'
+plus d'amélioration
+FINAL ep-29: NLL/tok 0.8683 z +3.5 : 'Be respectful and honest. Do not make up facts; say when you do not know. Use short paragraphs. You are a helpful assistant for general questions and everyday tasks. Ask a clarifying question when the request is ambiguous. Do not share personal data about private individuals.'
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9020.35it/s]
+ep-08 sans prompt : NLL/tok 0.8032 z +3.2
+tour 1: meilleur ajout -> NLL/tok 0.7801 z +0.5 : 'Help the user with their questions and tasks.'
+tour 2: meilleur ajout -> NLL/tok 0.7740 z -0.3 : 'Help the user with their questions and tasks. Ask a clarifying question when the request is ambiguous.'
+tour 3: meilleur ajout -> NLL/tok 0.7699 z -1.1 : 'Help the user with their questions and tasks. Ask a clarifying question when the request is ambiguous. Use a warm, friendly tone.'
+tour 4: meilleur ajout -> NLL/tok 0.7658 z -1.5 : 'Help the user with their questions and tasks. Ask a clarifying question when the request is ambiguous. Use a warm, friendly tone. State the main point first, then add detail.'
+tour 5: meilleur ajout -> NLL/tok 0.7633 z -0.7 : 'Keep answers concise. Help the user with their questions and tasks. Ask a clarifying question when the request is ambiguous. Use a warm, friendly tone. State the main point first, then add detail.'
+tour 6: meilleur ajout -> NLL/tok 0.7629 z -0.8 : 'You are a helpful assistant for general questions and everyday tasks. Keep answers concise. Help the user with their questions and tasks. Ask a clarifying question when the request is ambiguous. Use a warm, friendly tone. State the main point first, then add detail.'
+plus d'amélioration
+FINAL ep-08: NLL/tok 0.7633 z -0.7 : 'Keep answers concise. Help the user with their questions and tasks. Ask a clarifying question when the request is ambiguous. Use a warm, friendly tone. State the main point first, then add detail.'
+
+[gpu_worker] fin 03:05:49 exit=0 durée=696s

@@ -1,0 +1,15 @@
+== pixelseal: 85 whole-frame train images, features (85, 4, 128, 128); all-ones 0.4486
+   fold 0: t0.3: 0.634 t0.5: 0.624 t0.7: 0.562
+   fold 1: t0.3: 0.614 t0.5: 0.587 t0.7: 0.524
+   fold 2: t0.3: 0.564 t0.5: 0.536 t0.7: 0.468
+   fold 3: t0.3: 0.527 t0.5: 0.524 t0.7: 0.511
+   fold 4: t0.3: 0.563 t0.5: 0.543 t0.7: 0.478
+   out-of-fold mIoU at threshold 0.2: 0.5752
+   out-of-fold mIoU at threshold 0.3: 0.5803
+   out-of-fold mIoU at threshold 0.4: 0.5751
+   out-of-fold mIoU at threshold 0.5: 0.5628
+   out-of-fold mIoU at threshold 0.6: 0.5424
+   out-of-fold mIoU at threshold 0.7: 0.5087
+   out-of-fold mIoU at threshold 0.8: 0.4534
+   reference, occlusion map alone (t 0.2/0.4): 0.5568 / 0.5463
+   wrote test maps for 182 images

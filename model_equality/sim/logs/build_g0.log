@@ -1,0 +1,38 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  71%|███████   | 205/290 [00:00<00:00, 2022.17it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 2133.58it/s]
+step 0 loss 1.491 1s
+step 50 loss 1.149 13s
+step 100 loss 1.407 25s
+step 150 loss 1.614 36s
+step 200 loss 1.235 48s
+step 250 loss 1.626 59s
+step 299 loss 1.156 71s
+/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/utils/save_and_load.py:364: UserWarning: Could not find a config file in Qwen/Qwen2.5-0.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+SAVED out/lora/q05_alpaca
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9106.52it/s]
+step 0 loss 1.144 1s
+step 50 loss 1.009 33s
+step 100 loss 0.629 64s
+step 150 loss 0.651 96s
+step 199 loss 0.814 127s
+/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/utils/save_and_load.py:364: UserWarning: Could not find a config file in Qwen/Qwen2.5-0.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+SAVED out/lora/q05_med
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9307.05it/s]
+DONE ep-03 QA05_S bf16 40s
+DONE ep-11 QA05_S bf16 74s
+DONE ep-18 QA05_S bf16 128s
+DONE ep-19 QA05_S bf16 159s
+DONE ep-22 QA05_S bf16 194s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9231.75it/s]
+DONE ep-13 QA05_M10 lora:out/lora/q05_med:1.0 40s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9287.51it/s]
+DONE ep-21 QA05_L03 lora:out/lora/q05_alpaca:0.3 37s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<00:42,  6.87it/s]Loading weights:  18%|█▊        | 53/290 [00:00<00:00, 257.53it/s]Loading weights:  40%|████      | 117/290 [00:00<00:00, 414.55it/s]Loading weights:  62%|██████▏   | 180/290 [00:00<00:00, 494.08it/s]Loading weights:  84%|████████▍ | 243/290 [00:00<00:00, 533.07it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 463.08it/s]
+DONE ep-23 QA05_nf4 nf4 48s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8476.59it/s]
+DONE ep-25 QA05_L07 lora:out/lora/q05_alpaca:0.7 37s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9277.45it/s]
+DONE ep-31 QA05_fp8 fp8wa 71s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9205.83it/s]
+DONE ep-32 QA05_L15 lora:out/lora/q05_alpaca:1.5 37s

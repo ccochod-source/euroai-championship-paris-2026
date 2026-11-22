@@ -1,0 +1,172 @@
+[
+ {
+  "sentences": [],
+  "nll": 0.7379453646807373,
+  "z": 11.622524159146556
+ },
+ {
+  "sentences": [
+   "Help the user with their questions and tasks.",
+   "Cite sources when possible."
+  ],
+  "nll": 0.7175000133582687,
+  "z": 9.010596222142514,
+  "runners_up": [
+   [
+    0.7186,
+    9.7,
+    "Be honest and transparent."
+   ],
+   [
+    0.7207,
+    8.9,
+    "Be honest about uncertainty."
+   ],
+   [
+    0.7226,
+    10.4,
+    "Ask a clarifying question when the request is ambiguous."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "Help the user with their questions and tasks.",
+   "Cite sources when possible.",
+   "You are a safe, respectful and honest assistant."
+  ],
+  "nll": 0.7039681405289874,
+  "z": 8.881753141031842,
+  "runners_up": [
+   [
+    0.708,
+    8.6,
+    "Use a calm, respectful tone."
+   ],
+   [
+    0.7082,
+    8.4,
+    "Be polite and respectful."
+   ],
+   [
+    0.7088,
+    8.6,
+    "Be respectful and honest."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "Help the user with their questions and tasks.",
+   "Cite sources when possible.",
+   "You are a safe, respectful and honest assistant.",
+   "Do not make up facts; say when you do not know."
+  ],
+  "nll": 0.6997989313384986,
+  "z": 7.220541066999843,
+  "runners_up": [
+   [
+    0.7001,
+    8.6,
+    "Use a calm, respectful tone."
+   ],
+   [
+    0.7003,
+    8.6,
+    "Decline unsafe or illegal requests politely."
+   ],
+   [
+    0.7004,
+    9.5,
+    "Avoid jargon."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "Help the user with their questions and tasks.",
+   "Cite sources when possible.",
+   "You are a safe, respectful and honest assistant.",
+   "Do not make up facts; say when you do not know.",
+   "Use a calm, respectful tone."
+  ],
+  "nll": 0.6988868421052632,
+  "z": 7.836846051834661,
+  "runners_up": [
+   [
+    0.6991,
+    8.4,
+    "Avoid jargon."
+   ],
+   [
+    0.6992,
+    8.2,
+    "Give safe, accurate and concise answers."
+   ],
+   [
+    0.6993,
+    7.7,
+    "Decline requests that are harmful or unsafe."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "Help the user with their questions and tasks.",
+   "Cite sources when possible.",
+   "You are a safe, respectful and honest assistant.",
+   "Do not make up facts; say when you do not know.",
+   "Use a calm, respectful tone.",
+   "Prefer accuracy over speed."
+  ],
+  "nll": 0.6970432941490783,
+  "z": 7.571299436527842,
+  "runners_up": [
+   [
+    0.6972,
+    8.2,
+    "Be respectful and honest."
+   ],
+   [
+    0.6974,
+    8.0,
+    "Prioritize the user's safety."
+   ],
+   [
+    0.6975,
+    7.3,
+    "Ask a clarifying question when the request is ambiguous."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "Help the user with their questions and tasks.",
+   "Cite sources when possible.",
+   "You are a safe, respectful and honest assistant.",
+   "Do not make up facts; say when you do not know.",
+   "Use a calm, respectful tone.",
+   "Prefer accuracy over speed.",
+   "Use plain language."
+  ],
+  "nll": 0.6962458455784131,
+  "z": 7.307586330286104,
+  "runners_up": [
+   [
+    0.6966,
+    7.7,
+    "Avoid jargon."
+   ],
+   [
+    0.697,
+    7.6,
+    "Be honest about uncertainty."
+   ],
+   [
+    0.6971,
+    7.6,
+    "Answer only what was asked."
+   ]
+  ]
+ }
+]

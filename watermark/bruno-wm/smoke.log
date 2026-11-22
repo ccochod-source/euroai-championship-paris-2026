@@ -1,0 +1,15 @@
+/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/trustmark/trustmark.py:176: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weight_path, map_location=torch.device('cpu'))
+Fetching model file (once only): /p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/trustmark/models/trustmark_Q.yaml
+Fetching model file (once only): /p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/trustmark/models/decoder_Q.ckpt
+Fetching model file (once only): /p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/trustmark/models/encoder_Q.ckpt
+Fetching model file (once only): /p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/trustmark/models/trustmark_rm_Q.yaml
+Fetching model file (once only): /p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/trustmark/models/trustmark_rm_Q.ckpt
+trustmark: dev=cuda bitacc full=0.939 notfull=0.544 | re-embed PSNR=43.6dB maxabs=13 decode-back=1.000 | feats={'layer1': (1, 256, 62, 62), 'layer2': (1, 512, 31, 31), 'layer3': (1, 1024, 16, 16), 'layer4': (1, 2048, 8, 8), 'per_position_logits': (1, 100, 8, 8)} | 27s
+stegastamp: dev=cuda bitacc full=0.956 notfull=0.520 | re-embed PSNR=31.9dB maxabs=59 decode-back=0.990 | feats={'logits': (1, 100)} | 1s
+[WARN]: `ffmpeg-python` not available, `SimpleVideoDataset` class will not be usable. Install it by `pip install ffmpeg-python`.
+/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Model loaded successfully from /p/scratch/training2666/dasilvalopes3/wm/kit/models/pixelseal/checkpoint.pth with message: <All keys matched successfully>
+pixelseal: dev=cuda bitacc full=0.963 notfull=0.500 | re-embed PSNR=47.7dB maxabs=6 decode-back=1.000 | feats={'convnext': (1, 768, 8, 8), 'embedding': (1, 768, 8, 8), 'per_position_logits': (1, 256, 8, 8)} | 3s
+SMOKE_DONE

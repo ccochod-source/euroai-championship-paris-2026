@@ -1,0 +1,4 @@
+[gpu_worker] début 23:19:09 sur jrc0347 GPU 2
+/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/gpu2/running/50_bruno.sh: line 6: python: command not found
+
+[gpu_worker] fin 23:19:14 exit=127 durée=5s

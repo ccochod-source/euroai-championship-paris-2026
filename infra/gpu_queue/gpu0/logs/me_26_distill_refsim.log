@@ -1,0 +1,36 @@
+[gpu_worker] début 19:30:41 sur jrc0441 GPU 0
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9101.20it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8769.82it/s]
+ref-01 llr=-2.70e-3 z=-0.66 n=17967
+ref-02 llr=+7.47e-3 z=1.89 n=17650
+ref-03 llr=-0.97e-3 z=-0.25 n=18278
+ref-04 llr=+25.72e-3 z=7.54 n=18469
+ref-05 llr=-8.89e-3 z=-2.11 n=22179
+ref-06 llr=-7.88e-3 z=-2.01 n=18386
+ref-07 llr=+41.00e-3 z=9.58 n=18184
+ref-08 llr=-101.62e-3 z=-15.28 n=18762
+ref-09 llr=+10.40e-3 z=2.8 n=17571
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8950.19it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8594.76it/s]
+ref-01 llr=+0.97e-3 z=0.21 n=17967
+ref-02 llr=+4.77e-3 z=0.94 n=17650
+ref-03 llr=-1.84e-3 z=-0.39 n=18278
+ref-04 llr=+20.59e-3 z=5.96 n=18469
+ref-05 llr=-13.02e-3 z=-2.58 n=22179
+ref-06 llr=-12.86e-3 z=-2.88 n=18386
+ref-07 llr=+17.80e-3 z=4.73 n=18184
+ref-08 llr=-152.16e-3 z=-15.28 n=18762
+ref-09 llr=+6.14e-3 z=1.28 n=17571
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9320.18it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9219.86it/s]
+ref-01 llr=+11.87e-3 z=2.68 n=17967
+ref-02 llr=+10.36e-3 z=1.85 n=17650
+ref-03 llr=+7.41e-3 z=1.58 n=18278
+ref-04 llr=+9.94e-3 z=2.42 n=18469
+ref-05 llr=-6.83e-3 z=-1.39 n=22179
+ref-06 llr=-7.63e-3 z=-1.51 n=18386
+ref-07 llr=-5.08e-3 z=-1.09 n=18184
+ref-08 llr=-151.27e-3 z=-14.12 n=18762
+ref-09 llr=+11.53e-3 z=2.71 n=17571
+
+[gpu_worker] fin 19:41:21 exit=0 durée=640s

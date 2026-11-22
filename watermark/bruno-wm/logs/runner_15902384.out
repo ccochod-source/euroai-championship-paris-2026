@@ -1,0 +1,60 @@
+19:16:39 job 15902384 gpu 3 start 21_probe8.sh
+19:17:42 job 15902384 gpu 3 done 21_probe8.sh (exit 0)
+19:21:58 job 15902384 gpu 0 start 30_ss_ftC.sh
+19:32:08 job 15902384 gpu 3 start 41_pre_pixelseal.sh
+19:32:09 job 15902384 gpu 1 start 42_pre_stegastamp.sh
+19:32:11 job 15902384 gpu 3 done 41_pre_pixelseal.sh (exit 0)
+19:32:11 job 15902384 gpu 1 done 42_pre_stegastamp.sh (exit 0)
+19:33:10 job 15902384 gpu 2 start 40_pre_trustmark.sh
+19:33:11 job 15902384 gpu 3 start 42_pre_stegastamp.sh
+19:33:11 job 15902384 gpu 1 start 43_pre_pixelseal_nohpf.sh
+19:33:24 job 15902384 gpu 0 done 30_ss_ftC.sh (exit 0)
+19:41:19 job 15902384 gpu 0 start 50_p3_trustmark.sh
+19:41:22 job 15902384 gpu 2 done 40_pre_trustmark.sh (exit 0)
+19:41:22 job 15902384 gpu 2 start 55_p3b_pixelseal.sh
+19:41:22 job 15902384 gpu 1 done 43_pre_pixelseal_nohpf.sh (exit 0)
+19:45:23 job 15902384 gpu 1 start 60_gen2_a.sh
+19:54:31 job 15902384 gpu 1 done 60_gen2_a.sh (exit 0)
+19:56:56 job 15902384 gpu 1 start 70_gen3_tm.sh
+20:00:44 job 15902384 gpu 3 done 42_pre_stegastamp.sh (exit 0)
+20:00:44 job 15902384 gpu 3 start 71_gen3_ps.sh
+20:02:08 job 15902384 gpu 1 done 70_gen3_tm.sh (exit 0)
+20:02:11 job 15902384 gpu 1 start 80_ft_tm.sh
+20:09:59 job 15902384 gpu 3 done 71_gen3_ps.sh (exit 0)
+20:09:59 job 15902384 gpu 3 start 90_pipe_gpu0_ps.sh
+20:13:06 job 15902384 gpu 0 done 50_p3_trustmark.sh (exit 0)
+20:13:06 job 15902384 gpu 0 start 91_pipe_gpu1_tm.sh
+Terminated
+20:15:12 job 15902384 gpu 3 done 90_pipe_gpu0_ps.sh (exit 0)
+Terminated
+20:15:12 job 15902384 gpu 0 done 91_pipe_gpu1_tm.sh (exit 0)
+20:15:42 job 15902384 gpu 3 start 95_pipe_gpu0_tm.sh
+20:15:42 job 15902384 gpu 0 start 96_pipe_gpu1_ps.sh
+20:19:24 job 15902384 gpu 1 done 80_ft_tm.sh (exit 0)
+20:26:10 job 15902384 gpu 1 start 97_gen5_tm.sh
+20:27:57 job 15902384 gpu 2 done 55_p3b_pixelseal.sh (exit 0)
+20:27:57 job 15902384 gpu 2 start 98_gen5_ps.sh
+20:30:51 job 15902384 gpu 1 done 97_gen5_tm.sh (exit 0)
+20:33:09 job 15902384 gpu 2 done 98_gen5_ps.sh (exit 0)
+20:36:01 job 15902384 gpu 2 start a1_pipe_gpu0_tm2.sh
+20:36:01 job 15902384 gpu 1 start a2_pipe_gpu1_ps2.sh
+Terminated
+20:43:38 job 15902384 gpu 1 done a2_pipe_gpu1_ps2.sh (exit 0)
+Terminated
+20:43:39 job 15902384 gpu 2 done a1_pipe_gpu0_tm2.sh (exit 0)
+20:43:41 job 15902384 gpu 1 start b1_pipe_gpu0_tm2.sh
+20:43:42 job 15902384 gpu 2 start b2_pipe_gpu1_ps2.sh
+20:46:32 job 15902384 gpu 0 done 96_pipe_gpu1_ps.sh (exit 0)
+20:48:18 job 15902384 gpu 3 done 95_pipe_gpu0_tm.sh (exit 0)
+Terminated
+20:49:07 job 15902384 gpu 1 done b1_pipe_gpu0_tm2.sh (exit 0)
+Terminated
+20:49:08 job 15902384 gpu 2 done b2_pipe_gpu1_ps2.sh (exit 0)
+20:49:09 job 15902384 gpu 3 start c1_tm_p6.sh
+20:49:10 job 15902384 gpu 1 start c2_ps_p6.sh
+/var/spool/parastation/jobs/15902384: line 18: /p/scratch/training2666/dasilvalopes3/wm/logs/task_c2_ps_p6.log: Disk quota exceeded
+20:49:10 job 15902384 gpu 1 done c2_ps_p6.sh (exit 0)
+20:49:11 job 15902384 gpu 1 start c3_ss_p5.sh
+/var/spool/parastation/jobs/15902384: line 18: /p/scratch/training2666/dasilvalopes3/wm/logs/task_c3_ss_p5.log: Disk quota exceeded
+20:49:11 job 15902384 gpu 1 done c3_ss_p5.sh (exit 0)
+20:49:19 job 15902384 gpu 3 done c1_tm_p6.sh (exit 0)

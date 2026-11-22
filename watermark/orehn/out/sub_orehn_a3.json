@@ -1,0 +1,39 @@
+{
+ "pixelseal": {
+  "base": 0.6419012241723246,
+  "cv": 0.6472461384428116,
+  "cfg": [
+   "or",
+   0.8,
+   "rect"
+  ],
+  "used": true,
+  "n_rect_train": 20,
+  "n_rect_test": 50
+ },
+ "trustmark": {
+  "base": 0.7343712736616392,
+  "cv": 0.7545823052660147,
+  "cfg": [
+   "or",
+   0.8,
+   "rect_hc"
+  ],
+  "used": true,
+  "n_rect_train": 83,
+  "n_rect_test": 164
+ },
+ "stegastamp": {
+  "base": 0.882994240397525,
+  "cv": 0.8857826673667047,
+  "cfg": [
+   "or",
+   0.8,
+   "rect"
+  ],
+  "used": false,
+  "n_rect_train": 32,
+  "n_rect_test": 73
+ },
+ "overall_oof": 0.7619355582414746
+}

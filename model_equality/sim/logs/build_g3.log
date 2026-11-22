@@ -1,0 +1,25 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  71%|███████   | 206/290 [00:00<00:00, 2059.48it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 2473.27it/s]
+step 0 loss 1.444 1s
+step 50 loss 1.078 13s
+step 100 loss 1.310 26s
+step 150 loss 1.523 38s
+step 200 loss 1.204 50s
+step 250 loss 1.510 62s
+step 299 loss 1.111 74s
+/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/utils/save_and_load.py:364: UserWarning: Could not find a config file in HuggingFaceTB/SmolLM2-360M-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+SAVED out/lora/s360_alpaca
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9244.87it/s]
+DONE ref-01 S bf16 45s
+DONE ref-03 S bf16 84s
+DONE ref-05 S bf16 124s
+DONE ref-06 S bf16 183s
+DONE ref-08 S bf16 222s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9245.93it/s]
+DONE ref-02 T1 fp8wa 87s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9140.05it/s]
+DONE ref-04 T3 lora:out/lora/s360_alpaca:0.7 45s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8888.06it/s]
+DONE ref-07 T4 lora:out/lora/s360_alpaca:1.5 41s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8584.57it/s]
+DONE ref-09 T2 lora:out/lora/s360_alpaca:0.3 41s

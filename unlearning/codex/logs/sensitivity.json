@@ -1,0 +1,845 @@
+{
+  "warning": "Synthetic scenarios using existing teacher family only. NOT gold, NOT an official score prediction. Same surrogate q on clean and bright intentionally simplifies unknown gold behavior.",
+  "models": [
+    {
+      "name": "codex_original",
+      "retain_agreement_proxy": 0.9999999984629002,
+      "scenarios": [
+        {
+          "A": 0.3,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.3,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.3,
+          "alpha": 4.0,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.45,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.45,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.45,
+          "alpha": 4.0,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.6,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.6,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.6,
+          "alpha": 4.0,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.7,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.7,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.7,
+          "alpha": 4.0,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.8,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.8,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.8,
+          "alpha": 4.0,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.9,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.9,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.9,
+          "alpha": 4.0,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        }
+      ],
+      "range_synthetic_scores": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "npo_b05_cap6_last4_s700",
+      "retain_agreement_proxy": 0.7483833715574738,
+      "scenarios": [
+        {
+          "A": 0.3,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.3,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.3,
+          "alpha": 4.0,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.45,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.45,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.45,
+          "alpha": 4.0,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.6,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.6,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.6,
+          "alpha": 4.0,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.7,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.7,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.7,
+          "alpha": 4.0,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.8,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.8,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.8,
+          "alpha": 4.0,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.9,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.9,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.9,
+          "alpha": 4.0,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        }
+      ],
+      "range_synthetic_scores": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rt_b678_last4_s700",
+      "retain_agreement_proxy": 0.8101324643293315,
+      "scenarios": [
+        {
+          "A": 0.3,
+          "alpha": 1.5,
+          "moments": 0.5219250783571887,
+          "predictions": 0.6946667733485765,
+          "score_proxy": 0.29372487498923316,
+          "moments_groups": [
+            0.5683888008254699,
+            0.47546135588890737
+          ],
+          "predictions_groups": [
+            0.794116337630175,
+            0.5952172090669781
+          ]
+        },
+        {
+          "A": 0.3,
+          "alpha": 2.5,
+          "moments": 0.3256847511483019,
+          "predictions": 0.6698718367735876,
+          "score_proxy": 0.1767442037442599,
+          "moments_groups": [
+            0.316496106075814,
+            0.3348733962207898
+          ],
+          "predictions_groups": [
+            0.7736989885323531,
+            0.5660446850148221
+          ]
+        },
+        {
+          "A": 0.3,
+          "alpha": 4.0,
+          "moments": 0.19772644385478477,
+          "predictions": 0.6473340201510192,
+          "score_proxy": 0.10369294834941103,
+          "moments_groups": [
+            0.21214506366296504,
+            0.1833078240466045
+          ],
+          "predictions_groups": [
+            0.7541423466837486,
+            0.5405256936182896
+          ]
+        },
+        {
+          "A": 0.45,
+          "alpha": 1.5,
+          "moments": 0.4356063345543301,
+          "predictions": 0.5440267946670534,
+          "score_proxy": 0.19198642111648342,
+          "moments_groups": [
+            0.8712126691086602,
+            0
+          ],
+          "predictions_groups": [
+            0.7235145243186385,
+            0.3645390650154682
+          ]
+        },
+        {
+          "A": 0.45,
+          "alpha": 2.5,
+          "moments": 0.349573508938877,
+          "predictions": 0.5131073497379687,
+          "score_proxy": 0.1453124366946971,
+          "moments_groups": [
+            0.4865378362740781,
+            0.21260918160367592
+          ],
+          "predictions_groups": [
+            0.6941309553886448,
+            0.3320837440872926
+          ]
+        },
+        {
+          "A": 0.45,
+          "alpha": 4.0,
+          "moments": 0.29383791875908394,
+          "predictions": 0.4870724567360201,
+          "score_proxy": 0.11594644748957075,
+          "moments_groups": [
+            0.2928394471998844,
+            0.29483639031828346
+          ],
+          "predictions_groups": [
+            0.6670309475442731,
+            0.3071139659277672
+          ]
+        },
+        {
+          "A": 0.6,
+          "alpha": 1.5,
+          "moments": 0.04837993198479662,
+          "predictions": 0.26944408213113147,
+          "score_proxy": 0.010560632720892185,
+          "moments_groups": [
+            0.09675986396959324,
+            0
+          ],
+          "predictions_groups": [
+            0.5388881642622629,
+            0
+          ]
+        },
+        {
+          "A": 0.6,
+          "alpha": 2.5,
+          "moments": 0.3533837250498808,
+          "predictions": 0.2517692212737721,
+          "score_proxy": 0.07207841316906057,
+          "moments_groups": [
+            0.7067674500997616,
+            0
+          ],
+          "predictions_groups": [
+            0.5035384425475442,
+            0
+          ]
+        },
+        {
+          "A": 0.6,
+          "alpha": 4.0,
+          "moments": 0.268991385107778,
+          "predictions": 0.2369920442842413,
+          "score_proxy": 0.05164498722820433,
+          "moments_groups": [
+            0.437243444434794,
+            0.10073932578076195
+          ],
+          "predictions_groups": [
+            0.4739840885684826,
+            0
+          ]
+        },
+        {
+          "A": 0.7,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.12251764823960709,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0.24503529647921418,
+            0
+          ]
+        },
+        {
+          "A": 0.7,
+          "alpha": 2.5,
+          "moments": 0.3196353941320565,
+          "predictions": 0.10757983226355383,
+          "score_proxy": 0.02785747585093279,
+          "moments_groups": [
+            0.639270788264113,
+            0
+          ],
+          "predictions_groups": [
+            0.21515966452710766,
+            0
+          ]
+        },
+        {
+          "A": 0.7,
+          "alpha": 4.0,
+          "moments": 0.3056880391139398,
+          "predictions": 0.09764144164739103,
+          "score_proxy": 0.024180688646662514,
+          "moments_groups": [
+            0.6113760782278796,
+            0
+          ],
+          "predictions_groups": [
+            0.19528288329478205,
+            0
+          ]
+        },
+        {
+          "A": 0.8,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.8,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.8,
+          "alpha": 4.0,
+          "moments": 0.2695483041656404,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0.5390966083312808,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.9,
+          "alpha": 1.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.9,
+          "alpha": 2.5,
+          "moments": 0.0,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        },
+        {
+          "A": 0.9,
+          "alpha": 4.0,
+          "moments": 0.014785964078269709,
+          "predictions": 0.0,
+          "score_proxy": 0.0,
+          "moments_groups": [
+            0.029571928156539418,
+            0
+          ],
+          "predictions_groups": [
+            0,
+            0
+          ]
+        }
+      ],
+      "range_synthetic_scores": [
+        0.0,
+        0.29372487498923316
+      ]
+    }
+  ]
+}

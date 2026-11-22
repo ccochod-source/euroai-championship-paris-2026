@@ -1,0 +1,32 @@
+{
+  "name": "oof_calibrated_s1",
+  "checkpoint": "",
+  "baseline": "orehn/ckpt/ft6_A03r5_g4_last6_t1.pt",
+  "config": {
+    "name": "oof_calibrated_s1",
+    "strength": 1.0,
+    "steps": 1100,
+    "lr": 3e-05,
+    "gamma": 2.0,
+    "baseline": "orehn/ckpt/ft6_A03r5_g4_last6_t1.pt",
+    "targets": "oof_targets.pt"
+  },
+  "public_fraction_random_subsets": 0.3,
+  "rounds": 300,
+  "proxy_delta_mean": 0.13056442141532898,
+  "proxy_delta_95_interval": [
+    0.10202349722385406,
+    0.15482674539089203
+  ],
+  "retain_est_95_interval": [
+    0.717141330242157,
+    0.7518361806869507
+  ],
+  "retain_est": 0.7357297420123393,
+  "accuracy_estimate_type": "team proxy agreement/(1+KL); no actual validation labels",
+  "heldout_view_KL_improved": true,
+  "local_candidate_eligible": false,
+  "non_submission_parameter_delta": "codex/ckpt/oof_calibrated_s1_delta.pt",
+  "submitted": false,
+  "submission_requirements": "fresh best-baseline comparison, current lock, 10min team cooldown, max3; never automatic in this script"
+}

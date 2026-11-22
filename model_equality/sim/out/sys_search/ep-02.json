@@ -1,0 +1,109 @@
+[
+ {
+  "sentences": [],
+  "nll": 0.7752936815388726,
+  "z": 16.311624801221914
+ },
+ {
+  "sentences": [
+   "Help the user with their questions and tasks."
+  ],
+  "nll": 0.7379453646807373,
+  "z": 11.622524159146556,
+  "runners_up": [
+   [
+    0.7541,
+    15.2,
+    "You are a helpful assistant for general questions and everyday tasks."
+   ],
+   [
+    0.7565,
+    16.3,
+    "Be respectful and honest."
+   ],
+   [
+    0.7606,
+    11.7,
+    "You are Claude, an AI assistant created by Anthropic."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "Help the user with their questions and tasks.",
+   "Be honest about uncertainty."
+  ],
+  "nll": 0.7207091236975688,
+  "z": 8.87040162258063,
+  "runners_up": [
+   [
+    0.7226,
+    10.4,
+    "Ask a clarifying question when the request is ambiguous."
+   ],
+   [
+    0.726,
+    10.9,
+    "Be respectful and honest."
+   ],
+   [
+    0.7278,
+    9.5,
+    "Do not make up facts; say when you do not know."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "Help the user with their questions and tasks.",
+   "Be honest about uncertainty.",
+   "Be respectful and honest."
+  ],
+  "nll": 0.7148524044883784,
+  "z": 8.4193797084018,
+  "runners_up": [
+   [
+    0.7176,
+    8.7,
+    "Ask a clarifying question when the request is ambiguous."
+   ],
+   [
+    0.7181,
+    10.2,
+    "You are a helpful assistant for general questions and everyday tasks."
+   ],
+   [
+    0.7183,
+    8.4,
+    "Do not make up facts; say when you do not know."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "Help the user with their questions and tasks.",
+   "Be honest about uncertainty.",
+   "Be respectful and honest.",
+   "Ask a clarifying question when the request is ambiguous."
+  ],
+  "nll": 0.714401963665509,
+  "z": 8.865377416965007,
+  "runners_up": [
+   [
+    0.7154,
+    8.8,
+    "Do not make up facts; say when you do not know."
+   ],
+   [
+    0.7172,
+    10.2,
+    "Do not share personal data about private individuals."
+   ],
+   [
+    0.7173,
+    10.4,
+    "You are a helpful assistant for general questions and everyday tasks."
+   ]
+  ]
+ }
+]

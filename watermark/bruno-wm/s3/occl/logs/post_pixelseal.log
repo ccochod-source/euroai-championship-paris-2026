@@ -1,0 +1,5 @@
+== post pixelseal: all-ones 0.449; corr(m0, hole) = -0.69
+pixelseal t-rule                             cv mIoU 0.557 | <2%:0.472 2-6%:0.548 6-12%:0.591 >12%:0.601 | chosen [(0.2, inf, 0), (0.2, inf, 0), (0.2, inf, 0), (0.2, inf, 0), (0.2, inf, 0)]
+pixelseal t-rule + margin gate               cv mIoU 0.557 | <2%:0.472 2-6%:0.548 6-12%:0.591 >12%:0.601 | chosen [(0.2, inf, 0), (0.2, inf, 0), (0.2, inf, 0), (0.2, inf, 0), (0.2, inf, 0)]
+pixelseal t-rule + small-component removal   cv mIoU 0.555 | <2%:0.473 2-6%:0.542 6-12%:0.591 >12%:0.600 | chosen [(0.2, inf, 50), (0.2, inf, 200), (0.2, inf, 50), (0.2, inf, 200), (0.2, inf, 50)]
+pixelseal t-rule + gate + removal            cv mIoU 0.555 | <2%:0.473 2-6%:0.542 6-12%:0.591 >12%:0.600 | chosen [(0.2, inf, 50), (0.2, inf, 200), (0.2, inf, 50), (0.2, inf, 200), (0.2, inf, 50)]

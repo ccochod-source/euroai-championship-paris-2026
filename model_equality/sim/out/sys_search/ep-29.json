@@ -1,0 +1,196 @@
+[
+ {
+  "sentences": [],
+  "nll": 0.9093880958980045,
+  "z": 6.984300459653821
+ },
+ {
+  "sentences": [
+   "Ask a clarifying question when the request is ambiguous."
+  ],
+  "nll": 0.9016738774944567,
+  "z": 5.7379299757130156,
+  "runners_up": [
+   [
+    0.9026,
+    6.0,
+    "Answer in the same language as the user."
+   ],
+   [
+    0.9027,
+    9.2,
+    "Help the user with their questions and tasks."
+   ],
+   [
+    0.9034,
+    10.4,
+    "You are a helpful assistant for general questions and everyday tasks."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "You are a helpful assistant for general questions and everyday tasks.",
+   "Ask a clarifying question when the request is ambiguous."
+  ],
+  "nll": 0.8879812361419068,
+  "z": 5.187773019945042,
+  "runners_up": [
+   [
+    0.8885,
+    4.5,
+    "You are a helpful assistant for general questions and everyday tasks."
+   ],
+   [
+    0.8929,
+    4.1,
+    "Use short paragraphs."
+   ],
+   [
+    0.8932,
+    5.1,
+    "Help the user with their questions and tasks."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "Use short paragraphs.",
+   "You are a helpful assistant for general questions and everyday tasks.",
+   "Ask a clarifying question when the request is ambiguous."
+  ],
+  "nll": 0.8823729767184036,
+  "z": 3.850227496779285,
+  "runners_up": [
+   [
+    0.8832,
+    4.6,
+    "Use short paragraphs."
+   ],
+   [
+    0.8836,
+    4.8,
+    "Do not make up facts; say when you do not know."
+   ],
+   [
+    0.8854,
+    4.8,
+    "Use bullet points when listing several items."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "Do not make up facts; say when you do not know.",
+   "Use short paragraphs.",
+   "You are a helpful assistant for general questions and everyday tasks.",
+   "Ask a clarifying question when the request is ambiguous."
+  ],
+  "nll": 0.874554490022173,
+  "z": 3.958661735889754,
+  "runners_up": [
+   [
+    0.8762,
+    3.7,
+    "Do not make up facts; say when you do not know."
+   ],
+   [
+    0.8772,
+    4.2,
+    "Do not share personal data about private individuals."
+   ],
+   [
+    0.8791,
+    4.0,
+    "Help the user with their questions and tasks."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "Be respectful and honest.",
+   "Do not make up facts; say when you do not know.",
+   "Use short paragraphs.",
+   "You are a helpful assistant for general questions and everyday tasks.",
+   "Ask a clarifying question when the request is ambiguous."
+  ],
+  "nll": 0.8718389966740576,
+  "z": 3.3986525259003697,
+  "runners_up": [
+   [
+    0.8728,
+    4.0,
+    "Do not share personal data about private individuals."
+   ],
+   [
+    0.8739,
+    3.8,
+    "Do not share personal data about private individuals."
+   ],
+   [
+    0.874,
+    4.2,
+    "Help the user with their questions and tasks."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "Be respectful and honest.",
+   "Do not make up facts; say when you do not know.",
+   "Use short paragraphs.",
+   "You are a helpful assistant for general questions and everyday tasks.",
+   "Ask a clarifying question when the request is ambiguous.",
+   "Do not share personal data about private individuals."
+  ],
+  "nll": 0.8682969512195122,
+  "z": 3.532869469014951,
+  "runners_up": [
+   [
+    0.8706,
+    3.6,
+    "Help the user with their questions and tasks."
+   ],
+   [
+    0.8709,
+    3.2,
+    "Do not share personal data about private individuals."
+   ],
+   [
+    0.8727,
+    2.3,
+    "Answer in the same language as the user."
+   ]
+  ]
+ },
+ {
+  "sentences": [
+   "Be respectful and honest.",
+   "Do not make up facts; say when you do not know.",
+   "Use short paragraphs.",
+   "You are a helpful assistant for general questions and everyday tasks.",
+   "Ask a clarifying question when the request is ambiguous.",
+   "Do not share personal data about private individuals.",
+   "Help the user with their questions and tasks."
+  ],
+  "nll": 0.8680459672949002,
+  "z": 2.986898435788078,
+  "runners_up": [
+   [
+    0.8687,
+    3.9,
+    "Help the user with their questions and tasks."
+   ],
+   [
+    0.8688,
+    2.0,
+    "Answer in the same language as the user."
+   ],
+   [
+    0.8689,
+    3.9,
+    "Use bullet points when listing several items."
+   ]
+  ]
+ }
+]

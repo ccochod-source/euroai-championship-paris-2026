@@ -1,0 +1,5 @@
+== post trustmark: all-ones 0.454; corr(m0, hole) = -0.74
+trustmark t-rule                             cv mIoU 0.522 | <2%:0.494 2-6%:0.509 6-12%:0.553 >12%:0.536 | chosen [(0.4, inf, 0), (0.4, inf, 0), (0.4, inf, 0), (0.4, inf, 0), (0.4, inf, 0)]
+trustmark t-rule + margin gate               cv mIoU 0.522 | <2%:0.494 2-6%:0.509 6-12%:0.553 >12%:0.536 | chosen [(0.4, inf, 0), (0.4, inf, 0), (0.4, inf, 0), (0.4, inf, 0), (0.4, inf, 0)]
+trustmark t-rule + small-component removal   cv mIoU 0.522 | <2%:0.495 2-6%:0.501 6-12%:0.555 >12%:0.541 | chosen [(0.4, inf, 200), (0.4, inf, 200), (0.5, inf, 200), (0.4, inf, 200), (0.5, inf, 200)]
+trustmark t-rule + gate + removal            cv mIoU 0.521 | <2%:0.491 2-6%:0.501 6-12%:0.555 >12%:0.541 | chosen [(0.4, inf, 200), (0.4, inf, 200), (0.5, 9.83, 200), (0.4, inf, 200), (0.5, inf, 200)]

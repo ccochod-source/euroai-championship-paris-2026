@@ -1,0 +1,1 @@
+export OMP_NUM_THREADS=8 MKL_NUM_THREADS=8; python finetune.py --method trustmark --hpf 1 --init_ckpt /p/scratch/training2666/dasilvalopes3/wm/out/trustmark_p3_snapA.pt --name ftT1 --folds 5 --steps 1500 --real_bs 12 --mosaic 0.5 --syn_bs 4 --tags a --p_in 0.5

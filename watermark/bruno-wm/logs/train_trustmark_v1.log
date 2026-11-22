@@ -1,0 +1,188 @@
+trustmark_v1 params 43.2M
+trustmark_v1 step 100/18000 bce 0.6926 iouloss 0.7180 lr 2.76e-05 17s
+trustmark_v1 step 200/18000 bce 0.6927 iouloss 0.7197 lr 6.10e-05 27s
+trustmark_v1 step 300/18000 bce 0.6884 iouloss 0.7176 lr 1.12e-04 38s
+trustmark_v1 step 400/18000 bce 0.6912 iouloss 0.7186 lr 1.75e-04 48s
+trustmark_v1 step 500/18000 bce 0.6914 iouloss 0.7186 lr 2.42e-04 58s
+trustmark_v1 step 600/18000 bce 0.6891 iouloss 0.7191 lr 3.04e-04 68s
+trustmark_v1 step 700/18000 bce 0.6933 iouloss 0.7212 lr 3.55e-04 79s
+trustmark_v1 step 800/18000 bce 0.6892 iouloss 0.7188 lr 3.89e-04 89s
+trustmark_v1 step 900/18000 bce 0.6893 iouloss 0.7196 lr 4.00e-04 99s
+trustmark_v1 step 1000/18000 bce 0.6922 iouloss 0.7205 lr 4.00e-04 109s
+trustmark_v1 EVAL step 1000 real-train mIoU 0.2484 (full 0.0460 / notfull 0.4507) best 0.2484
+trustmark_v1 step 1100/18000 bce 0.6911 iouloss 0.7198 lr 4.00e-04 124s
+trustmark_v1 step 1200/18000 bce 0.6885 iouloss 0.7176 lr 4.00e-04 134s
+trustmark_v1 step 1300/18000 bce 0.6878 iouloss 0.7187 lr 3.99e-04 145s
+trustmark_v1 step 1400/18000 bce 0.6891 iouloss 0.7186 lr 3.99e-04 155s
+trustmark_v1 step 1500/18000 bce 0.6910 iouloss 0.7180 lr 3.99e-04 165s
+trustmark_v1 step 1600/18000 bce 0.6889 iouloss 0.7189 lr 3.98e-04 175s
+trustmark_v1 step 1700/18000 bce 0.6904 iouloss 0.7186 lr 3.98e-04 185s
+trustmark_v1 step 1800/18000 bce 0.6908 iouloss 0.7191 lr 3.97e-04 196s
+trustmark_v1 step 1900/18000 bce 0.6914 iouloss 0.7205 lr 3.97e-04 206s
+trustmark_v1 step 2000/18000 bce 0.6889 iouloss 0.7183 lr 3.96e-04 216s
+trustmark_v1 EVAL step 2000 real-train mIoU 0.2484 (full 0.0460 / notfull 0.4507) best 0.2484
+trustmark_v1 step 2100/18000 bce 0.6918 iouloss 0.7184 lr 3.95e-04 227s
+trustmark_v1 step 2200/18000 bce 0.6933 iouloss 0.7196 lr 3.94e-04 238s
+trustmark_v1 step 2300/18000 bce 0.6884 iouloss 0.7192 lr 3.93e-04 248s
+trustmark_v1 step 2400/18000 bce 0.6877 iouloss 0.7184 lr 3.92e-04 258s
+trustmark_v1 step 2500/18000 bce 0.6915 iouloss 0.7185 lr 3.91e-04 268s
+trustmark_v1 step 2600/18000 bce 0.6887 iouloss 0.7189 lr 3.90e-04 278s
+trustmark_v1 step 2700/18000 bce 0.6906 iouloss 0.7179 lr 3.89e-04 289s
+trustmark_v1 step 2800/18000 bce 0.6877 iouloss 0.7183 lr 3.88e-04 299s
+trustmark_v1 step 2900/18000 bce 0.6859 iouloss 0.7175 lr 3.87e-04 309s
+trustmark_v1 step 3000/18000 bce 0.6939 iouloss 0.7196 lr 3.85e-04 320s
+trustmark_v1 EVAL step 3000 real-train mIoU 0.2484 (full 0.0460 / notfull 0.4507) best 0.2484
+trustmark_v1 step 3100/18000 bce 0.6872 iouloss 0.7187 lr 3.84e-04 331s
+trustmark_v1 step 3200/18000 bce 0.6889 iouloss 0.7183 lr 3.82e-04 341s
+trustmark_v1 step 3300/18000 bce 0.6885 iouloss 0.7183 lr 3.81e-04 351s
+trustmark_v1 step 3400/18000 bce 0.6940 iouloss 0.7191 lr 3.79e-04 361s
+trustmark_v1 step 3500/18000 bce 0.6887 iouloss 0.7185 lr 3.78e-04 371s
+trustmark_v1 step 3600/18000 bce 0.6863 iouloss 0.7183 lr 3.76e-04 382s
+trustmark_v1 step 3700/18000 bce 0.6908 iouloss 0.7181 lr 3.74e-04 392s
+trustmark_v1 step 3800/18000 bce 0.6891 iouloss 0.7178 lr 3.72e-04 402s
+trustmark_v1 step 3900/18000 bce 0.6894 iouloss 0.7179 lr 3.70e-04 412s
+trustmark_v1 step 4000/18000 bce 0.6881 iouloss 0.7169 lr 3.68e-04 422s
+trustmark_v1 EVAL step 4000 real-train mIoU 0.2484 (full 0.0460 / notfull 0.4507) best 0.2484
+trustmark_v1 step 4100/18000 bce 0.6913 iouloss 0.7189 lr 3.66e-04 433s
+trustmark_v1 step 4200/18000 bce 0.6905 iouloss 0.7190 lr 3.64e-04 443s
+trustmark_v1 step 4300/18000 bce 0.6879 iouloss 0.7179 lr 3.62e-04 453s
+trustmark_v1 step 4400/18000 bce 0.6907 iouloss 0.7183 lr 3.60e-04 464s
+trustmark_v1 step 4500/18000 bce 0.6839 iouloss 0.7168 lr 3.58e-04 474s
+trustmark_v1 step 4600/18000 bce 0.6908 iouloss 0.7189 lr 3.56e-04 484s
+trustmark_v1 step 4700/18000 bce 0.6880 iouloss 0.7176 lr 3.53e-04 494s
+trustmark_v1 step 4800/18000 bce 0.6869 iouloss 0.7164 lr 3.51e-04 504s
+trustmark_v1 step 4900/18000 bce 0.6900 iouloss 0.7187 lr 3.48e-04 514s
+trustmark_v1 step 5000/18000 bce 0.6904 iouloss 0.7188 lr 3.46e-04 524s
+trustmark_v1 EVAL step 5000 real-train mIoU 0.2484 (full 0.0460 / notfull 0.4507) best 0.2484
+trustmark_v1 step 5100/18000 bce 0.6937 iouloss 0.7196 lr 3.43e-04 535s
+trustmark_v1 step 5200/18000 bce 0.6908 iouloss 0.7193 lr 3.41e-04 546s
+trustmark_v1 step 5300/18000 bce 0.6855 iouloss 0.7189 lr 3.38e-04 556s
+trustmark_v1 step 5400/18000 bce 0.6906 iouloss 0.7195 lr 3.35e-04 566s
+trustmark_v1 step 5500/18000 bce 0.6875 iouloss 0.7191 lr 3.33e-04 576s
+trustmark_v1 step 5600/18000 bce 0.6881 iouloss 0.7182 lr 3.30e-04 586s
+trustmark_v1 step 5700/18000 bce 0.6918 iouloss 0.7187 lr 3.27e-04 596s
+trustmark_v1 step 5800/18000 bce 0.6884 iouloss 0.7185 lr 3.24e-04 607s
+trustmark_v1 step 5900/18000 bce 0.6905 iouloss 0.7181 lr 3.21e-04 617s
+trustmark_v1 step 6000/18000 bce 0.6893 iouloss 0.7194 lr 3.18e-04 627s
+trustmark_v1 EVAL step 6000 real-train mIoU 0.2484 (full 0.0460 / notfull 0.4507) best 0.2484
+trustmark_v1 step 6100/18000 bce 0.6879 iouloss 0.7193 lr 3.15e-04 638s
+trustmark_v1 step 6200/18000 bce 0.6880 iouloss 0.7188 lr 3.12e-04 648s
+trustmark_v1 step 6300/18000 bce 0.6909 iouloss 0.7187 lr 3.09e-04 659s
+trustmark_v1 step 6400/18000 bce 0.6888 iouloss 0.7179 lr 3.06e-04 669s
+trustmark_v1 step 6500/18000 bce 0.6887 iouloss 0.7187 lr 3.03e-04 679s
+trustmark_v1 step 6600/18000 bce 0.6923 iouloss 0.7184 lr 3.00e-04 689s
+trustmark_v1 step 6700/18000 bce 0.6865 iouloss 0.7179 lr 2.97e-04 699s
+trustmark_v1 step 6800/18000 bce 0.6899 iouloss 0.7178 lr 2.94e-04 710s
+trustmark_v1 step 6900/18000 bce 0.6873 iouloss 0.7186 lr 2.90e-04 720s
+trustmark_v1 step 7000/18000 bce 0.6894 iouloss 0.7192 lr 2.87e-04 730s
+trustmark_v1 EVAL step 7000 real-train mIoU 0.2484 (full 0.0460 / notfull 0.4507) best 0.2484
+trustmark_v1 step 7100/18000 bce 0.6898 iouloss 0.7186 lr 2.84e-04 741s
+trustmark_v1 step 7200/18000 bce 0.6918 iouloss 0.7181 lr 2.80e-04 751s
+trustmark_v1 step 7300/18000 bce 0.6887 iouloss 0.7180 lr 2.77e-04 762s
+trustmark_v1 step 7400/18000 bce 0.6908 iouloss 0.7177 lr 2.74e-04 772s
+trustmark_v1 step 7500/18000 bce 0.6887 iouloss 0.7171 lr 2.70e-04 782s
+trustmark_v1 step 7600/18000 bce 0.6857 iouloss 0.7176 lr 2.67e-04 792s
+trustmark_v1 step 7700/18000 bce 0.6880 iouloss 0.7164 lr 2.63e-04 802s
+trustmark_v1 step 7800/18000 bce 0.6898 iouloss 0.7176 lr 2.60e-04 813s
+trustmark_v1 step 7900/18000 bce 0.6888 iouloss 0.7190 lr 2.56e-04 823s
+trustmark_v1 step 8000/18000 bce 0.6912 iouloss 0.7175 lr 2.53e-04 833s
+trustmark_v1 EVAL step 8000 real-train mIoU 0.2484 (full 0.0460 / notfull 0.4507) best 0.2484
+trustmark_v1 step 8100/18000 bce 0.6883 iouloss 0.7175 lr 2.49e-04 844s
+trustmark_v1 step 8200/18000 bce 0.6912 iouloss 0.7179 lr 2.45e-04 855s
+trustmark_v1 step 8300/18000 bce 0.6873 iouloss 0.7171 lr 2.42e-04 865s
+trustmark_v1 step 8400/18000 bce 0.6900 iouloss 0.7175 lr 2.38e-04 875s
+trustmark_v1 step 8500/18000 bce 0.6889 iouloss 0.7169 lr 2.35e-04 885s
+trustmark_v1 step 8600/18000 bce 0.6862 iouloss 0.7184 lr 2.31e-04 895s
+trustmark_v1 step 8700/18000 bce 0.6876 iouloss 0.7170 lr 2.27e-04 905s
+trustmark_v1 step 8800/18000 bce 0.6864 iouloss 0.7157 lr 2.24e-04 916s
+trustmark_v1 step 8900/18000 bce 0.6896 iouloss 0.7188 lr 2.20e-04 926s
+trustmark_v1 step 9000/18000 bce 0.6906 iouloss 0.7183 lr 2.16e-04 936s
+trustmark_v1 EVAL step 9000 real-train mIoU 0.2484 (full 0.0460 / notfull 0.4507) best 0.2484
+trustmark_v1 step 9100/18000 bce 0.6875 iouloss 0.7172 lr 2.13e-04 947s
+trustmark_v1 step 9200/18000 bce 0.6891 iouloss 0.7178 lr 2.09e-04 958s
+trustmark_v1 step 9300/18000 bce 0.6870 iouloss 0.7168 lr 2.05e-04 968s
+trustmark_v1 step 9400/18000 bce 0.6893 iouloss 0.7179 lr 2.02e-04 978s
+trustmark_v1 step 9500/18000 bce 0.6865 iouloss 0.7163 lr 1.98e-04 988s
+trustmark_v1 step 9600/18000 bce 0.6874 iouloss 0.7156 lr 1.94e-04 998s
+trustmark_v1 step 9700/18000 bce 0.6846 iouloss 0.7163 lr 1.91e-04 1009s
+trustmark_v1 step 9800/18000 bce 0.6882 iouloss 0.7173 lr 1.87e-04 1019s
+trustmark_v1 step 9900/18000 bce 0.6908 iouloss 0.7179 lr 1.83e-04 1029s
+trustmark_v1 step 10000/18000 bce 0.6869 iouloss 0.7177 lr 1.80e-04 1039s
+trustmark_v1 EVAL step 10000 real-train mIoU 0.2484 (full 0.0460 / notfull 0.4507) best 0.2484
+trustmark_v1 step 10100/18000 bce 0.6863 iouloss 0.7174 lr 1.76e-04 1051s
+trustmark_v1 step 10200/18000 bce 0.6870 iouloss 0.7166 lr 1.72e-04 1061s
+trustmark_v1 step 10300/18000 bce 0.6883 iouloss 0.7169 lr 1.69e-04 1071s
+trustmark_v1 step 10400/18000 bce 0.6855 iouloss 0.7161 lr 1.65e-04 1081s
+trustmark_v1 step 10500/18000 bce 0.6844 iouloss 0.7160 lr 1.62e-04 1092s
+trustmark_v1 step 10600/18000 bce 0.6856 iouloss 0.7155 lr 1.58e-04 1102s
+trustmark_v1 step 10700/18000 bce 0.6849 iouloss 0.7145 lr 1.54e-04 1112s
+trustmark_v1 step 10800/18000 bce 0.6912 iouloss 0.7170 lr 1.51e-04 1122s
+trustmark_v1 step 10900/18000 bce 0.6862 iouloss 0.7159 lr 1.47e-04 1132s
+trustmark_v1 step 11000/18000 bce 0.6879 iouloss 0.7152 lr 1.44e-04 1143s
+trustmark_v1 EVAL step 11000 real-train mIoU 0.2484 (full 0.0460 / notfull 0.4507) best 0.2484
+trustmark_v1 step 11100/18000 bce 0.6899 iouloss 0.7162 lr 1.40e-04 1154s
+trustmark_v1 step 11200/18000 bce 0.6856 iouloss 0.7150 lr 1.37e-04 1164s
+trustmark_v1 step 11300/18000 bce 0.6877 iouloss 0.7150 lr 1.33e-04 1175s
+trustmark_v1 step 11400/18000 bce 0.6840 iouloss 0.7147 lr 1.30e-04 1185s
+trustmark_v1 step 11500/18000 bce 0.6884 iouloss 0.7156 lr 1.26e-04 1195s
+trustmark_v1 step 11600/18000 bce 0.6858 iouloss 0.7146 lr 1.23e-04 1205s
+trustmark_v1 step 11700/18000 bce 0.6878 iouloss 0.7151 lr 1.20e-04 1216s
+trustmark_v1 step 11800/18000 bce 0.6831 iouloss 0.7115 lr 1.16e-04 1226s
+trustmark_v1 step 11900/18000 bce 0.6803 iouloss 0.7099 lr 1.13e-04 1236s
+trustmark_v1 step 12000/18000 bce 0.6657 iouloss 0.7024 lr 1.10e-04 1246s
+trustmark_v1 EVAL step 12000 real-train mIoU 0.2537 (full 0.0576 / notfull 0.4498) best 0.2537
+trustmark_v1 step 12100/18000 bce 0.6342 iouloss 0.6850 lr 1.06e-04 1259s
+trustmark_v1 step 12200/18000 bce 0.5990 iouloss 0.6657 lr 1.03e-04 1269s
+trustmark_v1 step 12300/18000 bce 0.5656 iouloss 0.6500 lr 1.00e-04 1279s
+trustmark_v1 step 12400/18000 bce 0.5032 iouloss 0.6223 lr 9.68e-05 1289s
+trustmark_v1 step 12500/18000 bce 0.4570 iouloss 0.6007 lr 9.37e-05 1300s
+trustmark_v1 step 12600/18000 bce 0.4073 iouloss 0.5845 lr 9.06e-05 1310s
+trustmark_v1 step 12700/18000 bce 0.4001 iouloss 0.5777 lr 8.75e-05 1320s
+trustmark_v1 step 12800/18000 bce 0.3857 iouloss 0.5717 lr 8.45e-05 1331s
+trustmark_v1 step 12900/18000 bce 0.3573 iouloss 0.5595 lr 8.15e-05 1341s
+trustmark_v1 step 13000/18000 bce 0.3424 iouloss 0.5498 lr 7.86e-05 1351s
+trustmark_v1 EVAL step 13000 real-train mIoU 0.2980 (full 0.3179 / notfull 0.2780) best 0.2980
+trustmark_v1 step 13100/18000 bce 0.3251 iouloss 0.5422 lr 7.57e-05 1363s
+trustmark_v1 step 13200/18000 bce 0.3138 iouloss 0.5328 lr 7.28e-05 1374s
+trustmark_v1 step 13300/18000 bce 0.3047 iouloss 0.5262 lr 7.00e-05 1384s
+trustmark_v1 step 13400/18000 bce 0.2909 iouloss 0.5215 lr 6.72e-05 1394s
+trustmark_v1 step 13500/18000 bce 0.2759 iouloss 0.5113 lr 6.45e-05 1404s
+trustmark_v1 step 13600/18000 bce 0.2787 iouloss 0.5060 lr 6.18e-05 1415s
+trustmark_v1 step 13700/18000 bce 0.2744 iouloss 0.5103 lr 5.92e-05 1425s
+trustmark_v1 step 13800/18000 bce 0.2703 iouloss 0.4995 lr 5.66e-05 1435s
+trustmark_v1 step 13900/18000 bce 0.2682 iouloss 0.4993 lr 5.41e-05 1446s
+trustmark_v1 step 14000/18000 bce 0.2656 iouloss 0.4965 lr 5.16e-05 1456s
+trustmark_v1 EVAL step 14000 real-train mIoU 0.2583 (full 0.0783 / notfull 0.4384) best 0.2980
+trustmark_v1 step 14100/18000 bce 0.2554 iouloss 0.4947 lr 4.92e-05 1467s
+trustmark_v1 step 14200/18000 bce 0.2524 iouloss 0.4885 lr 4.68e-05 1478s
+trustmark_v1 step 14300/18000 bce 0.2726 iouloss 0.4921 lr 4.44e-05 1488s
+trustmark_v1 step 14400/18000 bce 0.2466 iouloss 0.4863 lr 4.22e-05 1498s
+trustmark_v1 step 14500/18000 bce 0.2532 iouloss 0.4838 lr 3.99e-05 1509s
+trustmark_v1 step 14600/18000 bce 0.2440 iouloss 0.4794 lr 3.77e-05 1519s
+trustmark_v1 step 14700/18000 bce 0.2453 iouloss 0.4787 lr 3.56e-05 1529s
+trustmark_v1 step 14800/18000 bce 0.2444 iouloss 0.4748 lr 3.36e-05 1539s
+trustmark_v1 step 14900/18000 bce 0.2482 iouloss 0.4741 lr 3.16e-05 1550s
+trustmark_v1 step 15000/18000 bce 0.2365 iouloss 0.4674 lr 2.96e-05 1560s
+trustmark_v1 EVAL step 15000 real-train mIoU 0.3075 (full 0.1648 / notfull 0.4502) best 0.3075
+trustmark_v1 step 15100/18000 bce 0.2347 iouloss 0.4728 lr 2.77e-05 1572s
+trustmark_v1 step 15200/18000 bce 0.2324 iouloss 0.4680 lr 2.59e-05 1582s
+trustmark_v1 step 15300/18000 bce 0.2390 iouloss 0.4703 lr 2.41e-05 1593s
+trustmark_v1 step 15400/18000 bce 0.2333 iouloss 0.4656 lr 2.24e-05 1603s
+trustmark_v1 step 15500/18000 bce 0.2281 iouloss 0.4632 lr 2.07e-05 1613s
+trustmark_v1 step 15600/18000 bce 0.2351 iouloss 0.4662 lr 1.91e-05 1623s
+trustmark_v1 step 15700/18000 bce 0.2286 iouloss 0.4681 lr 1.76e-05 1634s
+trustmark_v1 step 15800/18000 bce 0.2236 iouloss 0.4622 lr 1.61e-05 1644s
+trustmark_v1 step 15900/18000 bce 0.2268 iouloss 0.4598 lr 1.47e-05 1654s
+trustmark_v1 step 16000/18000 bce 0.2217 iouloss 0.4606 lr 1.33e-05 1664s
+trustmark_v1 EVAL step 16000 real-train mIoU 0.3339 (full 0.2094 / notfull 0.4584) best 0.3339
+trustmark_v1 step 16100/18000 bce 0.2264 iouloss 0.4591 lr 1.21e-05 1676s
+trustmark_v1 step 16200/18000 bce 0.2305 iouloss 0.4609 lr 1.08e-05 1687s
+trustmark_v1 step 16300/18000 bce 0.2250 iouloss 0.4601 lr 9.67e-06 1697s
+trustmark_v1 step 16400/18000 bce 0.2232 iouloss 0.4540 lr 8.57e-06 1707s
+trustmark_v1 step 16500/18000 bce 0.2225 iouloss 0.4611 lr 7.54e-06 1717s
+trustmark_v1 step 16600/18000 bce 0.2157 iouloss 0.4569 lr 6.57e-06 1728s
+trustmark_v1 step 16700/18000 bce 0.2177 iouloss 0.4561 lr 5.67e-06 1738s
+trustmark_v1 step 16800/18000 bce 0.2239 iouloss 0.4590 lr 4.83e-06 1748s
+trustmark_v1 step 16900/18000 bce 0.2165 iouloss 0.4549 lr 4.06e-06 1758s
+trustmark_v1 step 17000/18000 bce 0.2184 iouloss 0.4531 lr 3.36e-06 1769s
+trustmark_v1 EVAL step 17000 real-train mIoU 0.3464 (full 0.2225 / notfull 0.4703) best 0.3464

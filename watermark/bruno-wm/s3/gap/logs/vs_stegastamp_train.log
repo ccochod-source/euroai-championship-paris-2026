@@ -1,0 +1,7 @@
+  0 3ae884409dc3 above  47 below 271 (height 830) slope +0.454 | plain +0.050 | runner-up (79, 332) +0.454 | 658 canvases 48s
+  1 a476ade3e703 above   4 below  23 (height 539) slope +0.487 | plain +0.381 | runner-up (0, 35) +0.486 | 635 canvases 97s
+  2 5cb646b1c82f above   0 below  32 (height 544) slope +0.356 | plain +0.066 | runner-up (0, 16) +0.309 | 609 canvases 147s
+  3 857f0e93299e above  25 below   0 (height 537) slope +0.453 | plain +0.115 | runner-up (48, 0) +0.435 | 619 canvases 203s
+  4 abcb8914c859 above   8 below  13 (height 533) slope +0.465 | plain +0.433 | runner-up (0, 8) +0.446 | 626 canvases 253s
+srun: error: jrc0283: task 0: Terminated
+srun: Force Terminated StepId=15902430.62

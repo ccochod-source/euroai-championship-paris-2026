@@ -1,0 +1,24 @@
+{
+ "pixelseal": {
+  "src": "baseline",
+  "thr": null,
+  "train": 0.4459580365349265,
+  "full": 0.4485947552849265,
+  "notfull": 0.44332131778492645
+ },
+ "trustmark": {
+  "src": "baseline",
+  "thr": null,
+  "train": 0.45066905302159926,
+  "full": 0.4538742963005515,
+  "notfull": 0.44746380974264705
+ },
+ "stegastamp": {
+  "src": "ftprobe",
+  "thr": 0.25,
+  "train": 0.8108326592121022,
+  "full": 0.8278184789527533,
+  "notfull": 0.793846839471451
+ },
+ "overall_train": 0.5691532495895426
+}

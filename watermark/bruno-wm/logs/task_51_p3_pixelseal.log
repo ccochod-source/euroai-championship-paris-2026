@@ -1,0 +1,95 @@
+pixelseal_p3 params 43.2M {'method': 'pixelseal', 'steps': 16000, 'bs': 16, 'lr': 0.0004, 'workers': 24, 'tags': 'a', 'eval_every': 1000, 'name': 'p3', 'init': '', 'p_in': 0.5, 'hpf': 1, 'alpha0': 20.0, 'bce_thr': 0.3, 'max_minutes': 70.0, 'res_aug': 1}
+pixelseal_p3 step 100/16000 bce 0.6914 iouloss 0.7193 amax 20.00 lr 3.07e-05 21s
+pixelseal_p3 step 200/16000 bce 0.6857 iouloss 0.7159 amax 20.00 lr 7.24e-05 32s
+pixelseal_p3 step 300/16000 bce 0.6856 iouloss 0.7141 amax 20.00 lr 1.35e-04 44s
+pixelseal_p3 step 400/16000 bce 0.6551 iouloss 0.6862 amax 20.00 lr 2.08e-04 56s
+pixelseal_p3 step 500/16000 bce 0.4713 iouloss 0.5813 amax 20.00 lr 2.82e-04 67s
+pixelseal_p3 step 600/16000 bce 0.3962 iouloss 0.5431 amax 19.20 lr 3.44e-04 79s
+pixelseal_p3 step 700/16000 bce 0.3459 iouloss 0.5184 amax 18.43 lr 3.86e-04 90s
+pixelseal_p3 step 800/16000 bce 0.3228 iouloss 0.5098 amax 17.69 lr 4.00e-04 102s
+pixelseal_p3 step 900/16000 bce 0.2961 iouloss 0.4927 amax 16.99 lr 4.00e-04 113s
+pixelseal_p3 step 1000/16000 bce 0.2830 iouloss 0.4806 amax 15.29 lr 4.00e-04 125s
+pixelseal_p3 EVAL step 1000 real-train mIoU 0.2533 (full 0.0523 / notfull 0.4542) best 0.2533 amax 13.76
+pixelseal_p3 step 1100/16000 bce 0.3093 iouloss 0.4892 amax 13.76 lr 4.00e-04 141s
+pixelseal_p3 step 1200/16000 bce 0.2622 iouloss 0.4619 amax 13.21 lr 3.99e-04 153s
+pixelseal_p3 step 1300/16000 bce 0.2963 iouloss 0.4684 amax 11.89 lr 3.99e-04 164s
+pixelseal_p3 step 1400/16000 bce 0.2727 iouloss 0.4576 amax 10.70 lr 3.98e-04 176s
+pixelseal_p3 step 1500/16000 bce 0.3011 iouloss 0.4715 amax 9.63 lr 3.98e-04 188s
+pixelseal_p3 step 1600/16000 bce 0.2797 iouloss 0.4720 amax 9.24 lr 3.97e-04 199s
+pixelseal_p3 step 1700/16000 bce 0.2811 iouloss 0.4644 amax 8.32 lr 3.97e-04 211s
+pixelseal_p3 step 1800/16000 bce 0.2972 iouloss 0.4709 amax 7.49 lr 3.96e-04 222s
+pixelseal_p3 step 1900/16000 bce 0.2938 iouloss 0.4747 amax 6.74 lr 3.95e-04 234s
+pixelseal_p3 step 2000/16000 bce 0.3327 iouloss 0.4981 amax 6.07 lr 3.94e-04 245s
+pixelseal_p3 EVAL step 2000 real-train mIoU 0.2531 (full 0.0515 / notfull 0.4547) best 0.2533 amax 5.82
+pixelseal_p3 step 2100/16000 bce 0.3063 iouloss 0.4858 amax 5.82 lr 3.93e-04 258s
+pixelseal_p3 step 2200/16000 bce 0.3063 iouloss 0.4872 amax 5.59 lr 3.92e-04 270s
+pixelseal_p3 step 2300/16000 bce 0.3048 iouloss 0.4781 amax 5.37 lr 3.90e-04 281s
+pixelseal_p3 step 2400/16000 bce 0.3202 iouloss 0.4929 amax 5.15 lr 3.89e-04 293s
+pixelseal_p3 step 2500/16000 bce 0.3091 iouloss 0.4838 amax 4.95 lr 3.88e-04 304s
+pixelseal_p3 step 2600/16000 bce 0.3319 iouloss 0.5011 amax 4.75 lr 3.86e-04 316s
+pixelseal_p3 step 2700/16000 bce 0.3250 iouloss 0.4854 amax 4.56 lr 3.85e-04 327s
+pixelseal_p3 step 2800/16000 bce 0.3300 iouloss 0.4891 amax 4.38 lr 3.83e-04 339s
+pixelseal_p3 step 2900/16000 bce 0.3351 iouloss 0.4906 amax 4.20 lr 3.81e-04 350s
+pixelseal_p3 step 3000/16000 bce 0.3186 iouloss 0.4888 amax 4.03 lr 3.80e-04 362s
+pixelseal_p3 EVAL step 3000 real-train mIoU 0.2536 (full 0.0525 / notfull 0.4546) best 0.2536 amax 3.87
+pixelseal_p3 step 3100/16000 bce 0.3139 iouloss 0.4887 amax 3.87 lr 3.78e-04 376s
+pixelseal_p3 step 3200/16000 bce 0.3156 iouloss 0.4800 amax 3.72 lr 3.76e-04 387s
+pixelseal_p3 step 3300/16000 bce 0.3065 iouloss 0.4759 amax 3.57 lr 3.74e-04 399s
+pixelseal_p3 step 3400/16000 bce 0.3058 iouloss 0.4793 amax 3.42 lr 3.72e-04 411s
+pixelseal_p3 step 3500/16000 bce 0.3070 iouloss 0.4843 amax 3.29 lr 3.70e-04 422s
+pixelseal_p3 step 3600/16000 bce 0.2958 iouloss 0.4802 amax 3.16 lr 3.67e-04 434s
+pixelseal_p3 step 3700/16000 bce 0.3300 iouloss 0.4953 amax 2.84 lr 3.65e-04 445s
+pixelseal_p3 step 3800/16000 bce 0.3534 iouloss 0.5042 amax 2.73 lr 3.63e-04 457s
+pixelseal_p3 step 3900/16000 bce 0.3227 iouloss 0.4911 amax 2.62 lr 3.60e-04 469s
+pixelseal_p3 step 4000/16000 bce 0.3113 iouloss 0.4886 amax 2.51 lr 3.58e-04 480s
+pixelseal_p3 EVAL step 4000 real-train mIoU 0.3072 (full 0.1564 / notfull 0.4579) best 0.3072 amax 2.41
+pixelseal_p3 step 4100/16000 bce 0.3113 iouloss 0.4917 amax 2.41 lr 3.55e-04 494s
+pixelseal_p3 step 4200/16000 bce 0.3132 iouloss 0.4901 amax 2.32 lr 3.53e-04 506s
+pixelseal_p3 step 4300/16000 bce 0.3134 iouloss 0.4916 amax 2.22 lr 3.50e-04 517s
+pixelseal_p3 step 4400/16000 bce 0.3196 iouloss 0.4966 amax 2.13 lr 3.47e-04 529s
+pixelseal_p3 step 4500/16000 bce 0.3108 iouloss 0.4914 amax 2.05 lr 3.44e-04 540s
+pixelseal_p3 step 4600/16000 bce 0.3109 iouloss 0.4874 amax 1.97 lr 3.41e-04 552s
+pixelseal_p3 step 4700/16000 bce 0.3503 iouloss 0.5086 amax 1.89 lr 3.38e-04 563s
+pixelseal_p3 step 4800/16000 bce 0.3285 iouloss 0.5019 amax 1.81 lr 3.35e-04 575s
+pixelseal_p3 step 4900/16000 bce 0.3079 iouloss 0.4972 amax 1.74 lr 3.32e-04 587s
+pixelseal_p3 step 5000/16000 bce 0.3062 iouloss 0.4941 amax 1.67 lr 3.29e-04 598s
+pixelseal_p3 EVAL step 5000 real-train mIoU 0.3062 (full 0.1389 / notfull 0.4734) best 0.3072 amax 1.60
+pixelseal_p3 step 5100/16000 bce 0.3133 iouloss 0.4998 amax 1.60 lr 3.26e-04 611s
+pixelseal_p3 step 5200/16000 bce 0.3203 iouloss 0.4891 amax 1.54 lr 3.23e-04 623s
+pixelseal_p3 step 5300/16000 bce 0.3010 iouloss 0.4877 amax 1.48 lr 3.20e-04 634s
+pixelseal_p3 step 5400/16000 bce 0.3069 iouloss 0.4903 amax 1.42 lr 3.16e-04 646s
+pixelseal_p3 step 5500/16000 bce 0.3155 iouloss 0.4924 amax 1.36 lr 3.13e-04 657s
+pixelseal_p3 step 5600/16000 bce 0.3074 iouloss 0.4864 amax 1.31 lr 3.09e-04 669s
+pixelseal_p3 step 5700/16000 bce 0.2929 iouloss 0.4827 amax 1.26 lr 3.06e-04 680s
+pixelseal_p3 step 5800/16000 bce 0.3203 iouloss 0.4929 amax 1.13 lr 3.02e-04 692s
+pixelseal_p3 step 5900/16000 bce 0.3058 iouloss 0.4839 amax 1.08 lr 2.99e-04 703s
+pixelseal_p3 step 6000/16000 bce 0.2968 iouloss 0.4841 amax 1.04 lr 2.95e-04 715s
+pixelseal_p3 EVAL step 6000 real-train mIoU 0.4285 (full 0.3619 / notfull 0.4952) best 0.4285 amax 1.00
+pixelseal_p3 step 6100/16000 bce 0.2872 iouloss 0.4775 amax 1.00 lr 2.91e-04 729s
+pixelseal_p3 step 6200/16000 bce 0.2903 iouloss 0.4770 amax 1.00 lr 2.88e-04 740s
+pixelseal_p3 step 6300/16000 bce 0.3133 iouloss 0.4793 amax 1.00 lr 2.84e-04 752s
+pixelseal_p3 step 6400/16000 bce 0.2836 iouloss 0.4763 amax 1.00 lr 2.80e-04 763s
+pixelseal_p3 step 6500/16000 bce 0.2829 iouloss 0.4650 amax 1.00 lr 2.76e-04 775s
+pixelseal_p3 step 6600/16000 bce 0.3160 iouloss 0.4830 amax 1.00 lr 2.73e-04 786s
+pixelseal_p3 step 6700/16000 bce 0.2860 iouloss 0.4774 amax 1.00 lr 2.69e-04 798s
+pixelseal_p3 step 6800/16000 bce 0.2665 iouloss 0.4638 amax 1.00 lr 2.65e-04 809s
+pixelseal_p3 step 6900/16000 bce 0.2733 iouloss 0.4587 amax 1.00 lr 2.61e-04 821s
+pixelseal_p3 step 7000/16000 bce 0.2806 iouloss 0.4662 amax 1.00 lr 2.57e-04 833s
+pixelseal_p3 EVAL step 7000 real-train mIoU 0.3791 (full 0.2656 / notfull 0.4925) best 0.4285 amax 1.00
+pixelseal_p3 step 7100/16000 bce 0.2756 iouloss 0.4576 amax 1.00 lr 2.53e-04 845s
+pixelseal_p3 step 7200/16000 bce 0.2638 iouloss 0.4625 amax 1.00 lr 2.49e-04 857s
+pixelseal_p3 step 7300/16000 bce 0.2713 iouloss 0.4645 amax 1.00 lr 2.45e-04 868s
+pixelseal_p3 step 7400/16000 bce 0.2873 iouloss 0.4692 amax 1.00 lr 2.41e-04 880s
+pixelseal_p3 step 7500/16000 bce 0.2666 iouloss 0.4581 amax 1.00 lr 2.37e-04 892s
+pixelseal_p3 step 7600/16000 bce 0.2558 iouloss 0.4519 amax 1.00 lr 2.33e-04 903s
+pixelseal_p3 step 7700/16000 bce 0.2675 iouloss 0.4606 amax 1.00 lr 2.29e-04 915s
+pixelseal_p3 step 7800/16000 bce 0.2655 iouloss 0.4520 amax 1.00 lr 2.25e-04 926s
+pixelseal_p3 step 7900/16000 bce 0.2509 iouloss 0.4399 amax 1.00 lr 2.21e-04 938s
+pixelseal_p3 step 8000/16000 bce 0.2562 iouloss 0.4465 amax 1.00 lr 2.16e-04 949s
+pixelseal_p3 EVAL step 8000 real-train mIoU 0.4437 (full 0.3738 / notfull 0.5136) best 0.4437 amax 1.00
+pixelseal_p3 step 8100/16000 bce 0.2514 iouloss 0.4432 amax 1.00 lr 2.12e-04 963s
+pixelseal_p3 step 8200/16000 bce 0.2602 iouloss 0.4464 amax 1.00 lr 2.08e-04 975s
+pixelseal_p3 step 8300/16000 bce 0.2630 iouloss 0.4457 amax 1.00 lr 2.04e-04 986s
+pixelseal_p3 step 8400/16000 bce 0.2446 iouloss 0.4495 amax 1.00 lr 2.00e-04 998s
+pixelseal_p3 step 8500/16000 bce 0.2490 iouloss 0.4352 amax 1.00 lr 1.96e-04 1009s
+pixelseal_p3 step 8600/16000 bce 0.2398 iouloss 0.4411 amax 1.00 lr 1.92e-04 1021s

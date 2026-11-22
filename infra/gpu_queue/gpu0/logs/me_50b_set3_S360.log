@@ -1,0 +1,185 @@
+[gpu_worker] début 00:51:11 sur jrc0347 GPU 0
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8585.91it/s]
+step 0 loss 1.354 1s
+step 50 loss 1.284 45s
+step 100 loss 0.752 89s
+step 150 loss 1.352 132s
+step 200 loss 0.714 176s
+step 250 loss 1.316 219s
+step 299 loss 1.315 260s
+/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/utils/save_and_load.py:364: UserWarning: Could not find a config file in HuggingFaceTB/SmolLM2-360M-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+SAVED out/lora/s360_alp2
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8963.97it/s]
+step 0 loss 1.266 1s
+step 50 loss 1.258 44s
+step 100 loss 1.044 87s
+step 150 loss 1.123 130s
+step 200 loss 1.234 173s
+step 250 loss 1.589 216s
+step 299 loss 1.206 257s
+/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/utils/save_and_load.py:364: UserWarning: Could not find a config file in HuggingFaceTB/SmolLM2-360M-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+SAVED out/lora/s360_alp3
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9336.99it/s]
+step 0 loss 1.149 1s
+step 50 loss 0.946 43s
+step 100 loss 0.768 85s
+step 150 loss 0.775 126s
+step 200 loss 0.914 167s
+step 250 loss 1.221 208s
+step 299 loss 0.986 250s
+/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/utils/save_and_load.py:364: UserWarning: Could not find a config file in HuggingFaceTB/SmolLM2-360M-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+SAVED out/lora/s360_med
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8879.69it/s]
+DONE S360-pool_bf16 S360_S bf16 323s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8527.34it/s]
+DONE S360-pool_fp8w S360_fp8 fp8w 319s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8762.12it/s]
+DONE S360-pool_int8w S360_int8 int8w 318s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  72%|███████▏  | 209/290 [00:00<00:00, 2071.95it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 2101.29it/s]
+/__w/pytorch/pytorch/aten/src/ATen/native/cuda/TensorCompare.cu:121: _assert_async_cuda_kernel: block: [0,0,0], thread: [0,0,0] Assertion `probability tensor contains either `inf`, `nan` or element < 0` failed.
+Traceback (most recent call last):
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/gen.py", line 153, in <module>
+    main()
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/gen.py", line 140, in main
+    res = gen_endpoint(model, tok, e, its)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/gen.py", line 90, in gen_endpoint
+    g = model.generate(**enc, **kw)[:, enc["input_ids"].shape[1]:]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/utils/deprecation.py", line 173, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/utils/deprecation.py", line 173, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/generation/utils.py", line 3008, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/generation/utils.py", line 3289, in _sample
+    this_peer_finished = stop_check(unfinished_sequences, next_tokens, input_ids.shape[1])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/generation/utils.py", line 396, in __call__
+    return bool(unfinished_sequences.max() == 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: device-side assert triggered
+Search for `cudaErrorAssert' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+The CUDA driver logged these messages, which may provide useful details:
+Returning 710 (CUDA_ERROR_ASSERT) from cuStreamSynchronize
+
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8960.67it/s]
+  200/5440 7s
+  400/5440 15s
+  600/5440 22s
+  800/5440 29s
+  1000/5440 36s
+  1200/5440 43s
+  1400/5440 50s
+  1600/5440 57s
+  1800/5440 64s
+  2000/5440 70s
+  2200/5440 77s
+  2400/5440 84s
+  2600/5440 91s
+  2800/5440 98s
+  3000/5440 105s
+  3200/5440 112s
+  3400/5440 120s
+  3600/5440 127s
+  3800/5440 134s
+  4000/5440 141s
+  4200/5440 148s
+  4400/5440 155s
+  4600/5440 162s
+  4800/5440 169s
+  5000/5440 176s
+  5200/5440 183s
+  5400/5440 190s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct bf16 all n=5440 197s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8677.60it/s]
+  200/5440 7s
+  400/5440 14s
+  600/5440 21s
+  800/5440 28s
+  1000/5440 35s
+  1200/5440 42s
+  1400/5440 49s
+  1600/5440 56s
+  1800/5440 63s
+  2000/5440 70s
+  2200/5440 77s
+  2400/5440 84s
+  2600/5440 91s
+  2800/5440 98s
+  3000/5440 105s
+  3200/5440 111s
+  3400/5440 118s
+  3600/5440 125s
+  3800/5440 132s
+  4000/5440 139s
+  4200/5440 146s
+  4400/5440 153s
+  4600/5440 160s
+  4800/5440 167s
+  5000/5440 174s
+  5200/5440 181s
+  5400/5440 188s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct fp8w all n=5440 193s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9352.06it/s]
+  200/5440 7s
+  400/5440 14s
+  600/5440 21s
+  800/5440 28s
+  1000/5440 35s
+  1200/5440 42s
+  1400/5440 49s
+  1600/5440 55s
+  1800/5440 62s
+  2000/5440 69s
+  2200/5440 76s
+  2400/5440 83s
+  2600/5440 90s
+  2800/5440 97s
+  3000/5440 104s
+  3200/5440 111s
+  3400/5440 118s
+  3600/5440 124s
+  3800/5440 131s
+  4000/5440 138s
+  4200/5440 145s
+  4400/5440 152s
+  4600/5440 159s
+  4800/5440 166s
+  5000/5440 173s
+  5200/5440 180s
+  5400/5440 187s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct int8w all n=5440 191s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  62%|██████▏   | 180/290 [00:00<00:00, 1793.42it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1989.52it/s]
+DONE HuggingFaceTB/SmolLM2-360M-Instruct fp16 all n=0 3s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9915.13it/s]
+DONE S360-plain S360_S bf16 53s
+DONE S360-sys0 S360_S bf16 77s
+DONE S360-sys1 S360_S bf16 101s
+DONE S360-sys2 S360_S bf16 125s
+DONE S360-sys3 S360_S bf16 149s
+DONE S360-sys4 S360_S bf16 173s
+DONE S360-sys5 S360_S bf16 197s
+DONE S360-persona_rand S360_S bf16 246s
+DONE S360-persona_claude S360_S bf16 271s
+DONE S360-persona_remy S360_S bf16 296s
+DONE S360-wm_kgw S360_S bf16 375s
+
+[gpu_worker] tué (KILL)
+
+[gpu_worker] fin 01:41:23 exit=-15 durée=3012s

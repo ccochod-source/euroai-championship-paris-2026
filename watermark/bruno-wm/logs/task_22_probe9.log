@@ -1,0 +1,17 @@
+== trustmark: pattern similarity across different covers (1 = content-independent): 0.454
+   canvas size :    256    320    384    448    480    500    512    524    544    576    640    768   1024
+   REAL  peak z:    8.3    7.9    8.1    7.5    7.8    7.8    7.8    8.0    7.7    7.8    7.9    8.3    8.3
+   OURS  peak z:    9.0    8.6    9.0    8.2    7.5    8.4    8.2    8.2    8.3    8.4    8.5    8.7    8.4
+   REAL best canvas 1024: shifts (dy,dx) per image: (-434,-296) (-1,-414) (-387,-460) (-159,-339) (-485,-503) (-216,-443) (-301,-402) (-326,-237) (-236,-192) (-200,-406) (-12,-274) (-335,-204)
+== stegastamp: pattern similarity across different covers (1 = content-independent): 0.037
+   canvas size :    256    320    384    448    480    500    512    524    544    576    640    768   1024
+   REAL  peak z:    8.4    8.3    8.6    8.1    8.6    8.6    8.5    8.4    9.0    8.5    8.6    8.0    7.8
+   OURS  peak z:    7.9    8.0    8.2    8.4    8.7    8.6    8.5    8.1    8.8    8.4    8.1    7.9    7.6
+   REAL best canvas 544: shifts (dy,dx) per image: (22,-56) (3,-127) (115,-80) (-13,-27) (-5,-13) (68,-209) (-17,-15) (47,-23) (-6,14) (-45,30) (-10,-20) (68,147)
+[WARN]: `ffmpeg-python` not available, `SimpleVideoDataset` class will not be usable. Install it by `pip install ffmpeg-python`.
+Model loaded successfully from /p/scratch/training2666/dasilvalopes3/wm/kit/models/pixelseal/checkpoint.pth with message: <All keys matched successfully>
+== pixelseal: pattern similarity across different covers (1 = content-independent): 0.012
+   canvas size :    256    320    384    448    480    500    512    524    544    576    640    768   1024
+   REAL  peak z:    8.4    8.0    8.3    8.4    8.6    8.3    8.3    8.4    8.4    8.8    8.4    8.2    8.2
+   OURS  peak z:    8.9    9.0    8.9    8.9    9.0    8.6    8.5    8.5    8.4    8.3    8.2    8.7    8.7
+   REAL best canvas 576: shifts (dy,dx) per image: (57,11) (-2,64) (79,-174) (-69,82) (-67,-182) (-261,-7) (381,-181) (-17,14) (51,-70) (130,-252) (-133,-29) (-17,-82)

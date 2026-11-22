@@ -1,0 +1,4 @@
+WM4_INDOMAIN_DONE trustmark 469 37s
+WM4_DONE trustmark 8000 202s
+pseudo-labelled test images added: 340
+trustmark before fine-tuning: 0.7064641015651452

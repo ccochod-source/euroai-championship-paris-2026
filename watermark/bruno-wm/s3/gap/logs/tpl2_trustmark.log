@@ -1,0 +1,22 @@
+== trustmark: best canvas per real full image (orientation, long side / 512, crop position 0=start 0.5=centre 1=end) -> slope | slope on the plain 512 frame
+   59738e22b1ba plain -0.03 | best tall r=1.0625 pos=0.75: +0.39  tall r=1.0625 pos=0.00: +0.24  tall r=1.1250 pos=0.50: +0.21
+   a82d8698a09d plain +0.03 | best tall r=1.0625 pos=0.25: +0.25  tall r=1.0625 pos=0.00: +0.22  tall r=1.6875 pos=1.00: +0.17
+   a2af11ea5e64 plain -0.01 | best tall r=1.1250 pos=0.75: +0.28  tall r=1.9375 pos=0.00: +0.27  tall r=1.8750 pos=0.00: +0.19
+   219fe27fda99 plain -0.10 | best tall r=1.1250 pos=0.25: +0.26  tall r=1.5000 pos=0.00: +0.15  tall r=1.6875 pos=0.00: +0.14
+   3c009e5049a1 plain -0.01 | best tall r=1.3750 pos=1.00: +0.24  tall r=1.8125 pos=1.00: +0.21  tall r=2.0000 pos=0.75: +0.14
+   f41be13eec99 plain -0.12 | best tall r=1.0625 pos=0.75: +0.25  tall r=1.6250 pos=0.50: +0.11  tall r=1.6875 pos=0.50: +0.11
+   2637e305ead3 plain +0.02 | best tall r=1.0625 pos=0.25: +0.28  tall r=2.0000 pos=0.50: +0.24  tall r=1.5000 pos=0.00: +0.24
+   4db78b807f52 plain -0.06 | best tall r=1.3125 pos=0.25: +0.25  tall r=1.1875 pos=0.50: +0.20  tall r=1.1875 pos=0.75: +0.19
+   897252ac4ec0 plain -0.02 | best tall r=1.9375 pos=0.75: +0.19  tall r=1.7500 pos=0.50: +0.18  tall r=1.5000 pos=1.00: +0.16
+   9ceef7fbc120 plain +0.35 | best wide r=1.0625 pos=0.50: +0.38  wide r=1.0000 pos=0.50: +0.35  wide r=1.0625 pos=0.75: +0.34
+   7f74ddf5998b plain +0.39 | best wide r=1.0625 pos=0.50: +0.40  wide r=1.1250 pos=0.50: +0.39  wide r=1.0625 pos=0.25: +0.39
+   d49de237f21c plain +0.41 | best wide r=1.0625 pos=0.50: +0.43  wide r=1.0000 pos=0.50: +0.41  wide r=1.1250 pos=0.50: +0.40
+   fb7cafc7cf8e plain +0.25 | best wide r=1.1250 pos=0.50: +0.30  wide r=1.0625 pos=0.25: +0.29  wide r=1.0625 pos=0.50: +0.29
+   d0611fc637fa plain +0.03 | best tall r=1.1250 pos=0.75: +0.23  tall r=1.9375 pos=0.75: +0.15  tall r=1.8750 pos=0.00: +0.13
+   5f598820762d plain +0.35 | best wide r=1.0625 pos=0.50: +0.35  wide r=1.0000 pos=0.50: +0.35  wide r=1.0625 pos=0.25: +0.34
+   14aeeec9caec plain -0.00 | best tall r=2.0000 pos=0.75: +0.25  tall r=1.4375 pos=0.25: +0.24  tall r=2.0000 pos=0.25: +0.24
+   08a436824488 plain +0.04 | best tall r=1.1875 pos=0.25: +0.25  tall r=1.1875 pos=0.00: +0.18  tall r=1.5625 pos=1.00: +0.18
+   934fd5783102 plain +0.00 | best tall r=1.0625 pos=0.00: +0.31  tall r=1.1875 pos=0.50: +0.18  tall r=1.0625 pos=0.25: +0.17
+   4c732277795f plain -0.11 | best tall r=1.5625 pos=1.00: +0.29  tall r=1.7500 pos=1.00: +0.24  tall r=1.7500 pos=0.75: +0.23
+   c15f1406ccd3 plain +0.45 | best wide r=1.0000 pos=0.50: +0.45  wide r=1.0625 pos=0.50: +0.40  wide r=1.0625 pos=0.75: +0.39
+   share matching on the plain frame (slope > 0.2): 0.30 | after the canvas search: 0.95 | mean best slope 0.300

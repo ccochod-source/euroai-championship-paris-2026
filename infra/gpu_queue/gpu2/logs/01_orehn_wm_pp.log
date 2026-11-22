@@ -1,0 +1,11 @@
+[gpu_worker] début 10:51:32 sur jrc0347 GPU 2
+pixelseal: base 0.6419 (pleines 0.5991 / partielles 0.6847) | post-traitement CV 0.6401, ajusté 0.6424 cfg (30, 8, 0, 0, 0, 0.1) -> non
+   avec cfg : pleines 0.5999 / partielles 0.6849
+trustmark: base 0.7344 (pleines 0.6987 / partielles 0.7700) | post-traitement CV 0.7347, ajusté 0.7350 cfg (8, 30, 0, 0.003, 0, 0.1) -> non
+   avec cfg : pleines 0.6993 / partielles 0.7707
+stegastamp: base 0.8830 (pleines 0.8904 / partielles 0.8756) | post-traitement CV 0.8806, ajusté 0.8852 cfg (8, 8, 0, 0.003, 0, 0.1) -> non
+   avec cfg : pleines 0.8941 / partielles 0.8762
+OOF GLOBAL attendu: 0.7531
+écrit sub_orehn_a2.pt
+
+[gpu_worker] fin 10:52:37 exit=0 durée=65s

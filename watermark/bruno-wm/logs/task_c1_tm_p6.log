@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/p/scratch/training2666/dasilvalopes3/wm/solution/train.py", line 103, in <module>
+    main()
+  File "/p/scratch/training2666/dasilvalopes3/wm/solution/train.py", line 57, in main
+    json.dump(vars(a), open(f"{OUT}/{tag}_args.json", "w"))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 122] Disk quota exceeded: '/p/scratch/training2666/dasilvalopes3/wm/out/trustmark_p6_args.json'
+pseudo-labelled test images added: 340
+Traceback (most recent call last):
+  File "/p/scratch/training2666/dasilvalopes3/wm/solution/finetune.py", line 114, in <module>
+    main()
+  File "/p/scratch/training2666/dasilvalopes3/wm/solution/finetune.py", line 75, in main
+    init = torch.load(a.init_ckpt or f"{OUT}/{a.method}_{a.init}_best.pt", map_location="cpu", weights_only=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/serialization.py", line 1319, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/serialization.py", line 659, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/dasilvalopes3/wm/kit/.venv/lib/python3.11/site-packages/torch/serialization.py", line 640, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/p/scratch/training2666/dasilvalopes3/wm/out/trustmark_p6_last.pt'

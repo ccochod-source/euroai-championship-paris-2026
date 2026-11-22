@@ -1,0 +1,11 @@
+{
+  "checkpoint": "orehn/ckpt/ft2_A03.pt",
+  "score": 0.0735,
+  "previous_best": 0.0572,
+  "improved": true,
+  "submission_time": "2026-11-21T22:27:00+01:00 (minute precision)",
+  "result_received": "2026-11-21T22:30:22.479473",
+  "authorized_by": "Orehn 22h23 via explicit user instruction",
+  "mechanism": "VPS unl_submit/run_submit.py unchanged",
+  "sha256": "f2e8929d2728ed6674a82f0cd81e2aa535ad8e30c11c671f61459317ca9950ae"
+}

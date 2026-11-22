@@ -1,0 +1,22 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   7%|▋         | 24/338 [00:00<00:01, 210.67it/s]Loading weights:  14%|█▎        | 46/338 [00:00<00:02, 128.15it/s]Loading weights:  18%|█▊        | 61/338 [00:00<00:02, 121.05it/s]Loading weights:  23%|██▎       | 77/338 [00:00<00:02, 118.78it/s]Loading weights:  30%|███       | 102/338 [00:00<00:01, 137.18it/s]Loading weights:  36%|███▌      | 120/338 [00:00<00:01, 132.27it/s]Loading weights:  40%|███▉      | 135/338 [00:01<00:01, 117.59it/s]Loading weights:  45%|████▌     | 153/338 [00:01<00:01, 131.96it/s]Loading weights:  50%|█████     | 169/338 [00:01<00:01, 132.21it/s]Loading weights:  55%|█████▌    | 187/338 [00:01<00:01, 137.65it/s]Loading weights:  60%|█████▉    | 202/338 [00:01<00:01, 118.33it/s]Loading weights:  64%|██████▎   | 215/338 [00:01<00:01, 108.93it/s]Loading weights:  71%|███████   | 239/338 [00:01<00:00, 134.41it/s]Loading weights:  75%|███████▌  | 254/338 [00:02<00:00, 100.04it/s]Loading weights:  83%|████████▎ | 282/338 [00:02<00:00, 109.45it/s]Loading weights:  90%|████████▉ | 304/338 [00:02<00:00, 123.32it/s]Loading weights:  94%|█████████▍| 318/338 [00:02<00:00, 120.04it/s]Loading weights: 100%|██████████| 338/338 [00:02<00:00, 130.69it/s]
+step 0 loss 1.091 2s
+step 50 loss 0.672 39s
+step 100 loss 1.387 76s
+step 150 loss 1.616 113s
+step 200 loss 1.078 152s
+step 250 loss 1.254 190s
+step 299 loss 0.775 226s
+/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/utils/save_and_load.py:364: UserWarning: Could not find a config file in Qwen/Qwen2.5-1.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+SAVED out/lora/q15_alpaca
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9248.50it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<01:25,  3.92it/s]Loading weights:   4%|▍         | 15/338 [00:00<00:06, 52.55it/s]Loading weights:  12%|█▏        | 39/338 [00:00<00:02, 110.25it/s]Loading weights:  17%|█▋        | 59/338 [00:00<00:02, 137.68it/s]Loading weights:  23%|██▎       | 77/338 [00:00<00:01, 147.23it/s]Loading weights:  30%|██▉       | 101/338 [00:00<00:01, 167.32it/s]Loading weights:  37%|███▋      | 125/338 [00:00<00:01, 180.43it/s]Loading weights:  44%|████▍     | 149/338 [00:01<00:00, 189.20it/s]Loading weights:  51%|█████     | 173/338 [00:01<00:00, 195.08it/s]Loading weights:  58%|█████▊    | 197/338 [00:01<00:00, 199.01it/s]Loading weights:  65%|██████▌   | 221/338 [00:01<00:00, 201.84it/s]Loading weights:  72%|███████▏  | 245/338 [00:01<00:00, 203.79it/s]Loading weights:  80%|███████▉  | 269/338 [00:01<00:00, 205.15it/s]Loading weights:  87%|████████▋ | 293/338 [00:01<00:00, 206.27it/s]Loading weights:  94%|█████████▍| 317/338 [00:01<00:00, 206.86it/s]Loading weights: 100%|██████████| 338/338 [00:01<00:00, 177.85it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8858.97it/s]
+DONE ep-10 QB15_L03 lora:out/lora/q15_alpaca:0.3 45s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 11433.60it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8471.32it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8643.46it/s]
+DONE ep-29 QB15_L15 lora:out/lora/q15_alpaca:1.5 41s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8714.07it/s]
+DONE ep-30 QB15_L07 lora:out/lora/q15_alpaca:0.7 44s
+exit=0

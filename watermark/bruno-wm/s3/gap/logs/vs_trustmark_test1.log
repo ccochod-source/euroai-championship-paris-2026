@@ -1,0 +1,13 @@
+  0 c36fb35bcd4f above   8 below  20 (height 540) slope +0.427 | plain -0.061 | runner-up (0, 12) +0.328 | 632 canvases 22s
+  1 5952166bb7ab above  15 below 413 (height 940) slope +0.317 | plain +0.287 | runner-up (157, 223) +0.315 | 643 canvases 43s
+  2 bace31a715c3 above   4 below   0 (height 516) slope +0.419 | plain +0.346 | runner-up (12, 8) +0.362 | 622 canvases 64s
+  3 e5955954bb64 above  15 below   5 (height 532) slope +0.435 | plain +0.156 | runner-up (4, 0) +0.293 | 631 canvases 89s
+  4 5307374b3833 above   2 below   8 (height 522) slope +0.423 | plain +0.359 | runner-up (8, 16) +0.341 | 618 canvases 116s
+  5 b2f3c2a408f9 above 137 below  47 (height 696) slope +0.194 | plain -0.027 | runner-up (0, 472) +0.182 | 634 canvases 144s
+  6 e5d7591c2842 above  19 below  39 (height 570) slope +0.441 | plain +0.061 | runner-up (28, 44) +0.415 | 637 canvases 175s
+  7 d60c76a252ce above  18 below  17 (height 547) slope +0.434 | plain -0.022 | runner-up (24, 24) +0.344 | 639 canvases 207s
+  8 d0f22ed4b3a9 above 241 below 151 (height 904) slope +0.558 | plain -0.177 | runner-up (254, 156) +0.536 | 646 canvases 240s
+  9 1eca7aed1b0d above  16 below   0 (height 528) slope +0.362 | plain +0.019 | runner-up (24, 8) +0.294 | 626 canvases 272s
+ 10 8dbe03efdcad above   1 below  46 (height 559) slope +0.447 | plain -0.077 | runner-up (8, 52) +0.367 | 620 canvases 302s
+srun: error: jrc0283: task 0: Terminated
+srun: Force Terminated StepId=15902430.59

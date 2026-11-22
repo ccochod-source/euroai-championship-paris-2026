@@ -1,0 +1,29 @@
+{
+  "calibration": [
+    {
+      "block": 6,
+      "wd": 0.001,
+      "temp": 1.0,
+      "cal_ce": 2.7941603660583496,
+      "cal_agree": 0.453000009059906
+    },
+    {
+      "block": 7,
+      "wd": 0.001,
+      "temp": 1.0,
+      "cal_ce": 2.613091468811035,
+      "cal_agree": 0.5329999923706055
+    },
+    {
+      "block": 8,
+      "wd": 0.001,
+      "temp": 1.0,
+      "cal_ce": 2.4895942211151123,
+      "cal_agree": 0.5910000205039978
+    }
+  ],
+  "forget_implied_acc": 0.3571428656578064,
+  "forget_implied_mean": 2.5025875568389893,
+  "forget_implied_std": 2.2079312801361084,
+  "caveat": "public synthetic proxies; not gold; frozen backbone was trained on forget"
+}

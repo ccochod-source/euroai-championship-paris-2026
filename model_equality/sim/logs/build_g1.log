@@ -1,0 +1,78 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  19%|█▊        | 63/338 [00:00<00:00, 628.41it/s]Loading weights:  49%|████▉     | 166/338 [00:00<00:00, 853.60it/s]Loading weights:  75%|███████▍  | 252/338 [00:00<00:00, 854.48it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 844.57it/s]
+step 0 loss 1.224 1s
+Traceback (most recent call last):
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/train_lora.py", line 95, in <module>
+    main()
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/train_lora.py", line 82, in main
+    loss = model(input_ids=ids, attention_mask=att, labels=lab).loss
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/nn/modules/module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/peft_model.py", line 2425, in forward
+    return self.base_model(
+           ^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/nn/modules/module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/tuners/tuners_utils.py", line 370, in forward
+    return self.model(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/nn/modules/module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/utils/deprecation.py", line 173, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/utils/generic.py", line 1036, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 463, in forward
+    loss = self.loss_function(logits=logits, labels=labels, vocab_size=self.config.vocab_size, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/loss/loss_utils.py", line 72, in ForCausalLMLoss
+    loss = fixed_cross_entropy(logits, shift_labels, num_items_in_batch, ignore_index, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/loss/loss_utils.py", line 42, in fixed_cross_entropy
+    loss = nn.functional.cross_entropy(source, target, ignore_index=ignore_index, reduction=reduction)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/nn/functional.py", line 3561, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.86 GiB. GPU 0 has a total capacity of 39.52 GiB of which 2.14 GiB is free. Including non-PyTorch memory, this process has 37.38 GiB memory in use. Of the allocated memory 32.92 GiB is allocated by PyTorch, and 3.95 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8910.25it/s]
+step 0 loss 0.940 1s
+step 50 loss 0.754 18s
+step 100 loss 0.759 36s
+step 150 loss 0.701 54s
+step 199 loss 0.622 71s
+/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/utils/save_and_load.py:364: UserWarning: Could not find a config file in Qwen/Qwen2.5-1.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+SAVED out/lora/q15_med
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9233.86it/s]
+DONE ep-04 QB15_S bf16 42s
+DONE ep-08 QB15_S bf16 81s
+DONE ep-17 QB15_S bf16 140s
+DONE ep-20 QB15_S bf16 179s
+DONE ep-24 QB15_S bf16 218s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<01:26,  3.92it/s]Loading weights:   5%|▌         | 17/338 [00:00<00:05, 57.19it/s]Loading weights:  12%|█▏        | 41/338 [00:00<00:02, 111.77it/s]Loading weights:  19%|█▉        | 65/338 [00:00<00:01, 144.88it/s]Loading weights:  26%|██▋       | 89/338 [00:00<00:01, 165.63it/s]Loading weights:  33%|███▎      | 113/338 [00:00<00:01, 179.80it/s]Loading weights:  41%|████      | 137/338 [00:00<00:01, 189.25it/s]Loading weights:  48%|████▊     | 161/338 [00:01<00:00, 195.59it/s]Loading weights:  55%|█████▍    | 185/338 [00:01<00:00, 200.03it/s]Loading weights:  62%|██████▏   | 209/338 [00:01<00:00, 202.77it/s]Loading weights:  69%|██████▉   | 233/338 [00:01<00:00, 204.83it/s]Loading weights:  76%|███████▌  | 257/338 [00:01<00:00, 206.32it/s]Loading weights:  83%|████████▎ | 281/338 [00:01<00:00, 207.27it/s]Loading weights:  90%|█████████ | 305/338 [00:01<00:00, 208.05it/s]Loading weights:  97%|█████████▋| 329/338 [00:01<00:00, 208.27it/s]Loading weights: 100%|██████████| 338/338 [00:01<00:00, 181.10it/s]
+DONE ep-09 QB15_nf4 nf4 59s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8888.30it/s]
+FAIL load Qwen/Qwen2.5-1.5B-Instruct lora:out/lora/q15_alpaca:0.3: ValueError("Can't find 'adapter_config.json' at 'out/lora/q15_alpaca'")
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8977.85it/s]
+DONE ep-26 QB15_M10 lora:out/lora/q15_med:1.0 46s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8915.07it/s]
+DONE ep-28 QB15_fp8 fp8wa 89s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8759.41it/s]
+FAIL load Qwen/Qwen2.5-1.5B-Instruct lora:out/lora/q15_alpaca:1.5: ValueError("Can't find 'adapter_config.json' at 'out/lora/q15_alpaca'")
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8875.50it/s]
+FAIL load Qwen/Qwen2.5-1.5B-Instruct lora:out/lora/q15_alpaca:0.7: ValueError("Can't find 'adapter_config.json' at 'out/lora/q15_alpaca'")

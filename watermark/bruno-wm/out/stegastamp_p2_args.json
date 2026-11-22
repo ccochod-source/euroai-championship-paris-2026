@@ -1,0 +1,1 @@
+{"method": "stegastamp", "steps": 12000, "bs": 16, "lr": 0.0004, "workers": 24, "tags": "a", "eval_every": 1000, "name": "p2", "init": "", "p_in": 0.5, "hpf": 1, "alpha0": 2.0, "bce_thr": 0.3, "max_minutes": 60.0, "res_aug": 1}

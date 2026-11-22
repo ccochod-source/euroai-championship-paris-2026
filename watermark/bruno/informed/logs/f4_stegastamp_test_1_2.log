@@ -1,0 +1,11 @@
+d04593a5ee94 (11, 15, 16, 11) score 0.832 84s
+b71ba4162dcb (0, 1, 1, 1) score 0.917 150s
+f0b39445a579 (0, 1, 1, 0) score 0.991 208s
+31b5fe93e519 (1, 0, 0, 0) score 0.778 246s
+a57608d4b5ab (1, 7, 0, 8) score 0.455 283s
+ab52035ab16c (10, 1, 7, 4) score 0.904 324s
+360cb268d6db (19, 8, 24, 4) score 0.144 362s
+44f44000bbbf (20, 13, 20, 12) score 0.998 403s
+ccae805b07fd (4, 12, 0, 15) score 0.913 442s
+srun: Job step aborted: Waiting up to 6 seconds for job step to finish.
+srun: error: jrc0283: task 0: Terminated

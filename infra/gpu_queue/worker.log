@@ -1,0 +1,372 @@
+19:26:31 gpu_worker démarré sur jrc0441, GPU [0, 1, 2, 3], file /p/scratch/training2666/cochod2/euroai-paris/gpu_queue
+19:26:31 gpu1 début me_30_likf_refsim.sh
+19:30:41 gpu0 début me_26_distill_refsim.sh
+19:40:26 gpu1 fin me_30_likf_refsim.sh exit=0
+19:40:26 gpu1 début me_31_likf_QA3.sh
+19:41:21 gpu0 fin me_26_distill_refsim.sh exit=0
+19:41:21 gpu0 début me_31_likf_LL1.sh
+19:52:51 gpu0 fin me_31_likf_LL1.sh exit=0
+19:52:51 gpu0 début me_31_likf_QB15.sh
+20:02:32 gpu1 fin me_31_likf_QA3.sh exit=0
+20:02:32 gpu1 début me_35_date.sh
+20:03:42 gpu1 fin me_35_date.sh exit=0
+20:03:42 gpu1 début me_36_samp.sh
+20:10:12 gpu0 fin me_31_likf_QB15.sh exit=0
+20:10:12 gpu0 début me_40_set2_LL1.sh
+20:16:12 gpu1 fin me_36_samp.sh exit=0
+20:16:12 gpu1 début me_40_set2_QA3.sh
+20:28:22 gpu0 fin me_40_set2_LL1.sh exit=0
+20:28:23 gpu0 début me_41_set2_QB15.sh
+20:34:58 gpu3 début 10_orehn_diag.sh
+20:35:38 gpu3 fin 10_orehn_diag.sh exit=0
+20:37:18 gpu3 début 11_orehn_probe.sh
+20:37:28 gpu3 fin 11_orehn_probe.sh exit=0
+20:40:48 gpu3 début 12_orehn_teacher.sh
+20:42:03 gpu3 fin 12_orehn_teacher.sh exit=0
+20:42:48 gpu2 début 20_orehn_ft_full.sh
+20:42:48 gpu3 début 20_orehn_ft_ho.sh
+20:45:18 gpu2 fin 20_orehn_ft_full.sh exit=0
+20:45:33 gpu3 fin 20_orehn_ft_ho.sh exit=0
+20:45:54 gpu2 début 21_orehn_lr1.sh
+20:45:54 gpu3 début 21_orehn_lr5.sh
+Traceback (most recent call last):
+  File "/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/gpu_worker.py", line 135, in <module>
+    main()
+  File "/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/gpu_worker.py", line 126, in main
+    open(tmp, "w").write("\n".join(lines) + "\n")
+    ^^^^^^^^^^^^^^
+OSError: [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+21:44:38 gpu_worker démarré sur jrc0227, GPU [0, 1, 2, 3], file /p/scratch/training2666/cochod2/euroai-paris/gpu_queue
+21:44:38 gpu0 début me_41_set2_QB15.sh
+21:44:38 gpu1 début me_40_set2_QA3.sh
+21:44:38 gpu2 début 30_orehn_A07.sh
+21:46:33 gpu1 fin me_40_set2_QA3.sh exit=0
+21:46:33 gpu1 début me_10_real_v2b.sh
+21:47:24 gpu3 début 33_orehn_A045.sh
+21:50:24 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+21:50:39 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+21:50:44 gpu2 fin 30_orehn_A07.sh exit=1
+Traceback (most recent call last):
+  File "/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/gpu_worker.py", line 138, in <module>
+    main()
+  File "/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/gpu_worker.py", line 109, in main
+    lf = open(os.path.join(d, "logs", name[:-3] + ".log"), "a", buffering=1)
+OSError: [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/gpu2/logs/31_orehn_A08.log'
+22:02:15 gpu_worker démarré sur jrc0347, GPU [0, 1, 2, 3], file /p/scratch/training2666/cochod2/euroai-paris/gpu_queue
+22:02:15 gpu0 début me_10_real_v2b.sh
+22:02:15 gpu1 début me_10_real_v2b.sh
+22:02:15 gpu2 début 30b_orehn_A07.sh
+22:02:15 gpu3 début 33b_orehn_A045.sh
+22:08:11 gpu2 fin 30b_orehn_A07.sh exit=0
+22:08:11 gpu2 début 32_orehn_A06.sh
+22:10:46 gpu3 fin 33b_orehn_A045.sh exit=0
+22:10:46 gpu3 début 34_orehn_A03.sh
+22:13:47 gpu2 fin 32_orehn_A06.sh exit=0
+22:14:17 gpu2 début 80_codex_initial.sh
+22:14:32 gpu2 fin 80_codex_initial.sh exit=1
+22:15:07 gpu2 début 81_codex_initial.sh
+22:16:07 gpu1 fin me_10_real_v2b.sh exit=0
+22:16:07 gpu1 début me_20_distill3.sh
+22:18:27 gpu2 fin 81_codex_initial.sh exit=0
+22:18:28 gpu2 début 36_orehn_A03r2.sh
+22:18:58 gpu3 fin 34_orehn_A03.sh exit=0
+22:18:58 gpu3 début 36_orehn_A015.sh
+22:20:23 gpu0 fin me_10_real_v2b.sh exit=0
+22:20:23 gpu0 début me_20_distill3.sh
+22:29:19 gpu2 fin 36_orehn_A03r2.sh exit=0
+22:29:29 gpu2 début 85_codex_followup.sh
+22:29:49 gpu3 fin 36_orehn_A015.sh exit=0
+22:29:49 gpu3 début 37_clement_A03_g4.sh
+22:31:34 gpu1 fin me_20_distill3.sh exit=1
+22:31:34 gpu1 début me_45_refs2.sh
+22:35:25 gpu1 fin me_45_refs2.sh exit=0
+22:35:25 gpu1 début me_50_set3_QA3.sh
+22:35:50 gpu2 fin 85_codex_followup.sh exit=0
+22:38:00 gpu3 fin 37_clement_A03_g4.sh exit=0
+22:43:15 gpu3 début 38_clement_A015_g4.sh
+22:51:01 gpu2 début 40_clement_A005_g2.sh
+22:54:02 gpu3 fin 38_clement_A015_g4.sh exit=0
+22:54:02 gpu3 début 39_clement_A005_g4.sh
+22:54:12 gpu0 fin me_20_distill3.sh exit=0
+22:54:12 gpu0 début me_50_set3_LL1.sh
+23:01:47 gpu2 fin 40_clement_A005_g2.sh exit=0
+23:04:48 gpu3 fin 39_clement_A005_g4.sh exit=0
+23:06:08 gpu3 début 41_clement_A03r2_g4.sh
+23:09:58 gpu2 début 50_orehn_U005_ho.sh
+23:14:29 gpu3 fin 41_clement_A03r2_g4.sh exit=0
+23:14:29 gpu3 début 42_clement_A005_lr2.sh
+23:19:09 gpu2 fin 50_orehn_U005_ho.sh exit=0
+23:19:09 gpu2 début 50_bruno.sh
+23:19:14 gpu2 fin 50_bruno.sh exit=127
+23:19:14 gpu2 début 51_orehn_U005.sh
+23:25:15 gpu3 fin 42_clement_A005_lr2.sh exit=0
+23:25:15 gpu3 début 43_clement_A005_s8k.sh
+23:27:25 gpu2 fin 51_orehn_U005.sh exit=0
+23:27:25 gpu2 début 53_bruno.sh
+23:27:30 gpu2 fin 53_bruno.sh exit=127
+23:27:30 gpu2 début 53_orehn_A005_ho.sh
+23:29:01 gpu3 fin 43_clement_A005_s8k.sh exit=-15
+23:29:01 gpu3 début 44_clement_A005_lr15.sh
+23:29:36 gpu0 fin me_50_set3_LL1.sh exit=-15
+23:29:36 gpu0 début me_05_proxy03.sh
+23:37:36 gpu0 fin me_05_proxy03.sh exit=0
+23:37:37 gpu0 début me_50_set3_LL1.sh
+23:39:42 gpu2 fin 53_orehn_A005_ho.sh exit=0
+23:39:42 gpu2 début 53_bruno_1_tm_p6.sh
+23:39:57 gpu3 fin 44_clement_A005_lr15.sh exit=0
+23:39:57 gpu3 début 45_clement_A005_lr2_g4.sh
+23:51:23 gpu3 fin 45_clement_A005_lr2_g4.sh exit=0
+23:51:23 gpu3 début 96_clement_A005_lr125.sh
+00:02:09 gpu3 fin 96_clement_A005_lr125.sh exit=0
+00:02:09 gpu3 début 97_clement_A005_s8k.sh
+00:08:39 gpu2 fin 53_bruno_1_tm_p6.sh exit=0
+00:08:40 gpu2 début 56_bruno_2_tm_ftT6P.sh
+00:09:45 gpu3 fin 97_clement_A005_s8k.sh exit=-15
+00:09:45 gpu3 début 99a_orehn_dump.sh
+00:12:25 gpu3 fin 99a_orehn_dump.sh exit=0
+00:12:25 gpu3 début 99b_orehn_R55.sh
+00:19:01 gpu2 fin 56_bruno_2_tm_ftT6P.sh exit=0
+00:19:01 gpu2 début 57_bruno_3_ps_ftP5.sh
+00:20:36 gpu3 fin 99b_orehn_R55.sh exit=0
+00:20:36 gpu3 début 99c_clement_A03r3_g4.sh
+00:28:47 gpu3 fin 99c_clement_A03r3_g4.sh exit=0
+00:28:47 gpu3 début 99d_clement_A015r2_g4.sh
+00:29:27 gpu2 fin 57_bruno_3_ps_ftP5.sh exit=0
+00:29:27 gpu2 début 58_bruno_4_ps_p6.sh
+00:36:57 gpu3 fin 99d_clement_A015r2_g4.sh exit=0
+00:36:58 gpu3 début a1_orehn_A03r2g4_t1.sh
+00:42:38 gpu0 fin me_50_set3_LL1.sh exit=0
+00:42:38 gpu0 début me_50a_inst_proxy03_LL1.sh
+00:45:03 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+00:45:43 gpu3 fin a1_orehn_A03r2g4_t1.sh exit=0
+00:46:11 gpu3 début a2_orehn_A045r2g4_t1.sh
+00:51:11 gpu0 fin me_50a_inst_proxy03_LL1.sh exit=0
+00:51:11 gpu0 début me_50b_set3_S360.sh
+00:54:27 gpu3 fin a2_orehn_A045r2g4_t1.sh exit=0
+00:55:07 gpu3 début b1_orehn_r3g6t1.sh
+01:00:57 gpu2 fin 58_bruno_4_ps_p6.sh exit=0
+01:00:57 gpu2 début 59_bruno_5_ps_ftP6P.sh
+01:03:18 gpu3 fin b1_orehn_r3g6t1.sh exit=0
+01:03:18 gpu3 début b2_orehn_r3g8t1.sh
+01:07:53 gpu1 fin me_50_set3_QA3.sh exit=0
+01:11:03 gpu1 début me_50a_inst_proxy03_QA3.sh
+01:11:29 gpu2 fin 59_bruno_5_ps_ftP6P.sh exit=0
+01:11:29 gpu2 début 60_bruno_6_ss_gen_p5.sh
+01:11:29 gpu3 fin b2_orehn_r3g8t1.sh exit=0
+01:11:29 gpu3 début b3_orehn_r3g4last6.sh
+01:16:29 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+01:16:44 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+01:16:59 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+01:17:14 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+01:17:44 gpu3 fin b3_orehn_r3g4last6.sh exit=0
+01:17:44 gpu3 début c1_clement_A03r4_g4.sh
+01:18:00 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+01:18:15 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+01:20:00 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+01:23:45 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+01:24:00 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+01:25:46 gpu1 fin me_50a_inst_proxy03_QA3.sh exit=0
+01:25:46 gpu1 début me_30_topk_control.sh
+01:25:56 gpu3 fin c1_clement_A03r4_g4.sh exit=0
+01:25:56 gpu3 début d1_orehn_r5last6.sh
+01:32:17 gpu3 fin d1_orehn_r5last6.sh exit=0
+01:32:17 gpu3 début e1_clement_A03r4_g4_last6.sh
+01:33:22 gpu2 fin 60_bruno_6_ss_gen_p5.sh exit=0
+01:33:22 gpu2 début 61_bruno_7_ss_ftS5P.sh
+01:38:33 gpu3 fin e1_clement_A03r4_g4_last6.sh exit=0
+01:38:33 gpu3 début e1_clement_A03r4_g4_last6.sh
+01:41:23 gpu0 fin me_50b_set3_S360.sh exit=-15
+01:41:23 gpu0 début c2_clement_A03r5_g4.sh
+01:43:48 gpu1 fin me_30_topk_control.sh exit=-15
+01:43:49 gpu1 début me_29_topk_control_fast.sh
+01:44:59 gpu3 fin e1_clement_A03r4_g4_last6.sh exit=0
+01:44:59 gpu3 début e15_orehn_pour_codex_oof_extract.sh
+01:45:44 gpu3 fin e15_orehn_pour_codex_oof_extract.sh exit=0
+01:45:44 gpu3 début e3_orehn_planclem_aug15.sh
+01:48:45 gpu2 fin 61_bruno_7_ss_ftS5P.sh exit=0
+01:49:45 gpu0 fin c2_clement_A03r5_g4.sh exit=0
+01:49:45 gpu0 début c3_clement_A045r4_g4.sh
+01:52:05 gpu2 début 90_codex_oof_calibrated_s1.sh
+01:53:56 gpu3 fin e3_orehn_planclem_aug15.sh exit=0
+01:53:56 gpu3 début e4_orehn_planclem_oof.sh
+01:54:06 gpu2 fin 90_codex_oof_calibrated_s1.sh exit=0
+01:54:21 gpu2 début 90_codex_oof_calibrated_s07.sh
+01:56:06 gpu2 fin 90_codex_oof_calibrated_s07.sh exit=0
+01:56:21 gpu2 début 90_codex_oof_calibrated_s14.sh
+01:57:56 gpu0 fin c3_clement_A045r4_g4.sh exit=0
+01:58:06 gpu2 fin 90_codex_oof_calibrated_s14.sh exit=0
+01:58:21 gpu2 début 90_codex_oof_adaptive_s1.sh
+01:59:57 gpu2 fin 90_codex_oof_adaptive_s1.sh exit=1
+01:59:57 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+02:01:57 gpu2 début e6_orehn_planclem_oof_k3.sh
+02:02:07 gpu3 fin e4_orehn_planclem_oof.sh exit=0
+02:02:07 gpu3 début e5_orehn_planclem_oof_k2.sh
+02:02:52 gpu1 fin me_29_topk_control_fast.sh exit=0
+02:02:52 gpu1 début me_31_sys29.sh
+02:03:32 gpu1 fin me_31_sys29.sh exit=0
+02:03:33 gpu1 début me_40_quant.sh
+02:10:08 gpu2 fin e6_orehn_planclem_oof_k3.sh exit=0
+02:10:18 gpu3 fin e5_orehn_planclem_oof_k2.sh exit=0
+02:10:18 gpu3 début zz2_orehn_A015r4last6.sh
+02:11:08 gpu2 début e7_orehn_planclem_oof_k3_last6.sh
+02:15:29 gpu1 fin me_40_quant.sh exit=0
+02:16:19 gpu1 début me_41_nf4.sh
+02:16:39 gpu3 fin zz2_orehn_A015r4last6.sh exit=0
+02:16:39 gpu3 début e8_orehn_planclem_oof_k4_last6.sh
+02:17:29 gpu2 fin e7_orehn_planclem_oof_k3_last6.sh exit=0
+02:18:59 gpu1 fin me_41_nf4.sh exit=0
+02:22:55 gpu3 fin e8_orehn_planclem_oof_k4_last6.sh exit=0
+02:23:25 gpu2 début g1_orehn_oof_k3d2_last6.sh
+02:23:25 gpu3 début g2_orehn_oof_k3d4_last6.sh
+02:29:40 gpu2 fin g1_orehn_oof_k3d2_last6.sh exit=0
+02:29:40 gpu3 fin g2_orehn_oof_k3d4_last6.sh exit=0
+02:38:31 gpu3 début h1_orehn_dump.sh
+02:40:46 gpu3 fin h1_orehn_dump.sh exit=0
+02:41:31 gpu2 début i1_orehn_oof_k3_last6_g8.sh
+02:41:31 gpu3 début i2_orehn_oof_k3_last4_g4.sh
+02:42:32 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+02:42:47 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+02:43:17 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+02:43:32 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+02:43:47 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+02:44:02 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+02:45:47 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+02:47:17 gpu1 début me_45_sysh.sh
+02:47:17 gpu3 fin i2_orehn_oof_k3_last4_g4.sh exit=0
+02:47:52 gpu2 fin i1_orehn_oof_k3_last6_g8.sh exit=0
+02:49:57 gpu1 fin me_45_sysh.sh exit=0
+02:50:53 gpu1 début me_46_sysh29.sh
+02:51:33 gpu2 début j1_orehn_oof_k4_last6_g8.sh
+02:51:33 gpu3 début j2_orehn_oof_k5_last6_g8.sh
+02:53:03 gpu1 fin me_46_sysh29.sh exit=0
+02:54:13 gpu0 début me_47_syssearch.sh
+02:54:13 gpu1 début me_47_syssearch.sh
+02:57:53 gpu2 fin j1_orehn_oof_k4_last6_g8.sh exit=0
+02:57:53 gpu3 fin j2_orehn_oof_k5_last6_g8.sh exit=0
+02:59:44 gpu1 fin me_47_syssearch.sh exit=0
+03:01:09 gpu3 début k1_orehn_oof_k5_last6_g8_s4000.sh
+03:05:39 gpu1 début me_48_syssearch2.sh
+03:05:49 gpu0 fin me_47_syssearch.sh exit=0
+03:05:49 gpu0 début me_48_syssearch2.sh
+03:08:45 gpu0 fin me_48_syssearch2.sh exit=0
+03:09:20 gpu3 fin k1_orehn_oof_k5_last6_g8_s4000.sh exit=0
+03:10:25 gpu2 début l1_orehn_oof_k3_last6_g8_s4000.sh
+03:10:25 gpu3 début l2_orehn_oof_k4_last6_g8_s4000.sh
+03:18:41 gpu2 fin l1_orehn_oof_k3_last6_g8_s4000.sh exit=0
+03:18:41 gpu3 fin l2_orehn_oof_k4_last6_g8_s4000.sh exit=0
+03:20:41 gpu1 fin me_48_syssearch2.sh exit=0
+03:20:46 gpu2 début m2_orehn_oofvit7.sh
+03:20:46 gpu3 début m1_orehn_oofvit9.sh
+03:26:31 gpu3 fin m1_orehn_oofvit9.sh exit=0
+03:27:46 gpu2 fin m2_orehn_oofvit7.sh exit=0
+03:29:42 gpu2 début n2_orehn_oofvit7_last6.sh
+03:29:42 gpu3 début n1_orehn_oofvit9_last6.sh
+03:35:37 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+03:36:07 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+03:36:27 gpu3 fin n1_orehn_oofvit9_last6.sh exit=0
+03:36:32 gpu2 fin n2_orehn_oofvit7_last6.sh exit=0
+03:47:13 gpu0 début me_60_set3_S360.sh
+03:47:13 gpu1 début me_60_set3_QB15.sh
+03:48:19 gpu2 début o2_orehn_ho_k3d4.sh
+03:48:19 gpu3 début o1_orehn_ho_k3.sh
+03:55:34 gpu2 fin o2_orehn_ho_k3d4.sh exit=0
+03:55:34 gpu3 fin o1_orehn_ho_k3.sh exit=0
+04:22:16 gpu2 début p2_orehn_mix_g8_last6_s4000.sh
+04:22:16 gpu3 début p1_orehn_mix_g4_last6.sh
+04:28:37 gpu3 fin p1_orehn_mix_g4_last6.sh exit=0
+04:30:32 gpu2 fin p2_orehn_mix_g8_last6_s4000.sh exit=0
+04:30:32 gpu2 début p4_orehn_dump.sh
+04:32:07 gpu2 fin p4_orehn_dump.sh exit=0
+04:32:57 gpu2 début r2_orehn_mix_k2.sh
+04:32:57 gpu3 début r1_orehn_mix_k15.sh
+04:34:52 gpu0 fin me_60_set3_S360.sh exit=0
+04:39:13 gpu3 fin r1_orehn_mix_k15.sh exit=0
+04:39:13 gpu3 début r3_orehn_mix_k15d3.sh
+04:39:18 gpu2 fin r2_orehn_mix_k2.sh exit=0
+04:39:18 gpu2 début r4_orehn_mix_k25.sh
+04:45:28 gpu3 fin r3_orehn_mix_k15d3.sh exit=0
+04:45:33 gpu2 fin r4_orehn_mix_k25.sh exit=0
+04:45:33 gpu2 début r5_orehn_dump.sh
+04:46:29 gpu2 fin r5_orehn_dump.sh exit=0
+04:46:39 gpu1 fin me_60_set3_QB15.sh exit=0
+04:54:29 gpu2 début s2_orehn_seed2.sh
+04:54:29 gpu3 début s1_orehn_seed1.sh
+05:00:45 gpu2 fin s2_orehn_seed2.sh exit=0
+05:00:45 gpu3 fin s1_orehn_seed1.sh exit=0
+05:24:17 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:24:47 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:25:02 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:25:17 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:25:32 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:27:02 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:27:17 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:27:32 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:27:47 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:28:02 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:28:17 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:28:32 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:28:47 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:30:17 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:30:32 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+05:31:02 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+06:41:38 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+06:41:53 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+06:42:08 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+06:42:38 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+06:43:38 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+06:44:08 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+06:44:23 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+06:44:38 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+06:45:08 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+06:45:38 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+06:45:53 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+06:46:38 STATUS non écrit : [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/gpu_queue/.STATUS.tmp'
+10:30:10 gpu2 début t1_orehn_k4_g16_s6000.sh
+10:30:10 gpu3 début t2_orehn_k5_g16_s6000.sh
+10:31:45 gpu0 début zz_orehn_k34_g8_s4000.sh
+10:31:45 gpu1 début zz_orehn_k5d4_g16_s6000.sh
+10:41:41 gpu0 fin zz_orehn_k34_g8_s4000.sh exit=0
+10:43:26 gpu0 début e1_planclem_k25_g4_last6.sh
+10:44:06 gpu3 fin t2_orehn_k5_g16_s6000.sh exit=0
+10:44:31 gpu2 fin t1_orehn_k4_g16_s6000.sh exit=0
+10:46:17 gpu1 fin zz_orehn_k5d4_g16_s6000.sh exit=0
+10:46:37 gpu2 début 00_orehn_wm_assemble.sh
+10:49:27 gpu1 début f2_clement_oofk34_g4_last6.sh
+10:49:27 gpu3 début f1_clement_oofk2_g4_last6.sh
+10:49:52 gpu0 fin e1_planclem_k25_g4_last6.sh exit=0
+10:50:27 gpu2 fin 00_orehn_wm_assemble.sh exit=0
+10:51:32 gpu2 début 01_orehn_wm_pp.sh
+10:52:37 gpu2 fin 01_orehn_wm_pp.sh exit=0
+10:54:28 gpu2 début 02_orehn_wm_rect.sh
+10:54:33 gpu2 fin 02_orehn_wm_rect.sh exit=0
+10:55:48 gpu1 fin f2_clement_oofk34_g4_last6.sh exit=0
+10:55:48 gpu3 fin f1_clement_oofk2_g4_last6.sh exit=0
+11:04:59 gpu0 début g1_clement_k3_g16_s6000.sh
+11:04:59 gpu1 début g2_clement_k3_g8_s6000.sh
+11:04:59 gpu3 début g3_clement_k3d4_g8_s4000.sh
+11:12:24 gpu2 début h1_clement_k3_g2.sh
+11:14:24 gpu3 fin g3_clement_k3d4_g8_s4000.sh exit=0
+11:14:25 gpu3 début h2_clement_k3_g3.sh
+11:19:35 gpu0 fin g1_clement_k3_g16_s6000.sh exit=0
+11:19:40 gpu1 fin g2_clement_k3_g8_s6000.sh exit=0
+11:19:45 gpu2 fin h1_clement_k3_g2.sh exit=0
+11:21:45 gpu3 fin h2_clement_k3_g3.sh exit=0
+11:22:40 gpu2 début i1_clement_k3d2_g4.sh
+11:22:40 gpu3 début i2_clement_k3d4_g3.sh
+11:28:31 gpu0 début j1_clement_k3_g25.sh
+11:28:31 gpu1 début j2_clement_k3d4_g25.sh
+11:29:06 gpu2 fin i1_clement_k3d2_g4.sh exit=0
+11:29:06 gpu3 fin i2_clement_k3d4_g3.sh exit=0
+11:34:56 gpu0 fin j1_clement_k3_g25.sh exit=0
+11:34:56 gpu1 fin j2_clement_k3d4_g25.sh exit=0
+11:37:47 gpu0 début k1_clement_k3_g225.sh
+11:37:52 gpu1 début k2_clement_k275_g3.sh
+11:37:52 gpu3 début k3_clement_k325_g3.sh
+11:43:57 gpu2 début a_orehn_soup.sh
+11:44:22 gpu2 fin a_orehn_soup.sh exit=0
+11:44:23 gpu2 début b_orehn_pourclem_k3_g3_s4000.sh
+11:44:58 gpu0 fin k1_clement_k3_g225.sh exit=0
+11:45:03 gpu3 fin k3_clement_k325_g3.sh exit=0
+11:45:08 gpu1 fin k2_clement_k275_g3.sh exit=0
+11:52:43 gpu2 fin b_orehn_pourclem_k3_g3_s4000.sh exit=0
+11:57:19 arrêt (STOP ou fin du job)

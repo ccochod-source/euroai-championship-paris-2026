@@ -1,0 +1,14 @@
+[gpu_worker] début 01:44:59 sur jrc0347 GPU 3
+EXTRACT clean seconds 3.0
+EXTRACT flip seconds 5.7
+EXTRACT crop seconds 8.4
+EXTRACT bright seconds 11.2
+EXTRACT blur seconds 13.9
+EXTRACT color seconds 16.6
+EXTRACT jpeg seconds 22.8
+EXTRACT shift seconds 25.7
+EXTRACT rotate seconds 28.6
+EXTRACT noise seconds 31.3
+FEATURE_CACHE_READY /p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/cache/oof_features.pt 95800800
+
+[gpu_worker] fin 01:45:44 exit=0 durée=45s

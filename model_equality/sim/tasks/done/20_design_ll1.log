@@ -1,0 +1,15 @@
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 8955.50it/s]
+[transformers] Both `max_new_tokens` (=256) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+[transformers] Both `max_new_tokens` (=256) and `max_length`(=131072) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 8619.93it/s]
+DONE fp8w
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 8691.13it/s]
+DONE fp8wa
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 8912.88it/s]
+DONE int8w
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights:   1%|          | 1/146 [00:00<00:44,  3.23it/s]Loading weights:   8%|▊         | 12/146 [00:00<00:03, 36.20it/s]Loading weights:  16%|█▌        | 23/146 [00:00<00:02, 55.27it/s]Loading weights:  27%|██▋       | 39/146 [00:00<00:01, 82.47it/s]Loading weights:  34%|███▍      | 50/146 [00:00<00:01, 85.28it/s]Loading weights:  45%|████▌     | 66/146 [00:00<00:00, 102.17it/s]Loading weights:  53%|█████▎    | 78/146 [00:01<00:00, 99.08it/s] Loading weights:  62%|██████▏   | 91/146 [00:01<00:00, 107.28it/s]Loading weights:  71%|███████   | 103/146 [00:01<00:00, 102.30it/s]Loading weights:  78%|███████▊  | 114/146 [00:01<00:00, 102.26it/s]Loading weights:  87%|████████▋ | 127/146 [00:01<00:00, 109.79it/s]Loading weights:  95%|█████████▌| 139/146 [00:01<00:00, 105.54it/s]Loading weights: 100%|██████████| 146/146 [00:01<00:00, 90.50it/s] 
+DONE nf4
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 8825.28it/s]
+DONE lora:out/lora/ll1_alpaca:0.3
+ALL_DONE
+exit=0

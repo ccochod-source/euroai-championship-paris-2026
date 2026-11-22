@@ -1,0 +1,15 @@
+[gpu_worker] début 02:38:31 sur jrc0347 GPU 3
+dumped clem_A03r3_g4
+dumped clem_A03r4_g4
+dumped clem_A03r4_g4_last6
+dumped clem_A03r5_g4
+dumped clem_A045r4_g4
+dumped ft5_A03r3_g4_last6_t1
+dumped ft6_A03r5_g4_last6_t1
+dumped pc_oof_k3_g4
+dumped pc_oof_k3_g4_last6
+dumped pc_oof_k3d2_g4_last6
+dumped pc_oof_k3d4_g4_last6
+dumped pc_oof_k4_g4_last6
+
+[gpu_worker] fin 02:40:46 exit=0 durée=135s

@@ -1,0 +1,23 @@
+[gpu_worker] début 02:50:53 sur jrc0347 GPU 1
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 9913.85it/s]
+DONE unsloth/Llama-3.2-1B-Instruct bf16 eps n=70 6s
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 10684.26it/s]
+DONE unsloth/Llama-3.2-1B-Instruct bf16 eps n=70 6s
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 9284.64it/s]
+DONE unsloth/Llama-3.2-1B-Instruct bf16 eps n=70 6s
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 10634.35it/s]
+DONE unsloth/Llama-3.2-1B-Instruct bf16 eps n=70 6s
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 9031.72it/s]
+DONE unsloth/Llama-3.2-1B-Instruct bf16 eps n=70 6s
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 9704.42it/s]
+DONE unsloth/Llama-3.2-1B-Instruct bf16 eps n=70 6s
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 11117.40it/s]
+DONE unsloth/Llama-3.2-1B-Instruct bf16 eps n=70 6s
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 8078.74it/s]
+DONE unsloth/Llama-3.2-1B-Instruct bf16 eps n=70 6s
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 12178.92it/s]
+DONE unsloth/Llama-3.2-1B-Instruct bf16 eps n=70 6s
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 8401.38it/s]
+DONE unsloth/Llama-3.2-1B-Instruct bf16 eps n=70 6s
+
+[gpu_worker] fin 02:53:03 exit=0 durée=130s

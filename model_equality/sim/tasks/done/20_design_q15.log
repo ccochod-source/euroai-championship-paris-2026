@@ -1,0 +1,13 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9288.98it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8608.14it/s]
+DONE fp8w
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8651.32it/s]
+DONE fp8wa
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8565.39it/s]
+DONE int8w
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<01:25,  3.95it/s]Loading weights:   5%|▌         | 17/338 [00:00<00:05, 57.68it/s]Loading weights:  12%|█▏        | 41/338 [00:00<00:02, 112.51it/s]Loading weights:  19%|█▉        | 65/338 [00:00<00:01, 145.47it/s]Loading weights:  26%|██▋       | 89/338 [00:00<00:01, 166.42it/s]Loading weights:  33%|███▎      | 113/338 [00:00<00:01, 179.85it/s]Loading weights:  41%|████      | 137/338 [00:00<00:01, 189.19it/s]Loading weights:  48%|████▊     | 161/338 [00:01<00:00, 195.41it/s]Loading weights:  55%|█████▍    | 185/338 [00:01<00:00, 199.73it/s]Loading weights:  62%|██████▏   | 209/338 [00:01<00:00, 202.79it/s]Loading weights:  69%|██████▉   | 233/338 [00:01<00:00, 204.83it/s]Loading weights:  76%|███████▌  | 257/338 [00:01<00:00, 206.34it/s]Loading weights:  83%|████████▎ | 281/338 [00:01<00:00, 207.02it/s]Loading weights:  90%|█████████ | 305/338 [00:01<00:00, 207.69it/s]Loading weights:  97%|█████████▋| 329/338 [00:01<00:00, 207.69it/s]Loading weights: 100%|██████████| 338/338 [00:01<00:00, 181.18it/s]
+DONE nf4
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8470.30it/s]
+DONE lora:out/lora/q15_med:0.3
+ALL_DONE
+exit=0

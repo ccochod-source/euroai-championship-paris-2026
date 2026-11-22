@@ -1,0 +1,26 @@
+== trustmark: margin on REAL full-watermark images (with ~9% holes): 7.83
+   alpha 1.0: margin   8.83  bit acc 1.000  slopes +0.127 +0.487 +0.489 +0.404 +0.320
+   alpha 0.7: margin   6.95  bit acc 0.989  slopes +0.104 +0.362 +0.368 +0.297 +0.235
+   alpha 0.5: margin   4.40  bit acc 0.930  slopes +0.078 +0.267 +0.276 +0.217 +0.166
+   alpha 0.3: margin   1.06  bit acc 0.732  slopes +0.049 +0.159 +0.173 +0.133 +0.097
+   alpha 0.2: margin   0.12  bit acc 0.557  slopes +0.026 +0.099 +0.110 +0.080 +0.053
+   alpha 0.1: margin   0.01  bit acc 0.506  slopes +0.013 +0.034 +0.046 +0.025 +0.003
+   alpha 0.0: margin   0.00  bit acc 0.494  slopes +0.004 +0.004 +0.011 -0.004 -0.024
+[WARN]: `ffmpeg-python` not available, `SimpleVideoDataset` class will not be usable. Install it by `pip install ffmpeg-python`.
+Model loaded successfully from /p/scratch/training2666/dasilvalopes3/wm/kit/models/pixelseal/checkpoint.pth with message: <All keys matched successfully>
+== pixelseal: margin on REAL full-watermark images (with ~9% holes): 8.96
+   alpha 1.0: margin  10.77  bit acc 1.000  slopes +0.122 +0.155 +0.124 -0.178 -0.553
+   alpha 0.7: margin  10.14  bit acc 0.997  slopes +0.097 +0.127 +0.086 -0.145 -0.470
+   alpha 0.5: margin   8.36  bit acc 0.986  slopes +0.092 +0.104 +0.047 -0.170 -0.672
+   alpha 0.3: margin   0.83  bit acc 0.655  slopes +0.065 +0.070 +0.013 -0.165 -0.848
+   alpha 0.2: margin   0.02  bit acc 0.518  slopes +0.042 +0.043 -0.005 -0.118 -0.727
+   alpha 0.1: margin   0.01  bit acc 0.496  slopes +0.018 +0.020 -0.020 -0.102 -0.632
+   alpha 0.0: margin   0.01  bit acc 0.492  slopes +0.017 +0.021 -0.020 -0.100 -0.627
+== stegastamp: margin on REAL full-watermark images (with ~9% holes): 6.08
+   alpha 1.0: margin   8.09  bit acc 0.999  slopes +0.150 +0.460 +0.570 +0.543 +0.526
+   alpha 0.7: margin   6.28  bit acc 0.992  slopes +0.141 +0.353 +0.420 +0.398 +0.382
+   alpha 0.5: margin   4.47  bit acc 0.958  slopes +0.115 +0.259 +0.303 +0.287 +0.274
+   alpha 0.3: margin   2.33  bit acc 0.814  slopes +0.070 +0.153 +0.180 +0.171 +0.157
+   alpha 0.2: margin   1.39  bit acc 0.707  slopes +0.041 +0.099 +0.119 +0.112 +0.097
+   alpha 0.1: margin   0.65  bit acc 0.592  slopes +0.008 +0.043 +0.058 +0.054 +0.037
+   alpha 0.0: margin   0.08  bit acc 0.516  slopes -0.028 -0.013 -0.000 -0.001 -0.021

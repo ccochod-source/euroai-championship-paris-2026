@@ -1,0 +1,10 @@
+CLEAN2_DONE 12176
+WM2_INDOMAIN_DONE trustmark 469 53s
+trustmark 0 12176 0s
+trustmark 2000 12176 56s
+trustmark 4000 12176 113s
+trustmark 6000 12176 175s
+trustmark 8000 12176 235s
+trustmark 10000 12176 294s
+trustmark 12000 12176 354s
+WM2_DONE trustmark 12176 359s

@@ -1,0 +1,307 @@
+[gpu_worker] début 03:47:13 sur jrc0347 GPU 0
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8644.05it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8932.64it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8740.65it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  34%|███▍      | 99/290 [00:00<00:00, 988.72it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1563.91it/s]
+/__w/pytorch/pytorch/aten/src/ATen/native/cuda/TensorCompare.cu:121: _assert_async_cuda_kernel: block: [0,0,0], thread: [0,0,0] Assertion `probability tensor contains either `inf`, `nan` or element < 0` failed.
+Traceback (most recent call last):
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/gen.py", line 153, in <module>
+    main()
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/gen.py", line 140, in main
+    res = gen_endpoint(model, tok, e, its)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/gen.py", line 90, in gen_endpoint
+    g = model.generate(**enc, **kw)[:, enc["input_ids"].shape[1]:]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/utils/deprecation.py", line 173, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/utils/deprecation.py", line 173, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/generation/utils.py", line 3008, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/generation/utils.py", line 3289, in _sample
+    this_peer_finished = stop_check(unfinished_sequences, next_tokens, input_ids.shape[1])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/generation/utils.py", line 396, in __call__
+    return bool(unfinished_sequences.max() == 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: device-side assert triggered
+Search for `cudaErrorAssert' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+The CUDA driver logged these messages, which may provide useful details:
+Returning 710 (CUDA_ERROR_ASSERT) from cuStreamSynchronize
+
+
+SKIP out/lik3/HuggingFaceTB__SmolLM2-360M-Instruct__bf16__all_pool_bf16.jsonl (existe déjà)
+SKIP out/lik3/HuggingFaceTB__SmolLM2-360M-Instruct__fp8w__all_pool_fp8w.jsonl (existe déjà)
+SKIP out/lik3/HuggingFaceTB__SmolLM2-360M-Instruct__int8w__all_pool_int8w.jsonl (existe déjà)
+SKIP out/lik3/HuggingFaceTB__SmolLM2-360M-Instruct__fp16__all_pool_fp16.jsonl (existe déjà)
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9181.51it/s]
+DONE S360-wm_selfhash S360_S bf16 1208s
+DONE S360-T1 S360_S bf16 1256s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9073.37it/s]
+DONE S360-fp8 S360_fp8 fp8w 49s
+DONE S360-fp8_persona S360_fp8 fp8w 73s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9030.05it/s]
+DONE S360-int8 S360_int8 int8w 48s
+DONE S360-int8_trunc S360_int8t int8w 73s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  37%|███▋      | 108/290 [00:00<00:00, 1061.99it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1494.40it/s]
+/__w/pytorch/pytorch/aten/src/ATen/native/cuda/TensorCompare.cu:121: _assert_async_cuda_kernel: block: [0,0,0], thread: [0,0,0] Assertion `probability tensor contains either `inf`, `nan` or element < 0` failed.
+Traceback (most recent call last):
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/gen.py", line 153, in <module>
+    main()
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/gen.py", line 140, in main
+    res = gen_endpoint(model, tok, e, its)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/gen.py", line 90, in gen_endpoint
+    g = model.generate(**enc, **kw)[:, enc["input_ids"].shape[1]:]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/utils/deprecation.py", line 173, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/utils/deprecation.py", line 173, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/generation/utils.py", line 3008, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/generation/utils.py", line 3289, in _sample
+    this_peer_finished = stop_check(unfinished_sequences, next_tokens, input_ids.shape[1])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/generation/utils.py", line 396, in __call__
+    return bool(unfinished_sequences.max() == 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: device-side assert triggered
+Search for `cudaErrorAssert' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+The CUDA driver logged these messages, which may provide useful details:
+Returning 710 (CUDA_ERROR_ASSERT) from cuStreamSynchronize
+
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8671.23it/s]
+  200/7590 7s
+  400/7590 14s
+  600/7590 21s
+  800/7590 28s
+  1000/7590 35s
+  1200/7590 41s
+  1400/7590 48s
+  1600/7590 55s
+  1800/7590 62s
+  2000/7590 69s
+  2200/7590 76s
+  2400/7590 83s
+  2600/7590 90s
+  2800/7590 97s
+  3000/7590 104s
+  3200/7590 110s
+  3400/7590 117s
+  3600/7590 124s
+  3800/7590 131s
+  4000/7590 138s
+  4200/7590 145s
+  4400/7590 152s
+  4600/7590 158s
+  4800/7590 165s
+  5000/7590 172s
+  5200/7590 179s
+  5400/7590 186s
+  5600/7590 192s
+  5800/7590 199s
+  6000/7590 206s
+  6200/7590 212s
+  6400/7590 219s
+  6600/7590 226s
+  6800/7590 233s
+  7000/7590 239s
+  7200/7590 246s
+  7400/7590 253s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct bf16 all n=7590 263s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8676.80it/s]
+  200/7590 7s
+  400/7590 14s
+  600/7590 20s
+  800/7590 27s
+  1000/7590 34s
+  1200/7590 41s
+  1400/7590 48s
+  1600/7590 55s
+  1800/7590 62s
+  2000/7590 68s
+  2200/7590 75s
+  2400/7590 82s
+  2600/7590 89s
+  2800/7590 96s
+  3000/7590 103s
+  3200/7590 110s
+  3400/7590 117s
+  3600/7590 123s
+  3800/7590 130s
+  4000/7590 137s
+  4200/7590 144s
+  4400/7590 151s
+  4600/7590 157s
+  4800/7590 164s
+  5000/7590 171s
+  5200/7590 178s
+  5400/7590 185s
+  5600/7590 191s
+  5800/7590 198s
+  6000/7590 204s
+  6200/7590 211s
+  6400/7590 218s
+  6600/7590 225s
+  6800/7590 231s
+  7000/7590 238s
+  7200/7590 245s
+  7400/7590 252s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct fp8w all n=7590 260s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8666.47it/s]
+  200/7590 7s
+  400/7590 13s
+  600/7590 20s
+  800/7590 27s
+  1000/7590 34s
+  1200/7590 41s
+  1400/7590 47s
+  1600/7590 54s
+  1800/7590 61s
+  2000/7590 68s
+  2200/7590 75s
+  2400/7590 82s
+  2600/7590 88s
+  2800/7590 95s
+  3000/7590 102s
+  3200/7590 109s
+  3400/7590 116s
+  3600/7590 123s
+  3800/7590 130s
+  4000/7590 137s
+  4200/7590 144s
+  4400/7590 151s
+  4600/7590 158s
+  4800/7590 164s
+  5000/7590 171s
+  5200/7590 178s
+  5400/7590 185s
+  5600/7590 192s
+  5800/7590 199s
+  6000/7590 205s
+  6200/7590 212s
+  6400/7590 219s
+  6600/7590 226s
+  6800/7590 233s
+  7000/7590 240s
+  7200/7590 246s
+  7400/7590 253s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct int8w all n=7590 261s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8360.53it/s]
+  200/7590 7s
+  400/7590 14s
+  600/7590 21s
+  800/7590 27s
+  1000/7590 34s
+  1200/7590 41s
+  1400/7590 48s
+  1600/7590 55s
+  1800/7590 62s
+  2000/7590 69s
+  2200/7590 76s
+  2400/7590 83s
+  2600/7590 90s
+  2800/7590 96s
+  3000/7590 104s
+  3200/7590 111s
+  3400/7590 118s
+  3600/7590 125s
+  3800/7590 132s
+  4000/7590 139s
+  4200/7590 145s
+  4400/7590 153s
+  4600/7590 159s
+  4800/7590 166s
+  5000/7590 173s
+  5200/7590 180s
+  5400/7590 187s
+  5600/7590 194s
+  5800/7590 201s
+  6000/7590 207s
+  6200/7590 214s
+  6400/7590 221s
+  6600/7590 228s
+  6800/7590 235s
+  7000/7590 242s
+  7200/7590 249s
+  7400/7590 256s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct lora:out/lora/s360_alp3:1.0 all n=7590 268s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8850.80it/s]
+  200/2358 7s
+  400/2358 14s
+  600/2358 20s
+  800/2358 27s
+  1000/2358 34s
+  1200/2358 41s
+  1400/2358 47s
+  1600/2358 54s
+  1800/2358 61s
+  2000/2358 68s
+  2200/2358 75s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct bf16 refs n=2358 83s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8763.50it/s]
+  200/2358 7s
+  400/2358 13s
+  600/2358 20s
+  800/2358 27s
+  1000/2358 33s
+  1200/2358 40s
+  1400/2358 47s
+  1600/2358 53s
+  1800/2358 61s
+  2000/2358 67s
+  2200/2358 74s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct fp8w refs n=2358 80s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8674.69it/s]
+  200/2358 7s
+  400/2358 13s
+  600/2358 20s
+  800/2358 26s
+  1000/2358 33s
+  1200/2358 40s
+  1400/2358 46s
+  1600/2358 53s
+  1800/2358 60s
+  2000/2358 67s
+  2200/2358 74s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct int8w refs n=2358 80s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8965.62it/s]
+  200/2358 7s
+  400/2358 13s
+  600/2358 20s
+  800/2358 27s
+  1000/2358 33s
+  1200/2358 40s
+  1400/2358 47s
+  1600/2358 54s
+  1800/2358 61s
+  2000/2358 68s
+  2200/2358 75s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct lora:out/lora/s360_alp3:1.0 refs n=2358 84s
+
+[gpu_worker] fin 04:34:52 exit=0 durée=2859s

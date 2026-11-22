@@ -1,0 +1,17 @@
+stegastamp before fine-tuning: 0.3609694603683245
+stegastamp fold 0 step 500 oof mIoU 0.8448
+stegastamp fold 0 step 1000 oof mIoU 0.8581
+stegastamp fold 0 step 1500 oof mIoU 0.8669
+stegastamp fold 1 step 500 oof mIoU 0.8747
+stegastamp fold 1 step 1000 oof mIoU 0.8700
+stegastamp fold 1 step 1500 oof mIoU 0.8745
+stegastamp fold 2 step 500 oof mIoU 0.8327
+stegastamp fold 2 step 1000 oof mIoU 0.8434
+stegastamp fold 2 step 1500 oof mIoU 0.8436
+stegastamp fold 3 step 500 oof mIoU 0.8175
+stegastamp fold 3 step 1000 oof mIoU 0.8186
+stegastamp fold 3 step 1500 oof mIoU 0.8200
+stegastamp fold 4 step 500 oof mIoU 0.7971
+stegastamp fold 4 step 1000 oof mIoU 0.8106
+stegastamp fold 4 step 1500 oof mIoU 0.8117
+FT_DONE stegastamp OOF mIoU 0.8434 (full 0.8601 / notfull 0.8266)

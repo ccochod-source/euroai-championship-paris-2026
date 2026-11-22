@@ -1,0 +1,44 @@
+18:53:25 job 15902383 gpu 0 start 01_ftA_trustmark.sh
+18:53:26 job 15902383 gpu 1 start 02_ftA_pixelseal.sh
+18:53:27 job 15902383 gpu 2 start 03_ftA_stegastamp.sh
+18:53:28 job 15902383 gpu 3 start 04_ftB_pixelseal.sh
+19:03:53 job 15902383 gpu 0 done 01_ftA_trustmark.sh (exit 0)
+19:03:53 job 15902383 gpu 0 start 11_ftA_trustmark.sh
+19:03:54 job 15902383 gpu 1 done 02_ftA_pixelseal.sh (exit 0)
+19:03:54 job 15902383 gpu 1 start 12_ftA_pixelseal.sh
+19:03:54 job 15902383 gpu 2 done 03_ftA_stegastamp.sh (exit 0)
+19:03:54 job 15902383 gpu 2 start 13_ftA_stegastamp.sh
+19:03:54 job 15902383 gpu 3 done 04_ftB_pixelseal.sh (exit 0)
+19:03:54 job 15902383 gpu 3 start 14_ftB_pixelseal.sh
+19:10:38 job 15902383 gpu 2 done 13_ftA_stegastamp.sh (exit 0)
+19:10:42 job 15902383 gpu 1 done 12_ftA_pixelseal.sh (exit 0)
+19:10:42 job 15902383 gpu 0 done 11_ftA_trustmark.sh (exit 0)
+19:12:21 job 15902383 gpu 1 start 20_probe8.sh
+19:12:24 job 15902383 gpu 1 done 20_probe8.sh (exit 0)
+19:16:47 job 15902383 gpu 3 done 14_ftB_pixelseal.sh (exit 0)
+19:18:55 job 15902383 gpu 0 start 22_probe9.sh
+19:19:29 job 15902383 gpu 0 done 22_probe9.sh (exit 0)
+19:20:26 job 15902383 gpu 0 start 23_probe10.sh
+19:21:14 job 15902383 gpu 0 done 23_probe10.sh (exit 0)
+19:21:58 job 15902383 gpu 1 start 31_ss_ftP.sh
+19:24:00 job 15902383 gpu 3 start 24_probe11.sh
+19:25:32 job 15902383 gpu 3 done 24_probe11.sh (exit 0)
+19:26:53 job 15902383 gpu 3 start 25_probe12.sh
+19:27:13 job 15902383 gpu 3 done 25_probe12.sh (exit 0)
+19:32:08 job 15902383 gpu 3 start 40_pre_trustmark.sh
+19:32:09 job 15902383 gpu 0 start 43_pre_pixelseal_nohpf.sh
+19:32:10 job 15902383 gpu 3 done 40_pre_trustmark.sh (exit 0)
+19:32:11 job 15902383 gpu 0 done 43_pre_pixelseal_nohpf.sh (exit 0)
+19:33:10 job 15902383 gpu 3 start 41_pre_pixelseal.sh
+19:36:04 job 15902383 gpu 1 done 31_ss_ftP.sh (exit 0)
+19:41:19 job 15902383 gpu 0 start 51_p3_pixelseal.sh
+19:41:20 job 15902383 gpu 1 start 52_p3n_trustmark.sh
+19:41:20 job 15902383 gpu 3 done 41_pre_pixelseal.sh (exit 0)
+19:41:20 job 15902383 gpu 3 start 53_p3n_pixelseal.sh
+19:41:21 job 15902383 gpu 2 start 54_p3b_trustmark.sh
+19:45:20 job 15902383 gpu 1 done 52_p3n_trustmark.sh (exit 0)
+19:45:20 job 15902383 gpu 3 done 53_p3n_pixelseal.sh (exit 0)
+19:45:23 job 15902383 gpu 1 start 61_gen2_b.sh
+19:45:23 job 15902383 gpu 3 start 62_gen2_c.sh
+19:54:11 job 15902383 gpu 1 done 61_gen2_b.sh (exit 0)
+19:56:46 job 15902383 gpu 3 done 62_gen2_c.sh (exit 0)

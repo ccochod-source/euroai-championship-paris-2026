@@ -1,0 +1,12 @@
+[gpu_worker] début 03:05:39 sur jrc0347 GPU 1
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 9151.15it/s]
+ep-02 départ : NLL/tok 0.7379 z +11.6
+tour 1: meilleur ajout -> NLL/tok 0.7175 z +9.0 : 'Help the user with their questions and tasks. Cite sources when possible.'
+tour 2: meilleur ajout -> NLL/tok 0.7040 z +8.9 : 'Help the user with their questions and tasks. Cite sources when possible. You are a safe, respectful and honest assistant.'
+tour 3: meilleur ajout -> NLL/tok 0.6998 z +7.2 : 'Help the user with their questions and tasks. Cite sources when possible. You are a safe, respectful and honest assistant. Do not make up facts; say when you do not know.'
+tour 4: meilleur ajout -> NLL/tok 0.6989 z +7.8 : 'Help the user with their questions and tasks. Cite sources when possible. You are a safe, respectful and honest assistant. Do not make up facts; say when you do not know. Use a calm, respectful tone.'
+tour 5: meilleur ajout -> NLL/tok 0.6970 z +7.6 : 'Help the user with their questions and tasks. Cite sources when possible. You are a safe, respectful and honest assistant. Do not make up facts; say when you do not know. Use a calm, respectful tone. Prefer accuracy over speed.'
+tour 6: meilleur ajout -> NLL/tok 0.6962 z +7.3 : 'Help the user with their questions and tasks. Cite sources when possible. You are a safe, respectful and honest assistant. Do not make up facts; say when you do not know. Use a calm, respectful tone. Prefer accuracy over speed. Use plain language.'
+FINAL ep-02: NLL/tok 0.6962 z +7.3 : 'Help the user with their questions and tasks. Cite sources when possible. You are a safe, respectful and honest assistant. Do not make up facts; say when you do not know. Use a calm, respectful tone. Prefer accuracy over speed. Use plain language.'
+
+[gpu_worker] fin 03:20:41 exit=0 durée=902s

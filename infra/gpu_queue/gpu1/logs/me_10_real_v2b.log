@@ -1,0 +1,84 @@
+[gpu_worker] début 21:46:33 sur jrc0227 GPU 1
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 8733.73it/s]
+  200/770 9s
+  400/770 18s
+  600/770 27s
+DONE Qwen/Qwen2.5-3B-Instruct bf16 eps n=770 42s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 8626.00it/s]
+  200/770 9s
+  400/770 18s
+  600/770 27s
+DONE Qwen/Qwen2.5-3B-Instruct fp8w eps n=770 39s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 9076.77it/s]
+  200/770 9s
+  400/770 18s
+  600/770 27s
+DONE Qwen/Qwen2.5-3B-Instruct int8w eps n=770 39s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 9506.92it/s]
+  200/770 9s
+  400/770 18s
+  600/770 27s
+DONE Qwen/Qwen2.5-3B-Instruct lora:out/lora/q3_alpaca:1.0 eps n=770 43s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 8224.09it/s]
+  200/770 9s
+  400/770 18s
+  600/770 27s
+DONE Qwen/Qwen2.5-3B-Instruct lora:out/lora/q3_med:1.0 eps n=770 40s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 8600.49it/s]
+[gpu_worker] début 22:02:15 sur jrc0347 GPU 1
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   7%|▋         | 30/434 [00:00<00:01, 235.50it/s]Loading weights:  12%|█▏        | 54/434 [00:00<00:02, 138.39it/s]Loading weights:  19%|█▉        | 83/434 [00:00<00:02, 170.05it/s]Loading weights:  24%|██▎       | 102/434 [00:00<00:02, 142.51it/s]Loading weights:  27%|██▋       | 118/434 [00:00<00:02, 133.35it/s]Loading weights:  32%|███▏      | 140/434 [00:00<00:01, 151.80it/s]Loading weights:  37%|███▋      | 160/434 [00:01<00:01, 163.90it/s]Loading weights:  41%|████      | 178/434 [00:01<00:01, 129.73it/s]Loading weights:  44%|████▍     | 193/434 [00:01<00:01, 126.81it/s]Loading weights:  50%|█████     | 218/434 [00:01<00:01, 148.35it/s]Loading weights:  57%|█████▋    | 246/434 [00:01<00:01, 179.09it/s]Loading weights:  61%|██████▏   | 266/434 [00:01<00:01, 131.18it/s]Loading weights:  65%|██████▍   | 282/434 [00:01<00:01, 135.10it/s]Loading weights:  70%|███████   | 304/434 [00:02<00:00, 146.70it/s]Loading weights:  74%|███████▍  | 321/434 [00:02<00:00, 120.99it/s]Loading weights:  80%|████████  | 348/434 [00:02<00:00, 134.53it/s]Loading weights:  84%|████████▍ | 365/434 [00:02<00:00, 141.53it/s]Loading weights:  88%|████████▊ | 384/434 [00:02<00:00, 118.90it/s]Loading weights:  93%|█████████▎| 402/434 [00:02<00:00, 127.75it/s]Loading weights:  97%|█████████▋| 420/434 [00:03<00:00, 133.51it/s]Loading weights: 100%|██████████| 434/434 [00:03<00:00, 144.49it/s]
+  200/770 9s
+  400/770 18s
+  600/770 27s
+DONE Qwen/Qwen2.5-3B-Instruct bf16 eps n=770 65s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 8129.08it/s]
+  200/770 9s
+  400/770 18s
+  600/770 27s
+DONE Qwen/Qwen2.5-3B-Instruct fp8w eps n=770 39s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 8282.58it/s]
+  200/770 9s
+  400/770 18s
+  600/770 27s
+DONE Qwen/Qwen2.5-3B-Instruct int8w eps n=770 38s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 9379.60it/s]
+  200/770 9s
+  400/770 18s
+  600/770 27s
+DONE Qwen/Qwen2.5-3B-Instruct lora:out/lora/q3_alpaca:1.0 eps n=770 43s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 8612.25it/s]
+  200/770 9s
+  400/770 18s
+  600/770 27s
+DONE Qwen/Qwen2.5-3B-Instruct lora:out/lora/q3_med:1.0 eps n=770 40s
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 9396.74it/s]
+  200/770 107s
+  400/770 211s
+  600/770 319s
+DONE Qwen/Qwen2.5-3B-Instruct bf16 eps n=770 427s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   4%|▍         | 13/290 [00:00<00:02, 94.48it/s]Loading weights:  10%|█         | 30/290 [00:00<00:01, 132.86it/s]Loading weights:  15%|█▌        | 44/290 [00:00<00:01, 124.26it/s]Loading weights:  26%|██▌       | 75/290 [00:00<00:01, 181.80it/s]Loading weights:  42%|████▏     | 121/290 [00:00<00:00, 256.27it/s]Loading weights:  80%|████████  | 232/290 [00:00<00:00, 513.19it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 394.52it/s]
+  200/948 7s
+  400/948 14s
+  600/948 21s
+  800/948 27s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct bf16 refs n=948 37s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8076.52it/s]
+  200/948 7s
+  400/948 13s
+  600/948 20s
+  800/948 27s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct fp8w refs n=948 33s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8329.95it/s]
+  200/948 7s
+  400/948 13s
+  600/948 20s
+  800/948 27s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct int8w refs n=948 33s
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8583.12it/s]
+  200/948 7s
+  400/948 13s
+  600/948 20s
+  800/948 27s
+DONE HuggingFaceTB/SmolLM2-360M-Instruct lora:out/lora/s360_alpaca:0.5 refs n=948 37s
+
+[gpu_worker] fin 22:16:07 exit=0 durée=832s

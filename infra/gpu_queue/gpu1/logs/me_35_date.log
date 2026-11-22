@@ -1,0 +1,15 @@
+[gpu_worker] début 20:02:32 sur jrc0441 GPU 1
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 8990.08it/s]
+  200/506 5s
+  400/506 9s
+DONE unsloth/Llama-3.2-1B-Instruct bf16 eps n=506 15s
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 9035.58it/s]
+  200/506 5s
+  400/506 9s
+DONE unsloth/Llama-3.2-1B-Instruct bf16 eps n=506 15s
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 9340.15it/s]
+  200/506 5s
+  400/506 9s
+DONE unsloth/Llama-3.2-1B-Instruct bf16 eps n=506 15s
+
+[gpu_worker] fin 20:03:42 exit=0 durée=70s

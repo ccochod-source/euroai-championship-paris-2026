@@ -1,0 +1,9 @@
+{
+  "classes_in_forget": 45,
+  "teacher_top1_classes": 99,
+  "teacher_mean_mass_absent": 0.36991918087005615,
+  "teacher_conditional_alt_mass_absent": 0.43883374333381653,
+  "perturbation_conditional_alt_mass_absent": 0.3804321885108948,
+  "teacher_alt_top1_agreement_with_perturbation": 0.2948571443557739,
+  "teacher_median_T2_conf": 0.2283560037612915
+}

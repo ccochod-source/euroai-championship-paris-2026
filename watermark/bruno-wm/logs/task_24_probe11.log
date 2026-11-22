@@ -1,0 +1,26 @@
+== stegastamp: REAL challenge images: margin 6.08 | slopes +0.040 +0.306 +0.385 +0.401 +0.452 | det0 0.110 det1 0.905
+   our embedding                      margin  8.09 | slopes +0.150 +0.460 +0.570 +0.543 +0.526 | det0 1.000 det1 1.000
+   VAE sd (embed, then VAE)           margin  7.16 | slopes +0.095 +0.354 +0.438 +0.442 +0.511 | det0 0.268 det1 0.382
+   VAE sd twice                       margin  6.96 | slopes +0.055 +0.322 +0.403 +0.455 +0.533 | det0 0.212 det1 0.411
+   VAE sd on cover, then embed        margin  8.20 | slopes +0.166 +0.470 +0.546 +0.489 +0.531 | det0 1.000 det1 1.000
+   VAE sdxl (embed, then VAE)         margin  7.51 | slopes +0.092 +0.391 +0.458 +0.462 +0.550 | det0 0.023 det1 0.233
+   VAE sdxl twice                     margin  7.33 | slopes +0.079 +0.365 +0.462 +0.467 +0.518 | det0 0.026 det1 0.157
+   VAE sdxl on cover, then embed      margin  8.16 | slopes +0.167 +0.467 +0.576 +0.576 +0.594 | det0 1.000 det1 1.000
+== trustmark: REAL challenge images: margin 7.83 | slopes +0.037 +0.100 +0.088 +0.069 +0.092
+   our embedding                      margin  8.83 | slopes +0.127 +0.487 +0.489 +0.404 +0.320
+   VAE sd (embed, then VAE)           margin  7.07 | slopes +0.056 +0.327 +0.393 +0.329 +0.309
+   VAE sd twice                       margin  6.78 | slopes +0.053 +0.304 +0.386 +0.336 +0.260
+   VAE sd on cover, then embed        margin  8.94 | slopes +0.120 +0.472 +0.496 +0.439 +0.343
+   VAE sdxl (embed, then VAE)         margin  7.58 | slopes +0.067 +0.362 +0.407 +0.368 +0.296
+   VAE sdxl twice                     margin  7.24 | slopes +0.045 +0.318 +0.383 +0.338 +0.307
+   VAE sdxl on cover, then embed      margin  8.85 | slopes +0.124 +0.515 +0.483 +0.420 +0.401
+[WARN]: `ffmpeg-python` not available, `SimpleVideoDataset` class will not be usable. Install it by `pip install ffmpeg-python`.
+Model loaded successfully from /p/scratch/training2666/dasilvalopes3/wm/kit/models/pixelseal/checkpoint.pth with message: <All keys matched successfully>
+== pixelseal: REAL challenge images: margin 8.96 | slopes -0.016 -0.015 +0.008 +0.032 +0.409
+   our embedding                      margin 10.77 | slopes +0.122 +0.155 +0.124 -0.178 -0.553
+   VAE sd (embed, then VAE)           margin  2.81 | slopes +0.008 -0.007 +0.037 +0.065 +0.599
+   VAE sd twice                       margin  2.51 | slopes +0.008 +0.005 +0.014 +0.120 +1.082
+   VAE sd on cover, then embed        margin 10.73 | slopes +0.149 +0.187 +0.154 -0.129 -0.587
+   VAE sdxl (embed, then VAE)         margin  3.96 | slopes +0.005 +0.035 +0.073 +0.221 +0.675
+   VAE sdxl twice                     margin  2.95 | slopes +0.028 +0.035 +0.076 +0.104 +0.643
+   VAE sdxl on cover, then embed      margin 10.80 | slopes +0.162 +0.186 +0.141 -0.178 -0.552

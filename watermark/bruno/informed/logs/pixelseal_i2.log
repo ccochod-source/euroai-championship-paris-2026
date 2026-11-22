@@ -1,0 +1,49 @@
+[WARN]: `ffmpeg-python` not available, `SimpleVideoDataset` class will not be usable. Install it by `pip install ffmpeg-python`.
+Model loaded successfully from /p/scratch/training2666/dasilvalopes3/wm/kit/models/pixelseal/checkpoint.pth with message: <All keys matched successfully>
+Traceback (most recent call last):
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/bruno/informed/itrain2.py", line 195, in <module>
+    main()
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/bruno/informed/itrain2.py", line 168, in main
+    lg, _ = net(x.contiguous(memory_format=torch.channels_last), t)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/bruno/informed/corrnet.py", line 36, in forward
+    s1 = self.d1(s0); s2 = self.d2(s1); s3 = self.d3(s2); s4 = self.d4(s3); s5 = self.d5(s4)
+         ^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/bruno/informed/model.py", line 13, in forward
+    y = F.silu(self.b1(self.c1(x)))
+                       ^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+           ^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 96.00 MiB. GPU 0 has a total capacity of 39.52 GiB of which 48.19 MiB is free. Process 278329 has 15.90 GiB memory in use. Including non-PyTorch memory, this process has 10.99 GiB memory in use. Process 284900 has 12.56 GiB memory in use. Of the allocated memory 10.35 GiB is allocated by PyTorch, and 141.81 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+srun: error: jrc0245: task 0: Exited with exit code 1

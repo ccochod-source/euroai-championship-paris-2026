@@ -1,0 +1,11 @@
+pixelseal before fine-tuning: 0.2540073855600498
+pixelseal fold 0 step 500 oof mIoU 0.3481
+pixelseal fold 0 step 1000 oof mIoU 0.3621
+pixelseal fold 0 step 1500 oof mIoU 0.3622
+pixelseal fold 1 step 500 oof mIoU 0.3280
+pixelseal fold 1 step 1000 oof mIoU 0.3453
+pixelseal fold 1 step 1500 oof mIoU 0.3495
+pixelseal fold 2 step 500 oof mIoU 0.3663
+pixelseal fold 2 step 1000 oof mIoU 0.3792
+pixelseal fold 2 step 1500 oof mIoU 0.3774
+FT_DONE pixelseal OOF mIoU 0.3630 (full 0.3644 / notfull 0.3617)

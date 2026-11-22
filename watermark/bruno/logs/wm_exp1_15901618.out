@@ -1,0 +1,36 @@
+[WARN]: `ffmpeg-python` not available, `SimpleVideoDataset` class will not be usable. Install it by `pip install ffmpeg-python`.
+/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/bruno/exp1_maps.py:87: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  img = torch.from_numpy(it["image"]).permute(2, 0, 1)[None].float().div(255).to(dev)
+Model loaded successfully from /p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/models/pixelseal/checkpoint.pth with message: <All keys matched successfully>
+pixelseal 0 170 1s
+pixelseal 20 170 6s
+pixelseal 40 170 10s
+pixelseal 60 170 15s
+pixelseal 80 170 19s
+pixelseal 100 170 24s
+pixelseal 120 170 28s
+pixelseal 140 170 32s
+pixelseal 160 170 37s
+/p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/.venv/lib/python3.11/site-packages/trustmark/trustmark.py:176: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weight_path, map_location=torch.device('cpu'))
+trustmark 0 170 0s
+trustmark 20 170 3s
+trustmark 40 170 5s
+trustmark 60 170 7s
+trustmark 80 170 9s
+trustmark 100 170 11s
+trustmark 120 170 13s
+trustmark 140 170 15s
+trustmark 160 170 17s
+stegastamp 0 170 2s
+stegastamp 20 170 25s
+stegastamp 40 170 49s
+stegastamp 60 170 73s
+stegastamp 80 170 97s
+stegastamp 100 170 121s
+stegastamp 120 170 144s
+stegastamp 140 170 168s
+stegastamp 160 170 192s
+saved bruno/maps_train.npz ['names', 'method', 'gt', 'full_acc', 'map_win128', 'map_win192', 'map_win256', 'map_pp', 'map_grad']

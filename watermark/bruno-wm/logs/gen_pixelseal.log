@@ -1,0 +1,18 @@
+[WARN]: `ffmpeg-python` not available, `SimpleVideoDataset` class will not be usable. Install it by `pip install ffmpeg-python`.
+Model loaded successfully from /p/scratch/training2666/dasilvalopes3/wm/kit/models/pixelseal/checkpoint.pth with message: <All keys matched successfully>
+pixelseal 0 14002 1s
+pixelseal 1000 14002 34s
+pixelseal 2000 14002 66s
+pixelseal 3000 14002 99s
+pixelseal 4000 14002 131s
+pixelseal 5000 14002 163s
+pixelseal 6000 14002 197s
+pixelseal 7000 14002 231s
+pixelseal 8000 14002 266s
+pixelseal 9000 14002 305s
+pixelseal 10000 14002 347s
+pixelseal 11000 14002 395s
+pixelseal 12000 14002 443s
+pixelseal 13000 14002 489s
+pixelseal 14000 14002 519s
+WM_DONE pixelseal 14002 520s

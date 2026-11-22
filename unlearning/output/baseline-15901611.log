@@ -1,0 +1,7 @@
+GPU: NVIDIA A100-SXM4-40GB
+Loading provided model checkpoint...
+Model loaded successfully.
+Loading forget set images...
+Loaded 3500 forget set images with shape (3500, 224, 224, 3) (torch.uint8).
+original predictions on the first forget images: [0, 38, 0, 0, 19, 40, 8, 31]
+Saved baseline submission to output/baseline-15901611.pt.

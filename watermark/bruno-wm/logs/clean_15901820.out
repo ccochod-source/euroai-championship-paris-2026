@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/p/scratch/training2666/dasilvalopes3/wm/solution/gen_masks.py", line 20, in <module>
+    pickle.dump(bank, open(f"{SYN}/shape_bank.pkl", "wb"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/p/scratch/training2666/dasilvalopes3/syn/shape_bank.pkl'

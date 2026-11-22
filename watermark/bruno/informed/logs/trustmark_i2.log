@@ -1,0 +1,15 @@
+trustmark_i2 real images with a frame: train 85 held out 0
+trustmark_i2 step 100/5000 bce 0.0824 iouloss 0.1674 lr 7.48e-05 60s
+trustmark_i2 step 200/5000 bce 0.0761 iouloss 0.1691 lr 1.82e-04 110s
+trustmark_i2 step 300/5000 bce 0.0809 iouloss 0.1686 lr 2.00e-04 160s
+trustmark_i2 step 400/5000 bce 0.0801 iouloss 0.1764 lr 2.00e-04 214s
+trustmark_i2 step 500/5000 bce 0.0798 iouloss 0.1779 lr 1.99e-04 263s
+trustmark_i2 EVAL step 500 real train FULL mIoU@0.5 0.7006  best thr 0.5: 0.7006  (all-ones 0.4540)
+trustmark_i2 step 600/5000 bce 0.0824 iouloss 0.1766 lr 1.97e-04 320s
+trustmark_i2 step 700/5000 bce 0.0803 iouloss 0.1709 lr 1.96e-04 366s
+trustmark_i2 step 800/5000 bce 0.0762 iouloss 0.1605 lr 1.93e-04 403s
+trustmark_i2 step 900/5000 bce 0.0760 iouloss 0.1636 lr 1.91e-04 441s
+trustmark_i2 step 1000/5000 bce 0.0748 iouloss 0.1717 lr 1.88e-04 479s
+trustmark_i2 EVAL step 1000 real train FULL mIoU@0.5 0.6840  best thr 0.4: 0.6842  (all-ones 0.4540)
+srun: Job step aborted: Waiting up to 6 seconds for job step to finish.
+srun: error: jrc0245: task 0: Terminated

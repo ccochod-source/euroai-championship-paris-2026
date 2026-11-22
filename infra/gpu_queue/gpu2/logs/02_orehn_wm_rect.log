@@ -1,0 +1,8 @@
+[gpu_worker] début 10:54:28 sur jrc0347 GPU 2
+pixelseal: rectangles train 20 / test 50 | base 0.6419 | fusion CV 0.6472, ajustée 0.6482 cfg ('or', 0.8, 'rect') -> APPLIQUÉE | sur les 20 images avec rectangle : base 0.8190 -> 0.8728
+trustmark: rectangles train 83 / test 164 | base 0.7344 | fusion CV 0.7546, ajustée 0.7546 cfg ('or', 0.8, 'rect_hc') -> APPLIQUÉE | sur les 83 images avec rectangle : base 0.7644 -> 0.8058
+stegastamp: rectangles train 32 / test 73 | base 0.8830 | fusion CV 0.8858, ajustée 0.8858 cfg ('or', 0.8, 'rect') -> non | sur les 32 images avec rectangle : base 0.9499 -> 0.9647
+OOF GLOBAL attendu: 0.7619
+écrit sub_orehn_a3.pt
+
+[gpu_worker] fin 10:54:33 exit=0 durée=5s

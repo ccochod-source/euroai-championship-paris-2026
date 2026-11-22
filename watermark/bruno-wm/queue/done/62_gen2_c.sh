@@ -1,0 +1,1 @@
+export OMP_NUM_THREADS=8; while [ ! -f /p/scratch/training2666/dasilvalopes3/syn/clean_b.npy ] || [ -f /p/scratch/training2666/dasilvalopes3/syn/clean576_tmp.npy ]; do sleep 5; done; sleep 20; python gen_wm2.py stegastamp --indomain; python gen_wm2.py stegastamp

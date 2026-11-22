@@ -1,0 +1,10 @@
+{
+  "path": "/p/scratch/training2666/cochod2/euroai-paris/unlearning/orehn/ckpt/ft2_A03.pt",
+  "bytes": 343629249,
+  "sha256": "f2e8929d2728ed6674a82f0cd81e2aa535ad8e30c11c671f61459317ca9950ae",
+  "all_float32": true,
+  "all_finite": true,
+  "strict_load": true,
+  "architecture": "task_template.build_model(): vit_base_patch16_224 num_classes=100 init_values=1e-4",
+  "note": "Format validation only; hidden validation accuracy unknown."
+}

@@ -1,0 +1,15 @@
+[gpu_worker] début 00:19:01 sur jrc0347 GPU 2
+pixelseal before fine-tuning: 0.5912695787354857
+pixelseal fold 0 step 500 oof mIoU 0.5988
+pixelseal fold 0 step 1000 oof mIoU 0.6103
+pixelseal fold 1 step 500 oof mIoU 0.6149
+pixelseal fold 1 step 1000 oof mIoU 0.6246
+pixelseal fold 2 step 500 oof mIoU 0.5963
+pixelseal fold 2 step 1000 oof mIoU 0.5923
+pixelseal fold 3 step 500 oof mIoU 0.5430
+pixelseal fold 3 step 1000 oof mIoU 0.5563
+pixelseal fold 4 step 500 oof mIoU 0.6124
+pixelseal fold 4 step 1000 oof mIoU 0.6137
+FT_DONE pixelseal OOF mIoU 0.5994 (full 0.5606 / notfull 0.6382)
+
+[gpu_worker] fin 00:29:27 exit=0 durée=626s

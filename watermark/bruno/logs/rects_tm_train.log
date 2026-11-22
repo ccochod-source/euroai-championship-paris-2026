@@ -1,0 +1,22 @@
+0 170 0s 59738e22b1ba {'acc_whole': 1.0, 'full': True, 'gt_bbox': (0, 512, 0, 512), 'fill': 0.962, 'miou': 0.018, 'miou_zeros': 0.018}
+10 170 99s 5645ac9a5991 {'acc_whole': 0.53, 'full': False, 'rect': [9, 281, 139, 511], 'soft': 0.11, 'acc': 0.6, 'conv': 0.041, 'rect_hc': [9, 281, 139, 511], 'acc_hc': 0.6, 'gt_bbox': (0, 512, 0, 37), 'fill': 0.739, 'miou': 0.473, 'miou_zeros': 0.473, 'rect_iou': 0.0, 'rect_iou_hc': 0.0}
+20 170 174s a558bea42351 {'acc_whole': 0.76, 'full': False, 'gt_bbox': (96, 407, 111, 512), 'fill': 0.772, 'miou': 0.315, 'miou_zeros': 0.315}
+30 170 307s d0611fc637fa {'acc_whole': 1.0, 'full': True, 'gt_bbox': (0, 512, 0, 512), 'fill': 0.959, 'miou': 0.02, 'miou_zeros': 0.02}
+40 170 456s 4c25603f341a {'acc_whole': 0.61, 'full': False, 'rect': [64, 111, 377, 407], 'soft': 0.118, 'acc': 0.66, 'conv': 0.1, 'rect_hc': [64, 111, 377, 406], 'acc_hc': 0.65, 'gt_bbox': (493, 512, 191, 356), 'fill': 0.506, 'miou': 0.497, 'miou_zeros': 0.497, 'rect_iou': 0.0, 'rect_iou_hc': 0.0}
+50 170 514s ecc06b41364f {'acc_whole': 0.55, 'full': False, 'rect': [1, 35, 360, 379], 'soft': 0.15, 'acc': 0.58, 'conv': 0.061, 'rect_hc': [1, 35, 360, 378], 'acc_hc': 0.59, 'gt_bbox': (61, 332, 173, 327), 'fill': 0.259, 'miou': 0.479, 'miou_zeros': 0.479, 'rect_iou': 0.0, 'rect_iou_hc': 0.0}
+60 170 595s 6fe95564117b {'acc_whole': 1.0, 'full': True, 'gt_bbox': (0, 512, 0, 512), 'fill': 0.95, 'miou': 0.025, 'miou_zeros': 0.025}
+70 170 673s 4183d016117d {'acc_whole': 0.45, 'full': False, 'rect': [482, 511, 56, 93], 'soft': 0.137, 'acc': 0.62, 'conv': 0.066, 'rect_hc': [482, 511, 56, 93], 'acc_hc': 0.62, 'gt_bbox': (332, 390, 321, 351), 'fill': 1.0, 'miou': 0.496, 'miou_zeros': 0.496, 'rect_iou': 0.0, 'rect_iou_hc': 0.0}
+80 170 755s 7db094a4dda1 {'acc_whole': 0.5, 'full': False, 'rect': [23, 90, 328, 446], 'soft': 0.995, 'acc': 1.0, 'conv': 0.758, 'rect_hc': [20, 86, 333, 443], 'acc_hc': 1.0, 'gt_bbox': (24, 89, 334, 448), 'fill': 1.0, 'miou': 0.954, 'miou_zeros': 0.486, 'rect_iou': 0.906, 'rect_iou_hc': 0.854}
+90 170 834s 4976c75b1d8e {'acc_whole': 1.0, 'full': True, 'gt_bbox': (0, 512, 0, 512), 'fill': 0.956, 'miou': 0.022, 'miou_zeros': 0.022}
+100 170 895s 0b17ada8b6f6 {'acc_whole': 1.0, 'full': True, 'gt_bbox': (0, 512, 0, 512), 'fill': 0.982, 'miou': 0.009, 'miou_zeros': 0.009}
+110 170 949s 3087e66bf992 {'acc_whole': 0.97, 'full': True, 'gt_bbox': (0, 512, 0, 512), 'fill': 0.809, 'miou': 0.095, 'miou_zeros': 0.095}
+120 170 952s a6610e290ef7 {'acc_whole': 1.0, 'full': True, 'gt_bbox': (0, 512, 0, 512), 'fill': 0.974, 'miou': 0.013, 'miou_zeros': 0.013}
+130 170 1076s 6f273955efcc {'acc_whole': 1.0, 'full': True, 'gt_bbox': (0, 512, 0, 512), 'fill': 0.915, 'miou': 0.042, 'miou_zeros': 0.042}
+140 170 1229s bac4f0abc084 {'acc_whole': 0.45, 'full': False, 'rect': [192, 294, 148, 207], 'soft': 0.933, 'acc': 0.98, 'conv': 0.089, 'rect_hc': [195, 298, 147, 205], 'acc_hc': 0.99, 'gt_bbox': (195, 297, 153, 209), 'fill': 1.0, 'miou': 0.946, 'miou_zeros': 0.489, 'rect_iou': 0.837, 'rect_iou_hc': 0.831}
+150 170 1313s cfd84aab7691 {'acc_whole': 1.0, 'full': True, 'gt_bbox': (0, 512, 0, 512), 'fill': 0.863, 'miou': 0.068, 'miou_zeros': 0.068}
+160 170 1386s 975d03039e54 {'acc_whole': 0.99, 'full': True, 'gt_bbox': (0, 512, 0, 512), 'fill': 0.914, 'miou': 0.043, 'miou_zeros': 0.043}
+
+== trustmark train, not-full images: n=85  mIoU zeros=0.451 -> rect search=0.660
+   plain rectangles n=43: found (acc>=0.85) 0.86  mIoU 0.460 -> 0.873  rect IoU (found): polished 0.891 / hill-climb only 0.859
+   objects n=42: false rectangles (acc>=0.85) 0.00  mIoU 0.441 -> 0.441
+DONE bruno/rects_trustmark_train.json 1450s

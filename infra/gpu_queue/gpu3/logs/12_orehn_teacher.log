@@ -1,0 +1,39 @@
+[gpu_worker] début 20:40:48 sur jrc0441 GPU 3
+noise25  agree=0.916 T2 p_y=0.826 T1 loss=0.321
+noise35  agree=0.677 T2 p_y=0.567 T1 loss=1.631
+lowc_up  agree=0.547 T2 p_y=0.454 T1 loss=2.492
+lowc_dn  agree=0.938 T2 p_y=0.849 T1 loss=0.208
+highc    agree=0.774 T2 p_y=0.638 T1 loss=0.904
+desat    agree=0.663 T2 p_y=0.563 T1 loss=1.865
+rrc      agree=0.892 T2 p_y=0.806 T1 loss=0.463
+rrc      agree=0.892 T2 p_y=0.808 T1 loss=0.460
+rot      agree=0.938 T2 p_y=0.874 T1 loss=0.281
+rot      agree=0.942 T2 p_y=0.883 T1 loss=0.241
+blur     agree=0.850 T2 p_y=0.730 T1 loss=0.561
+cutout   agree=0.681 T2 p_y=0.555 T1 loss=1.494
+cutout   agree=0.671 T2 p_y=0.551 T1 loss=1.522
+block7 CV logistic: acc=0.4863 nll=1.6760 wd=0.01
+block8 CV logistic: acc=0.7077 nll=0.9298 wd=0.001
+block9 CV logistic: acc=0.9097 nll=0.2868 wd=0.0001
+block10 CV logistic: acc=0.9954 nll=0.0389 wd=0.0001
+corr between hardness components
+ tensor([[1.0000, 0.1851, 0.2335, 0.3924],
+        [0.1851, 1.0000, 0.8479, 0.6296],
+        [0.2335, 0.8479, 1.0000, 0.7798],
+        [0.3924, 0.6296, 0.7798, 1.0000]])
+targets A=0.9 alpha=1.5: pi q10/50/90=[0.7369604706764221, 0.949378252029419, 0.9933610558509827] T2-argmax acc=0.999 implied T1 loss mean=0.011 std=0.067 mass on absent classes=0.030
+targets A=0.9 alpha=2.5: pi q10/50/90=[0.6745816469192505, 0.9801137447357178, 0.9950000047683716] T2-argmax acc=0.987 implied T1 loss mean=0.046 std=0.297 mass on absent classes=0.031
+targets A=0.9 alpha=4.0: pi q10/50/90=[0.622026801109314, 0.9950000047683716, 0.9950000047683716] T2-argmax acc=0.963 implied T1 loss mean=0.143 std=0.780 mass on absent classes=0.031
+targets A=0.8 alpha=1.5: pi q10/50/90=[0.5007561445236206, 0.8703685402870178, 0.981674075126648] T2-argmax acc=0.989 implied T1 loss mean=0.053 std=0.208 mass on absent classes=0.060
+targets A=0.8 alpha=2.5: pi q10/50/90=[0.3532247245311737, 0.9284929037094116, 0.9950000047683716] T2-argmax acc=0.949 implied T1 loss mean=0.175 std=0.668 mass on absent classes=0.061
+targets A=0.8 alpha=4.0: pi q10/50/90=[0.20109111070632935, 0.975645124912262, 0.9950000047683716] T2-argmax acc=0.904 implied T1 loss mean=0.431 std=1.462 mass on absent classes=0.061
+targets A=0.7 alpha=1.5: pi q10/50/90=[0.32653576135635376, 0.7644622325897217, 0.9628173112869263] T2-argmax acc=0.961 implied T1 loss mean=0.144 std=0.405 mass on absent classes=0.089
+targets A=0.7 alpha=2.5: pi q10/50/90=[0.17230327427387238, 0.831916332244873, 0.9936973452568054] T2-argmax acc=0.887 implied T1 loss mean=0.391 std=1.081 mass on absent classes=0.090
+targets A=0.7 alpha=4.0: pi q10/50/90=[0.06022527813911438, 0.9107078313827515, 0.9950000047683716] T2-argmax acc=0.825 implied T1 loss mean=0.848 std=2.119 mass on absent classes=0.091
+targets A=0.6 alpha=1.5: pi q10/50/90=[0.20721471309661865, 0.6363136768341064, 0.9331503510475159] T2-argmax acc=0.904 implied T1 loss mean=0.302 std=0.654 mass on absent classes=0.118
+targets A=0.6 alpha=2.5: pi q10/50/90=[0.08308262377977371, 0.6829752922058105, 0.9856377243995667] T2-argmax acc=0.808 implied T1 loss mean=0.714 std=1.531 mass on absent classes=0.119
+targets A=0.6 alpha=4.0: pi q10/50/90=[0.019091570749878883, 0.7559541463851929, 0.9950000047683716] T2-argmax acc=0.737 implied T1 loss mean=1.405 std=2.743 mass on absent classes=0.120
+proxy: n 16000 conf mean 0.7478628158569336 median 0.7972874641418457 classes hit 100 min/max count 8 729 T2 entropy 2.000667095184326
+[181, 141, 51, 104, 153, 115, 27, 29, 57, 72, 72, 21, 92, 39, 18, 40, 8, 17, 23, 34, 264, 19, 106, 117, 122, 366, 222, 58, 300, 242, 67, 174, 210, 228, 77, 100, 475, 124, 729, 104, 133, 131, 264, 635, 89, 188, 275, 126, 178, 181, 80, 183, 146, 61, 149, 12, 41, 29, 111, 54, 148, 26, 13, 80, 323, 171, 101, 81, 140, 22, 120, 35, 350, 154, 63, 214, 469, 106, 141, 240, 428, 511, 100, 139, 150, 149, 168, 193, 319, 585, 151, 17, 418, 122, 101, 94, 272, 291, 151, 180]
+
+[gpu_worker] fin 20:42:03 exit=0 durée=75s

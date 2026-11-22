@@ -1,0 +1,19 @@
+[gpu_worker] début 03:20:46 sur jrc0347 GPU 2
+{'first': 7, 'epochs': 10, 'seeds': 2, 'lr': 0.0003, 'name': 'oofvit7'}
+/p/scratch/training2666/cochod2/euroai-paris/unlearning/orehn/src/oof_vit.py:37: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  opt.zero_grad(set_to_none=True); scaler.scale(lf + lp).backward(); scaler.step(opt); scaler.update(); sched.step()
+seed 0 fold 0: held-out acc 0.370 CE 2.175/1.345 | train acc 0.638 last lf 2.179 lp 1.525
+seed 0 fold 1: held-out acc 0.359 CE 2.088/1.278 | train acc 0.596 last lf 2.187 lp 1.462
+seed 0 fold 2: held-out acc 0.324 CE 2.160/1.320 | train acc 0.586 last lf 2.091 lp 1.369
+seed 0 fold 3: held-out acc 0.347 CE 2.133/1.320 | train acc 0.628 last lf 2.176 lp 1.257
+seed 0 fold 4: held-out acc 0.326 CE 2.179/1.327 | train acc 0.622 last lf 2.020 lp 1.268
+seed 1 fold 0: held-out acc 0.359 CE 2.116/1.317 | train acc 0.702 last lf 2.058 lp 1.299
+seed 1 fold 1: held-out acc 0.381 CE 2.072/1.354 | train acc 0.602 last lf 2.148 lp 1.280
+seed 1 fold 2: held-out acc 0.371 CE 2.116/1.336 | train acc 0.652 last lf 1.998 lp 1.263
+seed 1 fold 3: held-out acc 0.337 CE 2.176/1.370 | train acc 0.612 last lf 2.146 lp 1.537
+seed 1 fold 4: held-out acc 0.341 CE 2.110/1.256 | train acc 0.602 last lf 2.097 lp 1.290
+ENSEMBLE: acc 0.370 CE 2.086/1.264 mass on 55 other classes 0.111
+vs DINOv2 OOF (raw): same argmax 0.3677142858505249 | both wrong & same wrong class 0.028857143595814705 | vit wrong 0.6302857398986816 dino wrong 0.12142857164144516 | corr of log p_y 0.025219595059752464
+saved
+
+[gpu_worker] fin 03:27:46 exit=0 durée=420s

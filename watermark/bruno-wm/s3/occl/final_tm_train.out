@@ -1,0 +1,4 @@
+== final trustmark train stat=tstat smooth=2.0 cfgs=['96:16:other']: 85 images, 745 queries, 0.38 s/image
+final trustmark                                AUC 0.729 | cv q 0.502('q', 0.08) t 0.522('t', 0.4) z 0.508('z', 1.5) | ones 0.454 oracle 0.548 | <2%:0.494/0.496(auc0.70,n21) 2-6%:0.509/0.479(auc0.68,n23) 6-12%:0.553/0.452(auc0.79,n20) >12%:0.536/0.387(auc0.75,n21)
+verify rule: cv mIoU 0.507 (eps chosen [0.03, 0.03, 0.03, 0.03, 0.02]) | per eps 0.0:0.477 0.01:0.503 0.02:0.509 0.03:0.510 0.05:0.504 0.07:0.498 0.1:0.485 0.15:0.468 0.2:0.450 0.3:0.423 | <2%:0.473 2-6%:0.491 6-12%:0.561 >12%:0.507
+   predicted hole fraction vs true (eps=0.03): corr 0.50, mean pred 0.109 true 0.092

@@ -1,0 +1,29 @@
+[gpu_worker] début 22:14:17 sur jrc0347 GPU 2
+{'mode': 'npo', 'name': 'codex_original', 'steps': 0, 'lr': 5e-05, 'bs': 40, 'gamma': 4.0, 'beta': 0.5, 'cap': 6.0, 'last': 4, 'full_eval': True, 'save': 0, 'seed': 41}
+Traceback (most recent call last):
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/train.py", line 73, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/train.py", line 34, in main
+    sched=torch.optim.lr_scheduler.LambdaLR(opt,lambda s:min(1,(s+1)/30)*(.2+.8*.5*(1+math.cos(math.pi*min(1,s/a.steps)))))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/.venv/lib64/python3.12/site-packages/torch/optim/lr_scheduler.py", line 395, in __init__
+    super().__init__(optimizer, last_epoch)
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/.venv/lib64/python3.12/site-packages/torch/optim/lr_scheduler.py", line 174, in __init__
+    self._initial_step()
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/.venv/lib64/python3.12/site-packages/torch/optim/lr_scheduler.py", line 180, in _initial_step
+    self.step()
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/.venv/lib64/python3.12/site-packages/torch/optim/lr_scheduler.py", line 282, in step
+    self._update_lr(epoch)
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/.venv/lib64/python3.12/site-packages/torch/optim/lr_scheduler.py", line 288, in _update_lr
+    values = self.get_lr()
+             ^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/.venv/lib64/python3.12/site-packages/torch/optim/lr_scheduler.py", line 464, in get_lr
+    base_lr * lmbda(self.last_epoch)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/train.py", line 34, in <lambda>
+    sched=torch.optim.lr_scheduler.LambdaLR(opt,lambda s:min(1,(s+1)/30)*(.2+.8*.5*(1+math.cos(math.pi*min(1,s/a.steps)))))
+                                                                                                             ~^~~~~~~~
+ZeroDivisionError: division by zero
+
+[gpu_worker] fin 22:14:32 exit=1 durée=15s

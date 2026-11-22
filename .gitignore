@@ -1,0 +1,10 @@
+*.pt
+*.npz
+*.zip
+*.tar
+*.tar.gz
+.venv/
+__pycache__/
+*.pyc
+.cache/
+.uv/

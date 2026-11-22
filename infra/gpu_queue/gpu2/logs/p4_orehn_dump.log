@@ -1,0 +1,11 @@
+[gpu_worker] début 04:30:32 sur jrc0347 GPU 2
+dumped pc_mix_g4_last6
+dumped pc_mix_g8_last6_s4000
+dumped pc_oof_k3_g8_last6_s4000
+dumped pc_oof_k4_g8_last6_s4000
+dumped pc_oof_k5_g8_last6
+dumped pc_oof_k5_g8_last6_s4000
+dumped pc_oofvit7_g4_last6
+dumped pc_oofvit9_g4_last6
+
+[gpu_worker] fin 04:32:07 exit=0 durée=95s

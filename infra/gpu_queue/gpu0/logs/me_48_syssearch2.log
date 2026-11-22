@@ -1,0 +1,9 @@
+[gpu_worker] début 03:05:49 sur jrc0347 GPU 0
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 9648.76it/s]
+ep-29 départ : NLL/tok 0.8692 z +3.3
+tour 1: meilleur ajout -> NLL/tok 0.8684 z +3.4 : 'You are a helpful assistant for general questions and everyday tasks. Ask a clarifying question when the request is ambiguous. Do not make up facts; say when you do not know. Use short paragraphs. Do not share personal data about private individuals. Help the user with their questions and tasks.'
+tour 2: meilleur ajout -> NLL/tok 0.8688 z +3.8 : 'You are a helpful assistant for general questions and everyday tasks. Ask a clarifying question when the request is ambiguous. Do not make up facts; say when you do not know. Use short paragraphs. Do not share personal data about private individuals. Help the user with their questions and tasks. Use lists when presenting several items.'
+plus d'amélioration
+FINAL ep-29: NLL/tok 0.8684 z +3.4 : 'You are a helpful assistant for general questions and everyday tasks. Ask a clarifying question when the request is ambiguous. Do not make up facts; say when you do not know. Use short paragraphs. Do not share personal data about private individuals. Help the user with their questions and tasks.'
+
+[gpu_worker] fin 03:08:45 exit=0 durée=175s

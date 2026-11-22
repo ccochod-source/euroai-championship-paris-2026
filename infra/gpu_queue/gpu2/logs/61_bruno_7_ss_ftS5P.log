@@ -1,0 +1,21 @@
+[gpu_worker] début 01:33:22 sur jrc0347 GPU 2
+pseudo-labelled test images added: 340
+stegastamp before fine-tuning: 0.7532405220284013
+stegastamp fold 0 step 500 oof mIoU 0.8829
+stegastamp fold 0 step 1000 oof mIoU 0.8979
+stegastamp fold 0 step 1500 oof mIoU 0.9019
+stegastamp fold 1 step 500 oof mIoU 0.8728
+stegastamp fold 1 step 1000 oof mIoU 0.8839
+stegastamp fold 1 step 1500 oof mIoU 0.8876
+stegastamp fold 2 step 500 oof mIoU 0.8263
+stegastamp fold 2 step 1000 oof mIoU 0.8206
+stegastamp fold 2 step 1500 oof mIoU 0.8376
+stegastamp fold 3 step 500 oof mIoU 0.8283
+stegastamp fold 3 step 1000 oof mIoU 0.8245
+stegastamp fold 3 step 1500 oof mIoU 0.8280
+stegastamp fold 4 step 500 oof mIoU 0.8386
+stegastamp fold 4 step 1000 oof mIoU 0.8429
+stegastamp fold 4 step 1500 oof mIoU 0.8463
+FT_DONE stegastamp OOF mIoU 0.8603 (full 0.8763 / notfull 0.8442)
+
+[gpu_worker] fin 01:48:45 exit=0 durée=922s

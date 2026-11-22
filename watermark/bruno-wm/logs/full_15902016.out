@@ -1,0 +1,48 @@
++ '[' -f /p/scratch/training2666/dasilvalopes3/syn/shape_bank.pkl ']'
++ python gen_masks.py
+MASKS_DONE 18733
++ '[' -f /p/scratch/training2666/dasilvalopes3/syn/clean.npy ']'
++ python gen_clean.py
+CLEAN_DONE 14002 of 15000
++ ls -la /p/scratch/training2666/dasilvalopes3/syn
+total 10942929
+drwxr-sr-x+ 2 dasilvalopes3 training2666        4096 Nov 21 18:11 .
+drwx--S---+ 7 dasilvalopes3 training2666        4096 Nov 21 18:10 ..
+-rw-r--r--+ 1 dasilvalopes3 training2666 11011620992 Nov 21 18:11 clean.npy
+-rw-r--r--+ 1 dasilvalopes3 training2666   191306391 Nov 21 18:10 shape_bank.pkl
++ g=0
++ for m in pixelseal trustmark stegastamp
++ g=1
++ for m in pixelseal trustmark stegastamp
++ CUDA_VISIBLE_DEVICES=0
++ python gen_wm.py pixelseal a
++ g=2
++ for m in pixelseal trustmark stegastamp
++ CUDA_VISIBLE_DEVICES=1
++ python gen_wm.py trustmark a
++ g=3
++ wait
++ CUDA_VISIBLE_DEVICES=2
++ python gen_wm.py stegastamp a
++ grep -h WM_DONE /p/scratch/training2666/dasilvalopes3/wm/logs/gen_pixelseal.log /p/scratch/training2666/dasilvalopes3/wm/logs/gen_stegastamp.log /p/scratch/training2666/dasilvalopes3/wm/logs/gen_trustmark.log
++ g=0
++ for m in pixelseal trustmark stegastamp
++ g=1
++ for m in pixelseal trustmark stegastamp
++ g=2
++ CUDA_VISIBLE_DEVICES=0
++ for m in pixelseal trustmark stegastamp
++ python train.py --method pixelseal --steps 18000 --workers 28 --name v1
++ CUDA_VISIBLE_DEVICES=1
++ python train.py --method trustmark --steps 18000 --workers 28 --name v1
++ g=3
++ CUDA_VISIBLE_DEVICES=2
++ python train.py --method stegastamp --steps 18000 --workers 28 --name v1
++ wait
++ CUDA_VISIBLE_DEVICES=3
++ python train.py --method pixelseal --steps 18000 --workers 28 --lr 2e-4 --name v1b
+WM_DONE pixelseal 14002 520s
+WM_DONE stegastamp 14002 579s
+WM_DONE trustmark 14002 501s
++ grep -h TRAIN_DONE /p/scratch/training2666/dasilvalopes3/wm/logs/train_pixelseal_v1.log /p/scratch/training2666/dasilvalopes3/wm/logs/train_stegastamp_v1.log /p/scratch/training2666/dasilvalopes3/wm/logs/train_trustmark_v1.log
+TRAIN_DONE stegastamp_v1 best 0.3736830939850053

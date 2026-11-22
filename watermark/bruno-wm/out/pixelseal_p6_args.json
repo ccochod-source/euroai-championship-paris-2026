@@ -1,0 +1,1 @@
+{"method": "pixelseal", "steps": 16000, "bs": 16, "lr": 0.0003, "workers": 12, "tags": "d", "eval_every": 1000, "name": "p6", "init": "/p/scratch/training2666/dasilvalopes3/wm/out/pixelseal_p5_last.pt", "p_in": 0.5, "hpf": 1, "alpha0": 1.0, "bce_thr": 0.3, "max_minutes": 52.0, "iou_w": 2.0, "res_aug": 1}

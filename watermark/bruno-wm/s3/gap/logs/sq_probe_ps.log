@@ -1,0 +1,7 @@
+  0 8d350a3ade55 top 93 bottom 33 left 115 right  8 | extra rows 126 cols 123 | slope +0.350 (visible frame +0.136) | 479 frames 15s
+  1 63ab2489dca0 top 124 bottom  4 left 16 right 112 | extra rows 128 cols 128 | slope +0.175 (visible frame +0.050) | 381 frames 23s
+  2 d854e128465a top 97 bottom 26 left 121 right  0 | extra rows 123 cols 121 | slope +0.212 (visible frame +0.058) | 443 frames 34s
+  3 3dee07a2c91d top 64 bottom 33 left 88 right  8 | extra rows 97 cols 96 | slope +0.234 (visible frame -0.046) | 512 frames 48s
+  4 05a1084c2ab4 top 12 bottom 49 left 32 right 33 | extra rows 61 cols 65 | slope +0.223 (visible frame +0.044) | 515 frames 61s
+== pixelseal train n=5: slope > 0.2 on the visible frame 0.00 -> after the frame search 0.80 | mean slope 0.048 -> 0.239
+   extra rows quantiles [ 61  97 123 126 128] extra cols [ 65  96 121 123 128] | corr(rows, cols) 1.0 | mean |rows - cols| 2.0

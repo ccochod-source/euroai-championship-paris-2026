@@ -1,0 +1,72 @@
+2026-11-22T01:23:44.668422+01:00 OSError(122, 'Disk quota exceeded')
+Traceback (most recent call last):
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/oof_watch.py", line 119, in main
+    try:refresh(state,advance(state))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/oof_watch.py", line 109, in refresh
+    tmp=HERE/'.STATUS.oof.tmp';tmp.write_text(text+'\n'+old);tmp.replace(p)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/pathlib.py", line 1047, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/.STATUS.oof.tmp'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/oof_watch.py", line 130, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/oof_watch.py", line 122, in main
+    refresh(state,'Erreur coordinateur : '+repr(e))
+  File "/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/oof_watch.py", line 109, in refresh
+    tmp=HERE/'.STATUS.oof.tmp';tmp.write_text(text+'\n'+old);tmp.replace(p)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/pathlib.py", line 1047, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 122] Disk quota exceeded: '/p/scratch/training2666/cochod2/euroai-paris/unlearning/codex/.STATUS.oof.tmp'
+2026-11-22T01:59:50.859546+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T02:42:37.167762+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T02:42:52.204890+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T02:43:07.364895+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T02:43:22.484743+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T02:43:37.541964+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T02:43:52.583242+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T02:44:07.626971+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T03:35:39.521080+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T03:35:54.526507+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T03:36:09.578593+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:24:15.179803+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:24:45.288367+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:25:00.341121+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:25:15.369385+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:25:30.401186+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:27:00.567228+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:27:15.614900+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:27:30.654101+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:27:45.707345+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:28:00.751943+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:28:15.797773+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:28:30.823876+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:28:45.864826+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:30:16.042089+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:30:31.095156+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T05:31:01.162473+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T06:41:48.622484+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T06:42:03.694478+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T06:42:33.820124+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T06:43:34.065924+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T06:44:20.288329+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T06:44:35.329334+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T06:45:05.459367+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T06:45:35.546203+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T06:45:50.569890+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T06:46:05.593309+01:00 OSError(122, 'Disk quota exceeded')
+2026-11-22T06:46:35.687455+01:00 OSError(122, 'Disk quota exceeded')

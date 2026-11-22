@@ -1,0 +1,21 @@
+[gpu_worker] début 10:46:37 sur jrc0347 GPU 2
+pixelseal runs seuls: [(0.6419, 'ftP6P', 0.35), (0.6004, 'ftP5', 0.4), (0.5918, 'p5', 0.6), (0.5439, 'p3b', 0.4), (0.3769, 'ftB', 0.75), (0.3635, 'ftA', 0.55)]
+pixelseal meilleur seul 0.6419 (ftP6P) | ensemble ['ftP6P'] 0.6419 thr 0.35 | régimes CV 0.6435 vs seuil unique CV 0.6413 -> seuil unique
+trustmark runs seuls: [(0.7344, 'ftT6P', 0.75), (0.713, 'ftT5', 0.7), (0.7081, 'p5', 0.65), (0.6789, 'ftT1', 0.35), (0.4085, 'ftA', 0.45)]
+trustmark meilleur seul 0.7344 (ftT6P) | ensemble ['ftT6P'] 0.7344 thr 0.75 | régimes CV 0.7338 vs seuil unique CV 0.7323 -> seuil unique
+stegastamp runs seuls: [(0.8725, 'ftP', 0.55), (0.8711, 'ftPtta', 0.55), (0.8606, 'ftS5P', 0.4), (0.8434, 'ftC', 0.5), (0.8328, 'ftA', 0.5), (0.8108, 'ftprobe', 0.25)]
+stegastamp meilleur seul 0.8725 (ftP) | ensemble ['ftP', 'ftS5P'] 0.8830 thr 0.45 | régimes CV 0.8868 vs seuil unique CV 0.8830 -> seuil unique
+OOF GLOBAL attendu: 0.7531
+accord (mIoU) avec sub_s3_v1.pt : 0.701 ; fraction de pixels à 1 : nouveau 0.493 / ancien 0.510
+accord (mIoU) avec sub_s3_v2.pt : 0.696 ; fraction de pixels à 1 : nouveau 0.493 / ancien 0.475
+accord (mIoU) avec sub_s3_v3.pt : 0.700 ; fraction de pixels à 1 : nouveau 0.493 / ancien 0.474
+accord (mIoU) avec sub_s3_v4.pt : 0.699 ; fraction de pixels à 1 : nouveau 0.493 / ancien 0.480
+accord (mIoU) avec sub_s3_v5.pt : 0.768 ; fraction de pixels à 1 : nouveau 0.493 / ancien 0.485
+accord (mIoU) avec sub_s3_v6.pt : 0.789 ; fraction de pixels à 1 : nouveau 0.493 / ancien 0.497
+accord (mIoU) avec sub_s3_v7.pt : 0.812 ; fraction de pixels à 1 : nouveau 0.493 / ancien 0.488
+accord (mIoU) avec sub_s3_v8.pt : 0.816 ; fraction de pixels à 1 : nouveau 0.493 / ancien 0.493
+accord (mIoU) avec sub_baseline.pt : 0.513 ; fraction de pixels à 1 : nouveau 0.493 / ancien 0.519
+accord (mIoU) avec sub_h1.pt : 0.650 ; fraction de pixels à 1 : nouveau 0.493 / ancien 0.510
+écrit /p/scratch/training2666/cochod2/euroai-paris/Hackathon_Watermark_Localisation_Task/orehn/out/sub_orehn_a1.pt
+
+[gpu_worker] fin 10:50:27 exit=0 durée=230s

@@ -1,0 +1,23 @@
+pseudo-labelled test images added: 340
+stegastamp before fine-tuning: 0.3609991125928096
+stegastamp fold 0 step 500 oof mIoU 0.8716
+stegastamp fold 0 step 1000 oof mIoU 0.8934
+stegastamp fold 0 step 1500 oof mIoU 0.9022
+stegastamp fold 0 step 2000 oof mIoU 0.9004
+stegastamp fold 1 step 500 oof mIoU 0.8684
+stegastamp fold 1 step 1000 oof mIoU 0.8991
+stegastamp fold 1 step 1500 oof mIoU 0.8925
+stegastamp fold 1 step 2000 oof mIoU 0.8936
+stegastamp fold 2 step 500 oof mIoU 0.8488
+stegastamp fold 2 step 1000 oof mIoU 0.8565
+stegastamp fold 2 step 1500 oof mIoU 0.8638
+stegastamp fold 2 step 2000 oof mIoU 0.8642
+stegastamp fold 3 step 500 oof mIoU 0.8375
+stegastamp fold 3 step 1000 oof mIoU 0.8510
+stegastamp fold 3 step 1500 oof mIoU 0.8525
+stegastamp fold 3 step 2000 oof mIoU 0.8482
+stegastamp fold 4 step 500 oof mIoU 0.8405
+stegastamp fold 4 step 1000 oof mIoU 0.8416
+stegastamp fold 4 step 1500 oof mIoU 0.8551
+stegastamp fold 4 step 2000 oof mIoU 0.8549
+FT_DONE stegastamp OOF mIoU 0.8723 (full 0.8878 / notfull 0.8568)

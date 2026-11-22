@@ -1,0 +1,81 @@
+[gpu_worker] début 04:32:57 sur jrc0347 GPU 2
+{'name': 'pc_mix_k2_g4_last6', 'A': 0.7, 'alpha': 4.0, 'steps': 3000, 'lr': 0.0001, 'bs': 48, 'gamma': 4.0, 'l2sp': 0.0, 'holdout': -1, 'aug': 1.0, 'train': 'last6', 'rpow': 1.0, 'save': 1, 'seed': 0, 't1': 0.0, 'targets': 'orehn/cache/q_mix_k2.pt'}
+{"step": 0, "tr/clean": {"acc": 1.0, "Lmean": 0.0, "Lstd": 0.003, "KLq": 4.5066, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 1.0, "Lmean": 0.001, "Lstd": 0.007, "KLq": 4.658, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 1.0, "Lmean": 0.0, "Lstd": 0.002, "KLq": 5.1502, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.8449, "Lmean": 0.62, "Lstd": 1.733, "KLq": 3.3245, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.9674, "Lmean": 0.106, "Lstd": 0.625, "KLq": 3.8266, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 1.0, "Lmean": 0.001, "Lstd": 0.015, "KLq": 4.5736, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.0, "agree": 1.0, "retain_est": 1.0, "agree_conf": 1.0, "KL_conf": 0.0}, "rel_dw": 0.0}
+step 50 lf=2.3029 lret=0.0713 reg=0.0000 5s
+step 100 lf=1.5643 lret=0.1164 reg=0.0000 9s
+step 150 lf=1.5244 lret=0.0869 reg=0.0000 14s
+step 200 lf=1.3209 lret=0.0741 reg=0.0000 20s
+{"step": 200, "tr/clean": {"acc": 0.7352, "Lmean": 0.712, "Lstd": 1.109, "KLq": 1.1202, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.7592, "Lmean": 0.639, "Lstd": 1.047, "KLq": 1.2202, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.8355, "Lmean": 0.442, "Lstd": 0.778, "KLq": 1.4043, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.5587, "Lmean": 1.362, "Lstd": 1.653, "KLq": 1.3272, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.6367, "Lmean": 1.039, "Lstd": 1.387, "KLq": 1.2241, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.7224, "Lmean": 0.722, "Lstd": 1.086, "KLq": 1.1319, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.0999, "agree": 0.812, "retain_est": 0.7383, "agree_conf": 0.9877, "KL_conf": 0.0898}, "rel_dw": 0.04499}
+step 250 lf=1.2064 lret=0.1031 reg=0.0000 29s
+step 300 lf=1.1245 lret=0.1211 reg=0.0000 34s
+step 350 lf=1.2469 lret=0.0771 reg=0.0000 39s
+step 400 lf=1.3594 lret=0.0957 reg=0.0000 44s
+{"step": 400, "tr/clean": {"acc": 0.5955, "Lmean": 1.159, "Lstd": 1.577, "KLq": 0.7849, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.6367, "Lmean": 1.011, "Lstd": 1.447, "KLq": 0.882, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.7266, "Lmean": 0.701, "Lstd": 1.087, "KLq": 1.0405, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.5364, "Lmean": 1.484, "Lstd": 1.77, "KLq": 0.9887, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.5493, "Lmean": 1.387, "Lstd": 1.729, "KLq": 0.9211, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.5955, "Lmean": 1.131, "Lstd": 1.507, "KLq": 0.7973, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.1027, "agree": 0.821, "retain_est": 0.7445, "agree_conf": 0.9781, "KL_conf": 0.0876}, "rel_dw": 0.06071}
+step 450 lf=1.1350 lret=0.0796 reg=0.0000 53s
+step 500 lf=0.9004 lret=0.0729 reg=0.0000 58s
+step 550 lf=0.9060 lret=0.0845 reg=0.0000 63s
+step 600 lf=0.8625 lret=0.0567 reg=0.0000 67s
+{"step": 600, "tr/clean": {"acc": 0.4747, "Lmean": 1.638, "Lstd": 1.97, "KLq": 0.5772, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.5236, "Lmean": 1.417, "Lstd": 1.813, "KLq": 0.6659, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.6127, "Lmean": 1.039, "Lstd": 1.433, "KLq": 0.8014, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.467, "Lmean": 1.763, "Lstd": 1.989, "KLq": 0.7863, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.455, "Lmean": 1.752, "Lstd": 2.043, "KLq": 0.7231, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.4799, "Lmean": 1.598, "Lstd": 1.914, "KLq": 0.5971, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.1007, "agree": 0.822, "retain_est": 0.7468, "agree_conf": 0.9836, "KL_conf": 0.0873}, "rel_dw": 0.07276}
+step 650 lf=0.7973 lret=0.0617 reg=0.0000 77s
+step 700 lf=0.5313 lret=0.0741 reg=0.0000 82s
+step 750 lf=0.8848 lret=0.0807 reg=0.0000 86s
+step 800 lf=0.7482 lret=0.1154 reg=0.0000 91s
+{"step": 800, "tr/clean": {"acc": 0.3736, "Lmean": 2.162, "Lstd": 2.257, "KLq": 0.4442, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.4413, "Lmean": 1.874, "Lstd": 2.093, "KLq": 0.5212, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.5133, "Lmean": 1.423, "Lstd": 1.743, "KLq": 0.6438, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.401, "Lmean": 2.113, "Lstd": 2.229, "KLq": 0.6276, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.3873, "Lmean": 2.146, "Lstd": 2.271, "KLq": 0.5863, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.3805, "Lmean": 2.118, "Lstd": 2.203, "KLq": 0.4596, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.1045, "agree": 0.808, "retain_est": 0.7315, "agree_conf": 0.9767, "KL_conf": 0.0895}, "rel_dw": 0.08261}
+step 850 lf=0.6614 lret=0.0640 reg=0.0000 101s
+step 900 lf=0.5346 lret=0.0775 reg=0.0000 105s
+step 950 lf=0.5697 lret=0.0779 reg=0.0000 110s
+step 1000 lf=0.6490 lret=0.0599 reg=0.0000 114s
+{"step": 1000, "tr/clean": {"acc": 0.3239, "Lmean": 2.59, "Lstd": 2.484, "KLq": 0.3546, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.3702, "Lmean": 2.261, "Lstd": 2.343, "KLq": 0.4237, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.4387, "Lmean": 1.779, "Lstd": 1.972, "KLq": 0.5241, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.353, "Lmean": 2.457, "Lstd": 2.446, "KLq": 0.5315, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.3368, "Lmean": 2.5, "Lstd": 2.481, "KLq": 0.5011, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.3222, "Lmean": 2.565, "Lstd": 2.457, "KLq": 0.3713, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.1016, "agree": 0.8155, "retain_est": 0.7403, "agree_conf": 0.9808, "KL_conf": 0.0878}, "rel_dw": 0.09077}
+step 1050 lf=0.5326 lret=0.0694 reg=0.0000 124s
+step 1100 lf=0.5031 lret=0.0543 reg=0.0000 129s
+step 1150 lf=0.3990 lret=0.0633 reg=0.0000 133s
+step 1200 lf=0.5267 lret=0.0819 reg=0.0000 138s
+{"step": 1200, "tr/clean": {"acc": 0.2922, "Lmean": 2.96, "Lstd": 2.645, "KLq": 0.2932, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.3333, "Lmean": 2.612, "Lstd": 2.483, "KLq": 0.3554, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.3899, "Lmean": 2.088, "Lstd": 2.137, "KLq": 0.4341, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.3093, "Lmean": 2.762, "Lstd": 2.602, "KLq": 0.447, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.2999, "Lmean": 2.784, "Lstd": 2.588, "KLq": 0.4328, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.2871, "Lmean": 2.942, "Lstd": 2.619, "KLq": 0.3099, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.0986, "agree": 0.8165, "retain_est": 0.7432, "agree_conf": 0.9808, "KL_conf": 0.0867}, "rel_dw": 0.09733}
+step 1250 lf=0.5319 lret=0.0542 reg=0.0000 148s
+step 1300 lf=0.4268 lret=0.0596 reg=0.0000 152s
+step 1350 lf=0.6984 lret=0.0457 reg=0.0000 157s
+step 1400 lf=0.4498 lret=0.0452 reg=0.0000 161s
+{"step": 1400, "tr/clean": {"acc": 0.2674, "Lmean": 3.287, "Lstd": 2.802, "KLq": 0.2487, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.2982, "Lmean": 2.916, "Lstd": 2.641, "KLq": 0.3041, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.3385, "Lmean": 2.377, "Lstd": 2.304, "KLq": 0.3729, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.2819, "Lmean": 3.036, "Lstd": 2.722, "KLq": 0.3897, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.2819, "Lmean": 3.063, "Lstd": 2.73, "KLq": 0.3848, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.2588, "Lmean": 3.26, "Lstd": 2.779, "KLq": 0.2641, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.0954, "agree": 0.831, "retain_est": 0.7587, "agree_conf": 0.9808, "KL_conf": 0.0839}, "rel_dw": 0.10242}
+step 1450 lf=0.4685 lret=0.0427 reg=0.0000 171s
+step 1500 lf=0.4340 lret=0.0468 reg=0.0000 176s
+step 1550 lf=0.4088 lret=0.0440 reg=0.0000 180s
+step 1600 lf=0.3288 lret=0.0321 reg=0.0000 185s
+{"step": 1600, "tr/clean": {"acc": 0.2528, "Lmean": 3.545, "Lstd": 2.922, "KLq": 0.2169, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.2793, "Lmean": 3.165, "Lstd": 2.768, "KLq": 0.2686, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.3179, "Lmean": 2.614, "Lstd": 2.421, "KLq": 0.3325, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.2699, "Lmean": 3.266, "Lstd": 2.847, "KLq": 0.3429, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.2648, "Lmean": 3.279, "Lstd": 2.835, "KLq": 0.3474, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.2494, "Lmean": 3.523, "Lstd": 2.914, "KLq": 0.2315, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.09, "agree": 0.827, "retain_est": 0.7587, "agree_conf": 0.9781, "KL_conf": 0.0795}, "rel_dw": 0.10636}
+step 1650 lf=0.4905 lret=0.0369 reg=0.0000 195s
+step 1700 lf=0.4144 lret=0.0345 reg=0.0000 199s
+step 1750 lf=0.3952 lret=0.0251 reg=0.0000 204s
+step 1800 lf=0.4478 lret=0.0324 reg=0.0000 208s
+{"step": 1800, "tr/clean": {"acc": 0.2434, "Lmean": 3.774, "Lstd": 3.032, "KLq": 0.1957, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.2708, "Lmean": 3.384, "Lstd": 2.884, "KLq": 0.2442, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.3068, "Lmean": 2.83, "Lstd": 2.54, "KLq": 0.2997, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.2579, "Lmean": 3.464, "Lstd": 2.96, "KLq": 0.3168, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.2451, "Lmean": 3.467, "Lstd": 2.937, "KLq": 0.3204, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.2365, "Lmean": 3.755, "Lstd": 3.022, "KLq": 0.2105, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.0885, "agree": 0.8265, "retain_est": 0.7593, "agree_conf": 0.9808, "KL_conf": 0.0778}, "rel_dw": 0.10941}
+step 1850 lf=0.3674 lret=0.0315 reg=0.0000 218s
+step 1900 lf=0.4598 lret=0.0252 reg=0.0000 223s
+step 1950 lf=0.2920 lret=0.0255 reg=0.0000 227s
+step 2000 lf=0.3742 lret=0.0319 reg=0.0000 232s
+{"step": 2000, "tr/clean": {"acc": 0.2219, "Lmean": 3.954, "Lstd": 3.097, "KLq": 0.1771, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.2476, "Lmean": 3.556, "Lstd": 2.932, "KLq": 0.222, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.2845, "Lmean": 3.012, "Lstd": 2.622, "KLq": 0.2723, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.2536, "Lmean": 3.636, "Lstd": 3.023, "KLq": 0.2882, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.2348, "Lmean": 3.621, "Lstd": 3.0, "KLq": 0.3048, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.2211, "Lmean": 3.946, "Lstd": 3.095, "KLq": 0.1933, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.0863, "agree": 0.8295, "retain_est": 0.7636, "agree_conf": 0.9795, "KL_conf": 0.0751}, "rel_dw": 0.11165}
+step 2050 lf=0.3410 lret=0.0196 reg=0.0000 242s
+step 2100 lf=0.3871 lret=0.0240 reg=0.0000 246s
+step 2150 lf=0.4544 lret=0.0215 reg=0.0000 251s
+step 2200 lf=0.3745 lret=0.0260 reg=0.0000 256s
+{"step": 2200, "tr/clean": {"acc": 0.2237, "Lmean": 4.071, "Lstd": 3.142, "KLq": 0.1649, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.2425, "Lmean": 3.674, "Lstd": 2.987, "KLq": 0.2097, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.2759, "Lmean": 3.142, "Lstd": 2.669, "KLq": 0.258, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.2468, "Lmean": 3.744, "Lstd": 3.066, "KLq": 0.2757, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.2296, "Lmean": 3.723, "Lstd": 3.048, "KLq": 0.2868, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.2202, "Lmean": 4.069, "Lstd": 3.145, "KLq": 0.1819, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.0831, "agree": 0.8425, "retain_est": 0.7778, "agree_conf": 0.9836, "KL_conf": 0.0717}, "rel_dw": 0.11317}
+step 2250 lf=0.3175 lret=0.0184 reg=0.0000 265s
+step 2300 lf=0.3914 lret=0.0200 reg=0.0000 270s
+step 2350 lf=0.4911 lret=0.0192 reg=0.0000 275s
+step 2400 lf=0.3441 lret=0.0278 reg=0.0000 279s
+{"step": 2400, "tr/clean": {"acc": 0.2194, "Lmean": 4.152, "Lstd": 3.179, "KLq": 0.156, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.2425, "Lmean": 3.754, "Lstd": 3.017, "KLq": 0.1992, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.2674, "Lmean": 3.233, "Lstd": 2.71, "KLq": 0.2481, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.2468, "Lmean": 3.817, "Lstd": 3.098, "KLq": 0.2625, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.2348, "Lmean": 3.786, "Lstd": 3.075, "KLq": 0.2757, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.2202, "Lmean": 4.15, "Lstd": 3.18, "KLq": 0.1716, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.0826, "agree": 0.836, "retain_est": 0.7722, "agree_conf": 0.9808, "KL_conf": 0.0717}, "rel_dw": 0.1141}
+step 2450 lf=0.3650 lret=0.0178 reg=0.0000 289s
+step 2500 lf=0.3297 lret=0.0255 reg=0.0000 294s
+step 2550 lf=0.2828 lret=0.0143 reg=0.0000 298s
+step 2600 lf=0.3740 lret=0.0187 reg=0.0000 303s
+{"step": 2600, "tr/clean": {"acc": 0.2194, "Lmean": 4.206, "Lstd": 3.207, "KLq": 0.1521, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.2434, "Lmean": 3.808, "Lstd": 3.045, "KLq": 0.195, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.2674, "Lmean": 3.288, "Lstd": 2.739, "KLq": 0.2422, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.2476, "Lmean": 3.867, "Lstd": 3.13, "KLq": 0.2563, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.2339, "Lmean": 3.836, "Lstd": 3.106, "KLq": 0.2716, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.2159, "Lmean": 4.202, "Lstd": 3.204, "KLq": 0.1682, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.0815, "agree": 0.8355, "retain_est": 0.7725, "agree_conf": 0.9808, "KL_conf": 0.0707}, "rel_dw": 0.11462}
+step 2650 lf=0.3284 lret=0.0217 reg=0.0000 313s
+step 2700 lf=0.3925 lret=0.0166 reg=0.0000 317s
+step 2750 lf=0.3042 lret=0.0194 reg=0.0000 322s
+step 2800 lf=0.3811 lret=0.0180 reg=0.0000 326s
+{"step": 2800, "tr/clean": {"acc": 0.2194, "Lmean": 4.222, "Lstd": 3.211, "KLq": 0.15, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.2434, "Lmean": 3.824, "Lstd": 3.048, "KLq": 0.1929, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.2674, "Lmean": 3.306, "Lstd": 2.746, "KLq": 0.2395, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.2476, "Lmean": 3.881, "Lstd": 3.134, "KLq": 0.2538, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.2339, "Lmean": 3.849, "Lstd": 3.107, "KLq": 0.2686, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.2134, "Lmean": 4.218, "Lstd": 3.209, "KLq": 0.166, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.0814, "agree": 0.841, "retain_est": 0.7777, "agree_conf": 0.9836, "KL_conf": 0.0706}, "rel_dw": 0.1148}
+step 2850 lf=0.3069 lret=0.0163 reg=0.0000 336s
+step 2900 lf=0.3170 lret=0.0183 reg=0.0000 341s
+step 2950 lf=0.2911 lret=0.0223 reg=0.0000 345s
+step 3000 lf=0.3463 lret=0.0174 reg=0.0000 350s
+{"step": 3000, "tr/clean": {"acc": 0.2202, "Lmean": 4.224, "Lstd": 3.212, "KLq": 0.1497, "KLq_orig": 4.507, "Lorig": 0.0}, "tr/flip": {"acc": 0.2425, "Lmean": 3.826, "Lstd": 3.05, "KLq": 0.1926, "KLq_orig": 4.658, "Lorig": 0.001}, "tr/crop": {"acc": 0.2665, "Lmean": 3.308, "Lstd": 2.747, "KLq": 0.2392, "KLq_orig": 5.15, "Lorig": 0.0}, "tr/bright": {"acc": 0.2485, "Lmean": 3.883, "Lstd": 3.135, "KLq": 0.2536, "KLq_orig": 3.324, "Lorig": 0.62}, "tr/noise.2": {"acc": 0.2339, "Lmean": 3.851, "Lstd": 3.109, "KLq": 0.2687, "KLq_orig": 3.827, "Lorig": 0.106}, "tr/jpegish": {"acc": 0.2142, "Lmean": 4.221, "Lstd": 3.21, "KLq": 0.1658, "KLq_orig": 4.574, "Lorig": 0.001}, "proxy": {"KL": 0.0813, "agree": 0.8395, "retain_est": 0.7764, "agree_conf": 0.9822, "KL_conf": 0.0705}, "rel_dw": 0.11483}
+saved /p/scratch/training2666/cochod2/euroai-paris/unlearning/orehn/ckpt/pc_mix_k2_g4_last6.pt 343.631251 MB
+
+[gpu_worker] fin 04:39:18 exit=0 durée=381s

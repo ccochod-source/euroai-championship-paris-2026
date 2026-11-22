@@ -1,0 +1,1 @@
+{"method": "stegastamp", "steps": 9000, "bs": 16, "lr": 0.0003, "workers": 12, "tags": "d", "eval_every": 1000, "name": "p5", "init": "/p/scratch/training2666/dasilvalopes3/wm/out/stegastamp_p2_last.pt", "p_in": 0.5, "hpf": 1, "alpha0": 1.0, "bce_thr": 0.3, "max_minutes": 40.0, "iou_w": 2.0, "res_aug": 1}

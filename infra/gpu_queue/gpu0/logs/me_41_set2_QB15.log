@@ -1,0 +1,174 @@
+[gpu_worker] début 20:28:23 sur jrc0441 GPU 0
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9629.57it/s]
+DONE ep-01 QB15_L03 lora:out/lora/q15_alpaca:0.3 32s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9386.65it/s]
+DONE ep-10 QB15_S bf16 23s
+DONE ep-14 QB15_S bf16 55s
+DONE ep-22 QB15_S bf16 76s
+DONE ep-25 QB15_S bf16 97s
+DONE ep-31 QB15_S bf16 117s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9290.38it/s]
+DONE ep-11 QB15_M10 lora:out/lora/q15_med:1.0 24s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9453.56it/s]
+DONE ep-26 QB15_L15 lora:out/lora/q15_alpaca:1.5 24s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9376.71it/s]
+DONE ep-27 QB15_L07 lora:out/lora/q15_alpaca:0.7 24s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   1%|▏         | 5/338 [00:00<00:13, 25.53it/s]Loading weights:  58%|█████▊    | 197/338 [00:00<00:00, 823.75it/s]Loading weights:  92%|█████████▏| 311/338 [00:00<00:00, 940.49it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 808.61it/s]
+DONE ep-28 QB15_fp16 fp16 23s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9363.65it/s]
+DONE ep-29 QB15_int8 int8w 24s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9234.10it/s]
+DONE ep-35 QB15_fp8 fp8wa 50s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9407.20it/s]
+step 0 loss 1.144 1s
+step 50 loss 1.106 39s
+step 100 loss 0.641 77s
+step 150 loss 1.113 114s
+step 200 loss 0.579 151s
+step 250 loss 1.113 189s
+step 299 loss 1.157 225s
+/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/utils/save_and_load.py:364: UserWarning: Could not find a config file in Qwen/Qwen2.5-1.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+SAVED out/lora/q15_alp2
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8950.36it/s]
+  200/2640 8s
+  400/2640 16s
+  600/2640 24s
+  800/2640 32s
+  1000/2640 40s
+  1200/2640 48s
+  1400/2640 56s
+  1600/2640 64s
+  1800/2640 72s
+  2000/2640 80s
+  2200/2640 88s
+  2400/2640 96s
+  2600/2640 104s
+DONE Qwen/Qwen2.5-1.5B-Instruct bf16 eps n=2640 112s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8934.34it/s]
+  200/2640 8s
+  400/2640 16s
+  600/2640 23s
+  800/2640 31s
+  1000/2640 40s
+  1200/2640 48s
+  1400/2640 55s
+  1600/2640 63s
+  1800/2640 71s
+  2000/2640 79s
+  2200/2640 88s
+  2400/2640 96s
+  2600/2640 103s
+DONE Qwen/Qwen2.5-1.5B-Instruct fp8w eps n=2640 108s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8711.23it/s]
+  200/2640 15s
+  400/2640 29s
+  600/2640 44s
+  800/2640 59s
+  1000/2640 73s
+  1200/2640 89s
+  1400/2640 103s
+  1600/2640 118s
+  1800/2640 133s
+  2000/2640 148s
+  2200/2640 163s
+  2400/2640 178s
+  2600/2640 192s
+DONE Qwen/Qwen2.5-1.5B-Instruct fp8wa eps n=2640 198s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9373.55it/s]
+  200/2640 8s
+  400/2640 16s
+  600/2640 24s
+  800/2640 32s
+  1000/2640 40s
+  1200/2640 48s
+  1400/2640 56s
+  1600/2640 63s
+  1800/2640 72s
+  2000/2640 80s
+  2200/2640 88s
+  2400/2640 96s
+  2600/2640 104s
+DONE Qwen/Qwen2.5-1.5B-Instruct int8w eps n=2640 108s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<00:43,  7.80it/s]Loading weights:  23%|██▎       | 77/338 [00:00<00:00, 401.57it/s]Loading weights:  49%|████▉     | 167/338 [00:00<00:00, 610.40it/s]Loading weights:  78%|███████▊  | 265/338 [00:00<00:00, 744.72it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 665.80it/s]
+  200/2640 8s
+  400/2640 16s
+  600/2640 24s
+  800/2640 32s
+  1000/2640 41s
+  1200/2640 49s
+  1400/2640 57s
+  1600/2640 65s
+  1800/2640 73s
+  2000/2640 81s
+  2200/2640 89s
+  2400/2640 97s
+  2600/2640 105s
+DONE Qwen/Qwen2.5-1.5B-Instruct fp16 eps n=2640 109s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8768.40it/s]
+  200/2640 8s
+  400/2640 16s
+  600/2640 24s
+  800/2640 32s
+  1000/2640 40s
+  1200/2640 48s
+  1400/2640 56s
+  1600/2640 64s
+  1800/2640 72s
+  2000/2640 80s
+  2200/2640 89s
+  2400/2640 97s
+  2600/2640 105s
+DONE Qwen/Qwen2.5-1.5B-Instruct lora:out/lora/q15_alp2:0.5 eps n=2640 113s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 7926.30it/s]
+[gpu_worker] début 21:44:38 sur jrc0227 GPU 0
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   5%|▍         | 16/338 [00:00<00:02, 145.44it/s]Loading weights:  11%|█         | 38/338 [00:00<00:02, 121.35it/s]Loading weights:  15%|█▌        | 51/338 [00:00<00:02, 102.59it/s]Loading weights:  23%|██▎       | 77/338 [00:00<00:01, 132.21it/s]Loading weights:  27%|██▋       | 91/338 [00:00<00:01, 127.30it/s]Loading weights:  31%|███       | 104/338 [00:00<00:02, 107.58it/s]Loading weights:  34%|███▍      | 116/338 [00:01<00:02, 100.07it/s]Loading weights:  40%|███▉      | 135/338 [00:01<00:01, 111.24it/s]Loading weights:  46%|████▌     | 155/338 [00:01<00:01, 131.24it/s]Loading weights:  50%|█████     | 169/338 [00:01<00:01, 127.22it/s]Loading weights:  54%|█████▍    | 183/338 [00:01<00:01, 105.79it/s]Loading weights:  58%|█████▊    | 197/338 [00:01<00:01, 113.00it/s]Loading weights:  63%|██████▎   | 214/338 [00:01<00:01, 121.36it/s]Loading weights:  67%|██████▋   | 227/338 [00:01<00:00, 116.47it/s]Loading weights:  71%|███████   | 240/338 [00:02<00:00, 117.99it/s]Loading weights:  75%|███████▍  | 253/338 [00:02<00:00, 106.67it/s]Loading weights:  78%|███████▊  | 265/338 [00:02<00:00, 106.84it/s]Loading weights:  82%|████████▏ | 276/338 [00:02<00:00, 100.69it/s]Loading weights:  85%|████████▍ | 287/338 [00:02<00:00, 95.39it/s] Loading weights:  90%|████████▉ | 304/338 [00:02<00:00, 113.81it/s]Loading weights:  94%|█████████▍| 317/338 [00:02<00:00, 95.87it/s] Loading weights: 100%|██████████| 338/338 [00:02<00:00, 116.69it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9283.69it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9296.59it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8070.70it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8996.37it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<00:35,  9.43it/s]Loading weights:   1%|▏         | 5/338 [00:00<00:12, 26.87it/s]Loading weights:  62%|██████▏   | 208/338 [00:00<00:00, 926.82it/s]Loading weights:  91%|█████████▏| 309/338 [00:00<00:00, 954.30it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 790.96it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8879.67it/s]
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8974.27it/s]
+SKIP out/lik_fake2/Qwen__Qwen2.5-1.5B-Instruct__bf16__eps.jsonl (existe déjà)
+SKIP out/lik_fake2/Qwen__Qwen2.5-1.5B-Instruct__fp8w__eps.jsonl (existe déjà)
+SKIP out/lik_fake2/Qwen__Qwen2.5-1.5B-Instruct__fp8wa__eps.jsonl (existe déjà)
+SKIP out/lik_fake2/Qwen__Qwen2.5-1.5B-Instruct__int8w__eps.jsonl (existe déjà)
+SKIP out/lik_fake2/Qwen__Qwen2.5-1.5B-Instruct__fp16__eps.jsonl (existe déjà)
+SKIP out/lik_fake2/Qwen__Qwen2.5-1.5B-Instruct__lora-q15_alp2-0.5__eps.jsonl (existe déjà)
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9100.78it/s]
+  200/2640 9s
+  400/2640 17s
+  600/2640 25s
+  800/2640 33s
+  1000/2640 41s
+  1200/2640 49s
+  1400/2640 56s
+  1600/2640 64s
+  1800/2640 72s
+  2000/2640 80s
+  2200/2640 88s
+  2400/2640 96s
+  2600/2640 104s
+DONE Qwen/Qwen2.5-1.5B-Instruct lora:out/lora/q15_alp2:1.0 eps n=2640 115s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8182.87it/s]
+  200/2640 8s
+  400/2640 16s
+  600/2640 23s
+  800/2640 31s
+  1000/2640 39s
+  1200/2640 47s
+  1400/2640 55s
+  1600/2640 63s
+  1800/2640 71s
+  2000/2640 79s
+  2200/2640 87s
+  2400/2640 95s
+  2600/2640 103s
+DONE Qwen/Qwen2.5-1.5B-Instruct lora:out/lora/q15_med:0.5 eps n=2640 108s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8658.08it/s]
+  200/2640 8s
+  400/2640 16s
+  600/2640 23s
+  800/2640 31s
+  1000/2640 40s

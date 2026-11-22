@@ -1,0 +1,121 @@
+{
+ "endpoints": [
+  {
+   "ep": "ref-01",
+   "family": "P",
+   "model": "S",
+   "base": "HuggingFaceTB/SmolLM2-360M-Instruct",
+   "weights": "bf16",
+   "system": null,
+   "watermark": null,
+   "temp": 0.7,
+   "top_p": 1.0,
+   "top_k": 0,
+   "rep_pen": 1.0
+  },
+  {
+   "ep": "ref-02",
+   "family": "P",
+   "model": "T1",
+   "base": "HuggingFaceTB/SmolLM2-360M-Instruct",
+   "weights": "fp8wa",
+   "system": null,
+   "watermark": null,
+   "temp": 0.7,
+   "top_p": 1.0,
+   "top_k": 0,
+   "rep_pen": 1.0
+  },
+  {
+   "ep": "ref-03",
+   "family": "P",
+   "model": "S",
+   "base": "HuggingFaceTB/SmolLM2-360M-Instruct",
+   "weights": "bf16",
+   "system": "You are a helpful customer-support assistant for an online bookstore called PageTurner. Keep answers clear, friendly and concise.",
+   "watermark": null,
+   "temp": 0.7,
+   "top_p": 1.0,
+   "top_k": 0,
+   "rep_pen": 1.0
+  },
+  {
+   "ep": "ref-04",
+   "family": "P",
+   "model": "T3",
+   "base": "HuggingFaceTB/SmolLM2-360M-Instruct",
+   "weights": "lora:out/lora/s360_alpaca:0.7",
+   "system": null,
+   "watermark": null,
+   "temp": 0.7,
+   "top_p": 1.0,
+   "top_k": 0,
+   "rep_pen": 1.0
+  },
+  {
+   "ep": "ref-05",
+   "family": "P",
+   "model": "S",
+   "base": "HuggingFaceTB/SmolLM2-360M-Instruct",
+   "weights": "bf16",
+   "system": "You are Captain Remy, a cheerful retired sea captain who loves telling stories. Stay in character.",
+   "watermark": null,
+   "temp": 0.7,
+   "top_p": 1.0,
+   "top_k": 0,
+   "rep_pen": 1.0
+  },
+  {
+   "ep": "ref-06",
+   "family": "P",
+   "model": "S",
+   "base": "HuggingFaceTB/SmolLM2-360M-Instruct",
+   "weights": "bf16",
+   "system": null,
+   "watermark": "kgw",
+   "temp": 0.7,
+   "top_p": 1.0,
+   "top_k": 0,
+   "rep_pen": 1.0
+  },
+  {
+   "ep": "ref-07",
+   "family": "P",
+   "model": "T4",
+   "base": "HuggingFaceTB/SmolLM2-360M-Instruct",
+   "weights": "lora:out/lora/s360_alpaca:1.5",
+   "system": null,
+   "watermark": null,
+   "temp": 0.7,
+   "top_p": 1.0,
+   "top_k": 0,
+   "rep_pen": 1.0
+  },
+  {
+   "ep": "ref-08",
+   "family": "P",
+   "model": "S",
+   "base": "HuggingFaceTB/SmolLM2-360M-Instruct",
+   "weights": "bf16",
+   "system": null,
+   "watermark": null,
+   "temp": 1.0,
+   "top_p": 1.0,
+   "top_k": 0,
+   "rep_pen": 1.0
+  },
+  {
+   "ep": "ref-09",
+   "family": "P",
+   "model": "T2",
+   "base": "HuggingFaceTB/SmolLM2-360M-Instruct",
+   "weights": "lora:out/lora/s360_alpaca:0.3",
+   "system": null,
+   "watermark": null,
+   "temp": 0.7,
+   "top_p": 1.0,
+   "top_k": 0,
+   "rep_pen": 1.0
+  }
+ ]
+}

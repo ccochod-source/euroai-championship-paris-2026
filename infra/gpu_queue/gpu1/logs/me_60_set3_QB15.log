@@ -1,0 +1,290 @@
+[gpu_worker] début 03:47:13 sur jrc0347 GPU 1
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8861.91it/s]
+step 0 loss 1.064 1s
+step 50 loss 0.930 39s
+step 100 loss 0.870 78s
+step 150 loss 0.929 116s
+step 200 loss 1.002 155s
+step 250 loss 1.395 194s
+step 299 loss 1.055 232s
+/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/peft/utils/save_and_load.py:364: UserWarning: Could not find a config file in Qwen/Qwen2.5-1.5B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+SAVED out/lora/q15_alp3
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8869.17it/s]
+DONE QB15-pool_bf16 QB15_S bf16 298s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8905.22it/s]
+DONE QB15-pool_fp8w QB15_fp8 fp8w 295s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9043.25it/s]
+DONE QB15-pool_int8w QB15_int8 int8w 294s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  25%|██▌       | 85/338 [00:00<00:00, 836.55it/s]Loading weights:  54%|█████▍    | 183/338 [00:00<00:00, 916.85it/s]Loading weights:  85%|████████▍ | 287/338 [00:00<00:00, 953.96it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 969.75it/s]
+DONE QB15-pool_fp16 QB15_fp16 fp16 160s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8752.70it/s]
+  200/5440 9s
+  400/5440 17s
+  600/5440 26s
+  800/5440 34s
+  1000/5440 43s
+  1200/5440 52s
+  1400/5440 60s
+  1600/5440 69s
+  1800/5440 77s
+  2000/5440 86s
+  2200/5440 95s
+  2400/5440 103s
+  2600/5440 112s
+  2800/5440 120s
+  3000/5440 129s
+  3200/5440 137s
+  3400/5440 146s
+  3600/5440 155s
+  3800/5440 163s
+  4000/5440 172s
+  4200/5440 180s
+  4400/5440 189s
+  4600/5440 197s
+  4800/5440 206s
+  5000/5440 215s
+  5200/5440 223s
+  5400/5440 232s
+DONE Qwen/Qwen2.5-1.5B-Instruct bf16 all n=5440 240s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9649.56it/s]
+  200/5440 9s
+  400/5440 17s
+  600/5440 26s
+  800/5440 34s
+  1000/5440 43s
+  1200/5440 52s
+  1400/5440 60s
+  1600/5440 69s
+  1800/5440 77s
+  2000/5440 86s
+  2200/5440 94s
+  2400/5440 103s
+  2600/5440 111s
+  2800/5440 120s
+  3000/5440 129s
+  3200/5440 137s
+  3400/5440 146s
+  3600/5440 154s
+  3800/5440 163s
+  4000/5440 172s
+  4200/5440 180s
+  4400/5440 189s
+  4600/5440 198s
+  4800/5440 206s
+  5000/5440 215s
+  5200/5440 223s
+  5400/5440 232s
+DONE Qwen/Qwen2.5-1.5B-Instruct fp8w all n=5440 240s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9322.76it/s]
+  200/5440 9s
+  400/5440 17s
+  600/5440 26s
+  800/5440 34s
+  1000/5440 43s
+  1200/5440 52s
+  1400/5440 60s
+  1600/5440 69s
+  1800/5440 77s
+  2000/5440 86s
+  2200/5440 94s
+  2400/5440 103s
+  2600/5440 111s
+  2800/5440 120s
+  3000/5440 128s
+  3200/5440 137s
+  3400/5440 146s
+  3600/5440 154s
+  3800/5440 163s
+  4000/5440 171s
+  4200/5440 180s
+  4400/5440 188s
+  4600/5440 197s
+  4800/5440 205s
+  5000/5440 214s
+  5200/5440 222s
+  5400/5440 231s
+DONE Qwen/Qwen2.5-1.5B-Instruct int8w all n=5440 239s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   1%|▏         | 5/338 [00:00<00:09, 36.35it/s]Loading weights:  46%|████▌     | 156/338 [00:00<00:00, 786.60it/s]Loading weights:  77%|███████▋  | 261/338 [00:00<00:00, 887.98it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 841.92it/s]
+  200/2720 9s
+  400/2720 18s
+  600/2720 27s
+  800/2720 35s
+  1000/2720 44s
+  1200/2720 53s
+  1400/2720 62s
+  1600/2720 71s
+  1800/2720 79s
+  2000/2720 88s
+  2200/2720 97s
+  2400/2720 106s
+  2600/2720 114s
+DONE Qwen/Qwen2.5-1.5B-Instruct fp16 all n=2720 125s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8855.98it/s]
+DONE QB15-plain QB15_S bf16 51s
+DONE QB15-sys0 QB15_S bf16 74s
+DONE QB15-sys1 QB15_S bf16 97s
+DONE QB15-sys2 QB15_S bf16 119s
+DONE QB15-sys3 QB15_S bf16 141s
+DONE QB15-sys4 QB15_S bf16 163s
+DONE QB15-sys5 QB15_S bf16 186s
+DONE QB15-persona_rand QB15_S bf16 230s
+DONE QB15-persona_claude QB15_S bf16 253s
+DONE QB15-persona_remy QB15_S bf16 275s
+DONE QB15-wm_kgw QB15_S bf16 351s
+Traceback (most recent call last):
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/gen.py", line 153, in <module>
+    main()
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/gen.py", line 140, in main
+    res = gen_endpoint(model, tok, e, its)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/gen.py", line 90, in gen_endpoint
+    g = model.generate(**enc, **kw)[:, enc["input_ids"].shape[1]:]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/utils/deprecation.py", line 173, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/utils/deprecation.py", line 173, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/torch/utils/_contextlib.py", line 158, in no_grad
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/generation/utils.py", line 3008, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/generation/utils.py", line 3251, in _sample
+    next_token_scores = logits_processor(input_ids, next_token_logits)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/generation/logits_process.py", line 96, in __call__
+    scores = processor(input_ids, scores)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/scratch/training2666/cochod2/euroai-paris/model_equality/sim/venv/lib64/python3.12/site-packages/transformers/generation/logits_process.py", line 2578, in __call__
+    scores_processed[b_idx, greenlist_ids] = scores_processed[b_idx, greenlist_ids] + self.bias
+                                             ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+IndexError: tensors used as indices must be long, int, byte or bool tensors
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8878.56it/s]
+  200/4620 8s
+  400/4620 16s
+  600/4620 24s
+  800/4620 33s
+  1000/4620 41s
+  1200/4620 49s
+  1400/4620 57s
+  1600/4620 65s
+  1800/4620 73s
+  2000/4620 81s
+  2200/4620 90s
+  2400/4620 98s
+  2600/4620 106s
+  2800/4620 114s
+  3000/4620 122s
+  3200/4620 130s
+  3400/4620 138s
+  3600/4620 146s
+  3800/4620 154s
+  4000/4620 162s
+  4200/4620 170s
+  4400/4620 178s
+  4600/4620 186s
+DONE Qwen/Qwen2.5-1.5B-Instruct bf16 all n=4620 194s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 7846.03it/s]
+  200/4620 8s
+  400/4620 16s
+  600/4620 24s
+  800/4620 32s
+  1000/4620 41s
+  1200/4620 49s
+  1400/4620 57s
+  1600/4620 65s
+  1800/4620 73s
+  2000/4620 81s
+  2200/4620 90s
+  2400/4620 98s
+  2600/4620 106s
+  2800/4620 114s
+  3000/4620 122s
+  3200/4620 130s
+  3400/4620 138s
+  3600/4620 146s
+  3800/4620 154s
+  4000/4620 162s
+  4200/4620 170s
+  4400/4620 179s
+  4600/4620 187s
+DONE Qwen/Qwen2.5-1.5B-Instruct fp8w all n=4620 190s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8469.80it/s]
+  200/4620 8s
+  400/4620 16s
+  600/4620 24s
+  800/4620 32s
+  1000/4620 41s
+  1200/4620 49s
+  1400/4620 57s
+  1600/4620 65s
+  1800/4620 73s
+  2000/4620 81s
+  2200/4620 89s
+  2400/4620 97s
+  2600/4620 106s
+  2800/4620 114s
+  3000/4620 122s
+  3200/4620 129s
+  3400/4620 137s
+  3600/4620 145s
+  3800/4620 153s
+  4000/4620 162s
+  4200/4620 170s
+  4400/4620 178s
+  4600/4620 186s
+DONE Qwen/Qwen2.5-1.5B-Instruct int8w all n=4620 190s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8457.12it/s]
+  200/4620 8s
+  400/4620 16s
+  600/4620 24s
+  800/4620 32s
+  1000/4620 41s
+  1200/4620 49s
+  1400/4620 57s
+  1600/4620 65s
+  1800/4620 73s
+  2000/4620 81s
+  2200/4620 90s
+  2400/4620 98s
+  2600/4620 106s
+  2800/4620 114s
+  3000/4620 122s
+  3200/4620 130s
+  3400/4620 137s
+  3600/4620 145s
+  3800/4620 153s
+  4000/4620 162s
+  4200/4620 170s
+  4400/4620 178s
+  4600/4620 186s
+DONE Qwen/Qwen2.5-1.5B-Instruct lora:out/lora/q15_alp3:1.0 all n=4620 194s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8206.23it/s]
+  200/770 8s
+  400/770 15s
+  600/770 22s
+DONE Qwen/Qwen2.5-1.5B-Instruct bf16 eps n=770 35s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 7835.44it/s]
+  200/770 7s
+  400/770 15s
+  600/770 22s
+DONE Qwen/Qwen2.5-1.5B-Instruct fp8w eps n=770 31s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8502.77it/s]
+  200/770 7s
+  400/770 14s
+  600/770 22s
+DONE Qwen/Qwen2.5-1.5B-Instruct int8w eps n=770 30s
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8568.96it/s]
+  200/770 7s
+  400/770 14s
+  600/770 22s
+DONE Qwen/Qwen2.5-1.5B-Instruct lora:out/lora/q15_alp3:1.0 eps n=770 35s
+
+[gpu_worker] fin 04:46:39 exit=0 durée=3565s

@@ -1,0 +1,7 @@
+trustmark_ft2 n=85 zero-shot, template on the visible frame  : prob wm 0.348 | holes 0.164 | mIoU@0.5 0.2495 | best thr 0.1: 0.2802 | all-ones 0.4540
+trustmark_ft2 n=85 zero-shot, template on the estimated frame: prob wm 0.938 | holes 0.431 | mIoU@0.5 0.6770 | best thr 0.5: 0.6770 | all-ones 0.4540
+trustmark_ft2 fold 0 done (18 held out) 242s
+trustmark_ft2 fold 1 done (17 held out) 413s
+trustmark_ft2 fold 2 done (17 held out) 754s
+srun: Job step aborted: Waiting up to 6 seconds for job step to finish.
+srun: error: jrc0245: task 0: Terminated

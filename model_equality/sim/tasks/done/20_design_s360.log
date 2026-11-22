@@ -1,0 +1,13 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9422.04it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8994.53it/s]
+DONE fp8w
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9097.32it/s]
+DONE fp8wa
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9112.72it/s]
+DONE int8w
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   9%|▉         | 27/290 [00:00<00:00, 268.09it/s]Loading weights:  31%|███▏      | 91/290 [00:00<00:00, 485.76it/s]Loading weights:  54%|█████▍    | 156/290 [00:00<00:00, 555.77it/s]Loading weights:  76%|███████▌  | 220/290 [00:00<00:00, 584.10it/s]Loading weights:  98%|█████████▊| 284/290 [00:00<00:00, 600.05it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 566.63it/s]
+DONE nf4
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9165.46it/s]
+DONE lora:out/lora/s360_alpaca:0.3
+ALL_DONE
+exit=0

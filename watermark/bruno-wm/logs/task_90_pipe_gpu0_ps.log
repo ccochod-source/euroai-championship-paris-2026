@@ -1,0 +1,10 @@
+pixelseal_p4 params 43.2M {'method': 'pixelseal', 'steps': 9000, 'bs': 16, 'lr': 0.0003, 'workers': 24, 'tags': 'c', 'eval_every': 1000, 'name': 'p4', 'init': '/p/scratch/training2666/dasilvalopes3/wm/out/pixelseal_p3b_final.pt', 'p_in': 0.5, 'hpf': 1, 'alpha0': 3.0, 'bce_thr': 0.3, 'max_minutes': 1000000000.0, 'res_aug': 1}
+pixelseal_p4 step 100/9000 bce 0.3219 iouloss 0.4125 amax 3.00 lr 4.58e-05 19s
+pixelseal_p4 step 200/9000 bce 0.2679 iouloss 0.4197 amax 2.88 lr 1.31e-04 30s
+pixelseal_p4 step 300/9000 bce 0.2781 iouloss 0.4359 amax 2.59 lr 2.29e-04 42s
+pixelseal_p4 step 400/9000 bce 0.2907 iouloss 0.4583 amax 2.33 lr 2.92e-04 54s
+pixelseal_p4 step 500/9000 bce 0.3044 iouloss 0.4659 amax 2.10 lr 3.00e-04 65s
+pixelseal_p4 step 600/9000 bce 0.3183 iouloss 0.4792 amax 2.02 lr 3.00e-04 77s
+pixelseal_p4 step 700/9000 bce 0.3246 iouloss 0.4748 amax 1.93 lr 2.99e-04 90s
+pixelseal_p4 step 800/9000 bce 0.2909 iouloss 0.4638 amax 1.86 lr 2.99e-04 103s
+pixelseal_p4 step 900/9000 bce 0.2860 iouloss 0.4682 amax 1.67 lr 2.98e-04 116s

@@ -1,0 +1,35 @@
+0 340 0s 7eb222f22c84 {'acc_whole': 1.0, 'full': False}
+10 340 26s 289e16a0dd31 {'acc_whole': 0.45, 'full': False, 'rect': [0, 47, 406, 438], 'soft': 0.124, 'acc': 0.61, 'conv': 0.039, 'rect_hc': [0, 45, 406, 438], 'acc_hc': 0.58}
+20 340 56s 2856fdc36b06 {'acc_whole': 0.56, 'full': False, 'rect': [128, 187, 278, 361], 'soft': 0.985, 'acc': 1.0, 'conv': 0.341, 'rect_hc': [131, 188, 285, 370], 'acc_hc': 1.0}
+30 340 84s 34ccb1fb6363 {'acc_whole': 0.49, 'full': False, 'rect': [15, 99, 273, 310], 'soft': 0.103, 'acc': 0.59, 'conv': 0.023, 'rect_hc': [15, 99, 273, 310], 'acc_hc': 0.59}
+40 340 111s 06adb8271480 {'acc_whole': 0.51, 'full': False, 'rect': [1, 35, 365, 403], 'soft': 0.102, 'acc': 0.62, 'conv': 0.074, 'rect_hc': [1, 33, 362, 408], 'acc_hc': 0.62}
+50 340 133s 120b02235802 {'acc_whole': 0.76, 'full': False}
+60 340 145s 7f9af8d44da3 {'acc_whole': 1.0, 'full': False}
+70 340 179s 318ca8d2e957 {'acc_whole': 0.48, 'full': False, 'rect': [23, 464, 160, 344], 'soft': 0.065, 'acc': 0.57, 'conv': 0.028, 'rect_hc': [19, 504, 162, 384], 'acc_hc': 0.63}
+80 340 225s 847a0a2dbef7 {'acc_whole': 0.47, 'full': False, 'rect': [5, 21, 86, 107], 'soft': 0.076, 'acc': 0.56, 'conv': 0.04, 'rect_hc': [5, 21, 81, 107], 'acc_hc': 0.61}
+90 340 242s fc4c0f207a6f {'acc_whole': 1.0, 'full': False}
+100 340 266s 020582828226 {'acc_whole': 0.98, 'full': False}
+110 340 287s be4c0ef4d122 {'acc_whole': 1.0, 'full': False}
+120 340 317s 3496c1a117bc {'acc_whole': 0.56, 'full': False, 'rect': [3, 38, 197, 217], 'soft': 0.12, 'acc': 0.65, 'conv': 0.032, 'rect_hc': [3, 38, 197, 217], 'acc_hc': 0.65}
+130 340 341s 4844fa892e3b {'acc_whole': 0.54, 'full': False, 'rect': [7, 54, 392, 413], 'soft': 0.18, 'acc': 0.66, 'conv': 0.101, 'rect_hc': [7, 54, 392, 414], 'acc_hc': 0.71}
+140 340 372s 4627a508f09e {'acc_whole': 0.81, 'full': False}
+150 340 413s 6eac2709c3e4 {'acc_whole': 1.0, 'full': False}
+160 340 444s 4c50f12c60ee {'acc_whole': 0.4, 'full': False, 'rect': [8, 389, 8, 248], 'soft': 0.231, 'acc': 0.66, 'conv': 0.065, 'rect_hc': [8, 389, 8, 248], 'acc_hc': 0.66}
+170 340 525s 47b6d0718058 {'acc_whole': 0.63, 'full': False, 'rect': [11, 492, 87, 479], 'soft': 0.158, 'acc': 0.62, 'conv': 0.175, 'rect_hc': [11, 512, 111, 476], 'acc_hc': 0.67}
+180 340 585s 88e608db24e7 {'acc_whole': 0.5, 'full': False, 'rect': [2, 90, 364, 447], 'soft': 0.086, 'acc': 0.59, 'conv': 0.025, 'rect_hc': [2, 88, 364, 457], 'acc_hc': 0.56}
+190 340 609s 9a84a10fc52d {'acc_whole': 0.49, 'full': False, 'rect': [479, 510, 380, 403], 'soft': 0.195, 'acc': 0.64, 'conv': 0.063, 'rect_hc': [479, 510, 381, 403], 'acc_hc': 0.71}
+200 340 641s 1149f48fd5d1 {'acc_whole': 0.45, 'full': False, 'rect': [478, 512, 13, 37], 'soft': 0.111, 'acc': 0.55, 'conv': 0.027, 'rect_hc': [478, 512, 13, 37], 'acc_hc': 0.55}
+210 340 653s 1421d753927c {'acc_whole': 1.0, 'full': False}
+220 340 676s a07a7fe07f5f {'acc_whole': 0.81, 'full': False}
+230 340 710s ba60c825cc9a {'acc_whole': 0.5, 'full': False, 'rect': [1, 89, 64, 151], 'soft': 0.048, 'acc': 0.53, 'conv': 0.031, 'rect_hc': [1, 89, 74, 151], 'acc_hc': 0.57}
+240 340 789s e2479b659798 {'acc_whole': 0.52, 'full': False, 'rect': [2, 54, 474, 502], 'soft': 0.115, 'acc': 0.62, 'conv': 0.042, 'rect_hc': [2, 54, 474, 502], 'acc_hc': 0.62}
+250 340 866s 8cf3eb16825a {'acc_whole': 0.93, 'full': False}
+260 340 965s c2f5ec52f531 {'acc_whole': 0.97, 'full': False}
+270 340 1045s cf27a7a564a7 {'acc_whole': 1.0, 'full': False}
+280 340 1128s 7bdd86da4c31 {'acc_whole': 1.0, 'full': False}
+290 340 1210s f09b34fb1861 {'acc_whole': 0.52, 'full': False, 'rect': [444, 473, 2, 72], 'soft': 0.123, 'acc': 0.58, 'conv': 0.021, 'rect_hc': [440, 473, 2, 72], 'acc_hc': 0.6}
+300 340 1236s 37661a7a1b46 {'acc_whole': 0.81, 'full': False}
+310 340 1243s 2a77d8346291 {'acc_whole': 1.0, 'full': False}
+320 340 1336s f934d998df86 {'acc_whole': 1.0, 'full': False}
+330 340 1374s 608802b48235 {'acc_whole': 0.54, 'full': False, 'rect': [2, 72, 272, 313], 'soft': 0.112, 'acc': 0.61, 'conv': 0.071, 'rect_hc': [2, 72, 272, 313], 'acc_hc': 0.61}
+DONE bruno/rects_trustmark_test.json 1463s
